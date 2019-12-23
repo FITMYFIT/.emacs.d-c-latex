@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: lppair
+# key: lppair
+# --
+for (unsigined int i=0;i!=Region._PtPairList.size();++i)
+{
+  if(Region._PtPairList[i]._Type==${1:enSPHPtPair})
+  {
+  PtiPtr=Region._PtPairList[i]._PtiPtr;
+  PtjPtr=Region._PtPairList[i]._PtjPtr;
+
+  KnlPtr=&Region._KnlList[i];
+
+  $0
+ }
+}

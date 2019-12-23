@@ -1,0 +1,8 @@
+
+
+(add-to-list 'auto-mode-alist '("\\.plt\\'" . gnuplot-mode));;set org-mode of .dat files 20191030
+(add-to-list 'auto-mode-alist '("\\.gp\\'" . gnuplot-mode));;set org-mode of .dat files 20191030
+
+(add-hook 'gnuplot-mode-hook 'gnuplot-context-sensitive-mode)
+
+(provide 'init-gnuplot)
