@@ -1,0 +1,318 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("SPHEHD.h" include nil nil [1 20])
+            ("SMOOTH" variable (:constant-flag t) nil [93 99])
+            ("CSPHEHD" function
+               (:constructor-flag t
+                :parent "CSPHEHD"
+                :type ("CSPHEHD" type (:type "class") nil nil))
+                nil [103 125])
+            ("CSPHEHD" function
+               (:destructor-flag t
+                :parent "CSPHEHD"
+                :type "void")
+                nil [127 150])
+            ("Solve" function
+               (:parent "CSPHEHD"
+                :arguments 
+                  ( ("Region" variable
+                       (:reference 1
+                        :type ("CRegion" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [172 189])
+                    ("Timesteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [190 213]))                  
+                :type "void")
+                nil [152 13903])
+            ("Solve2" function
+               (:parent "CSPHEHD"
+                :arguments 
+                  ( ("Region" variable
+                       (:reference 1
+                        :type ("CRegion" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14010 14027])
+                    ("Timesteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [14028 14051]))                  
+                :type "void")
+                nil [13989 27406])
+            ("Solve3" function
+               (:parent "CSPHEHD"
+                :arguments 
+                  ( ("Region" variable
+                       (:reference 1
+                        :type ("CRegion" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [27429 27446])
+                    ("Timesteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [27447 27470]))                  
+                :type "void")
+                nil [27408 41283])
+            ("Solve4" function
+               (:parent "CSPHEHD"
+                :arguments 
+                  ( ("Region" variable
+                       (:reference 1
+                        :type ("CRegion" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [41306 41323])
+                    ("Timesteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [41324 41347]))                  
+                :type "void")
+                nil [41285 55160])
+            ("InterpEHDDumPropterty" function
+               (:parent "CSPHEHD"
+                :arguments 
+                  ( ("Region" variable
+                       (:reference 1
+                        :type ("CRegion" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [55274 55291])
+                    ("TimeSteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [55292 55315]))                  
+                :type "void")
+                nil [55238 62234])
+            ("InterpEHDBndProperty" function
+               (:parent "CSPHEHD"
+                :arguments 
+                  ( ("Region" variable
+                       (:reference 1
+                        :type ("CRegion" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [62334 62351])
+                    ("TimeSteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [62351 62374]))                  
+                :type "void")
+                nil [62299 63949])
+            ("output" function
+               (:parent "CSPHEHD"
+                :arguments 
+                  ( ("a" variable
+                       (:pointer 2
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [63972 63984])
+                    ("b" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [63985 63996])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [63997 64003]))                  
+                :type "void")
+                nil [63951 64689])
+            ("output2" function
+               (:parent "CSPHEHD"
+                :arguments 
+                  ( ("a" variable
+                       (:reference 1
+                        :type ("QMatrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [64714 64726])
+                    ("x" variable
+                       (:reference 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [64727 64738])
+                    ("b" variable
+                       (:reference 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [64739 64751])
+                    ("outputname" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [64751 64769]))                  
+                :type "void")
+                nil [64692 65590])
+            ("outputV" function
+               (:parent "CSPHEHD"
+                :arguments 
+                  ( ("x" variable
+                       (:reference 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [65617 65629])
+                    ("outputname" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [65629 65647]))                  
+                :type "void")
+                nil [65595 66232]))          
+      :file "SPHEHD.cpp"
+      :pointmax 66233
+      :fsize 66289
+      :lastmodtime '(24062 8259 414307 938000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SMOOTH" . ((number "1" 100 . 101)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_SPHEHD_H_" variable (:constant-flag t) nil [441 451])
+            ("Region.h" include nil nil [453 472])
+            ("BasePt.h" include nil nil [473 492])
+            ("SPHPt.h" include nil nil [493 511])
+            ("Part.h" include nil nil [512 529])
+            ("common.h" include nil nil [530 549])
+            ("CSPM.h" include nil nil [550 567])
+            ("KFile.h" include nil nil [568 586])
+            ("vector" include (:system-flag t) nil [588 605])
+            ("iostream" include (:system-flag t) nil [606 625])
+            ("fstream" include (:system-flag t) nil [626 644])
+            ("iomanip" include (:system-flag t) nil [645 663])
+            ("cmath" include (:system-flag t) nil [664 680])
+            ("laspack/rtc.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [805 829])
+            ("laspack/itersolv.h" include
+               (:typemodifiers ("extern" "\"C\"")
+                :system-flag t)
+                (reparse-symbol extern-c-contents) [775 804])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [832 852])
+            ("CSPHEHD" type
+               (:members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [870 877])
+                    ("CSPHEHD" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("CSPHEHD" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [879 889])
+                    ("CSPHEHD" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :type "void")
+                        (reparse-symbol classsubparts) [892 903])
+                    ("Solve" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("Region" variable
+                               (:reference 1
+                                :type ("CRegion" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [917 934])
+                            ("Timesteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [935 958]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [906 959])
+                    ("Solve2" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("Region" variable
+                               (:reference 1
+                                :type ("CRegion" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1027 1044])
+                            ("Timesteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1045 1068]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1015 1069])
+                    ("Solve3" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("Region" variable
+                               (:reference 1
+                                :type ("CRegion" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1168 1185])
+                            ("Timesteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1186 1209]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1156 1210])
+                    ("Solve4" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("Region" variable
+                               (:reference 1
+                                :type ("CRegion" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1283 1300])
+                            ("Timesteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1301 1324]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1271 1325])
+                    ("private" label nil (reparse-symbol classsubparts) [1380 1388])
+                    ("output" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("a" variable
+                               (:pointer 2
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [1404 1416])
+                            ("b" variable
+                               (:pointer 1
+                                :type "double")
+                                (reparse-symbol arg-sub-list) [1417 1428])
+                            ("n" variable (:type "int") (reparse-symbol arg-sub-list) [1429 1435]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1392 1436])
+                    ("output2" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("a" variable
+                               (:reference 1
+                                :type ("QMatrix" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1526 1538])
+                            ("x" variable
+                               (:reference 1
+                                :type ("Vector" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1539 1550])
+                            ("b" variable
+                               (:reference 1
+                                :type ("Vector" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1551 1563])
+                            ("outputname" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1563 1581]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1513 1582])
+                    ("outputV" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("x" variable
+                               (:reference 1
+                                :type ("Vector" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1688 1699])
+                            ("outputname" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1700 1718]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1675 1719])
+                    ("_CSPMEHD" variable (:type ("CCSPM" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1752 1767])
+                    ("InterpEHDDumPropterty" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("Region" variable
+                               (:reference 1
+                                :type ("CRegion" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1819 1836])
+                            ("TimeSteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1836 1859]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1792 1860])
+                    ("InterpEHDBndProperty" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("Region" variable
+                               (:reference 1
+                                :type ("CRegion" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1964 1981])
+                            ("TimeSteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [1981 2004]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [1938 2005]))                  
+                :type "class")
+                nil [854 2101]))          
+      :file "SPHEHD.h"
+      :pointmax 2276
+      :fsize 2275
+      :lastmodtime '(24062 6840 493131 605000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("_SPHEHD_H_")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "Region.h"
+      :fsize 1865
+      :lastmodtime '(24062 6679 653515 599000))
+    (semanticdb-table "semanticdb-table"
+      :file "BasePt.h"
+      :fsize 4110
+      :lastmodtime '(24062 6679 633514 431000))
+    (semanticdb-table "semanticdb-table"
+      :file "SPHPt.h"
+      :fsize 2200
+      :lastmodtime '(24062 6679 657515 834000))
+    (semanticdb-table "semanticdb-table"
+      :file "Part.h"
+      :fsize 1482
+      :lastmodtime '(24062 6679 653515 599000))
+    (semanticdb-table "semanticdb-table"
+      :file "common.h"
+      :fsize 2041
+      :lastmodtime '(24062 6679 657515 834000))
+    (semanticdb-table "semanticdb-table"
+      :file "CSPM.h"
+      :fsize 1032
+      :lastmodtime '(24062 6679 633514 431000))
+    (semanticdb-table "semanticdb-table"
+      :file "KFile.h"
+      :fsize 2787
+      :lastmodtime '(24062 6679 637514 664000)))
+  :file "!home!liu!SPHProject!sph2-ehd-0.7!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
