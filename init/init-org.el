@@ -10,9 +10,16 @@
 ;;for Chinese Characters
 (setq org-latex-pdf-process '("xelatex -interaction nonstopmode %f"
                               "xelatex -interaction nonstopmode %f"))
-;;(setq org-latex-pdf-process '("xelatex -interaction nonstopmode --synctex=1 %f"
-  ;;                            "xelatex -interaction nonstopmode --synctex=1 %f"))
+;;(setq org-latex-pdf-process '("xelatex -interaction nonstopmode --synctex=1 %f"                            
+;;"xelatex -interaction nonstopmode --synctex=1 %f"))
 
-;;(add-hook 'org-mode-hook (lambda () (setq ispell-parser 'tex)))
+(setq org-image-actual-width '(300))
+
+;;display images in org mode, from https://stackoverflow.com/questions/15407485/inline-pdf-images-in-org-mode
+
+(add-to-list 'org-emphasis-alist
+             '("*" (:foreground "red")
+               ))
 
 (provide 'init-org)
+

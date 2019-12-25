@@ -1,1 +1,1 @@
-("~/Downloads/" "~/.emacs.d/" "~/Documents/SPHEHD-Harbin-LIUHu/")
+("~/.emacs.d/" "~/SPHProject2019/sph2-ehd-0.7/" "~/Downloads/" "~/Documents/SPHEHD-Harbin-LIUHu/" "/media/liu/CFD-LIU/SPHEHD-Harbin-LIUHu/")
