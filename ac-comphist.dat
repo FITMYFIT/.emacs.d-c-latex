@@ -1,0 +1,14 @@
+((("/home/liu/Downloads/metis-5" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("METIS_INCLUDE" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("/home/liu/Downloads/ParMetis-3" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("METIS" .
+   [2 0 0 0 0])
+  ("home/liu/Downloads/ParMetis-3" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("METIS_LIB" .
+   [1 0 0 0 1 0 0 1 0])
+  ("-I$" .
+   [1 0 2])))

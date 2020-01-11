@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/SPHProject2019/sph2-ehd-0.7/" "~/Downloads/" "~/Documents/SPHEHD-Harbin-LIUHu/" "/media/liu/CFD-LIU/SPHEHD-Harbin-LIUHu/")
+("~/.emacs.d/" "~/SPHProject2019/sph2-ehd-0.7/" "~/Downloads/OpenFVM-V1.4/Flow/parallel/source/" "~/Downloads/OpenFVM-v1.1/OpenFVM/Flow/parallel/source/" "~/SPHProject2019/sph2-ehd-0.8/" "~/DualSPHysics-master/src/source/" "~/Downloads/laspack/laspack/" "~/Documents/StudyRecord/" "~/Downloads/" "~/Documents/SPHEHD-Harbin-LIUHu/" "~/Installed/petsc-3.12.3/")

@@ -2382,6 +2382,302 @@
       :lexical-table 
         '(("PRECOND_H")
           )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("stddef.h" include (:system-flag t) nil [1108 1127])
+            ("math.h" include (:system-flag t) nil [1128 1145])
+            ("string.h" include (:system-flag t) nil [1146 1165])
+            ("laspack/operats.h" include nil nil [1167 1195])
+            ("laspack/errhandl.h" include nil nil [1196 1225])
+            ("laspack/copyrght.h" include nil nil [1226 1255])
+            ("for_AllCmp" variable (:constant-flag t) nil [1411 1421])
+            ("Asgn_VV" function
+               (:pointer 1
+                :arguments 
+                  ( ("V1" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1541 1552])
+                    ("V2" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1553 1564]))                  
+                :type ("Vector" type (:type "class") nil nil))
+                nil [1525 2966])
+            ("AddAsgn_VV" function
+               (:pointer 1
+                :arguments 
+                  ( ("V1" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2987 2998])
+                    ("V2" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2999 3010]))                  
+                :type ("Vector" type (:type "class") nil nil))
+                nil [2968 3991])
+            ("SubAsgn_VV" function
+               (:pointer 1
+                :arguments 
+                  ( ("V1" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4012 4023])
+                    ("V2" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [4024 4035]))                  
+                :type ("Vector" type (:type "class") nil nil))
+                nil [3993 5016])
+            ("MulAsgn_VS" function
+               (:pointer 1
+                :arguments 
+                  ( ("V" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5037 5047])
+                    ("S" variable (:type "double") (reparse-symbol arg-sub-list) [5048 5057]))                  
+                :type ("Vector" type (:type "class") nil nil))
+                nil [5018 5553])
+            ("Add_VV" function
+               (:pointer 1
+                :arguments 
+                  ( ("V1" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5570 5581])
+                    ("V2" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5582 5593]))                  
+                :type ("Vector" type (:type "class") nil nil))
+                nil [5555 7673])
+            ("Add_QQ" function
+               (:pointer 1
+                :arguments 
+                  ( ("Q1" variable
+                       (:pointer 1
+                        :type ("QMatrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7691 7703])
+                    ("Q2" variable
+                       (:pointer 1
+                        :type ("QMatrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [7704 7716]))                  
+                :type ("QMatrix" type (:type "class") nil nil))
+                nil [7675 10175])
+            ("Sub_VV" function
+               (:pointer 1
+                :arguments 
+                  ( ("V1" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10192 10203])
+                    ("V2" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [10204 10215]))                  
+                :type ("Vector" type (:type "class") nil nil))
+                nil [10177 12296])
+            ("Sub_QQ" function
+               (:pointer 1
+                :arguments 
+                  ( ("Q1" variable
+                       (:pointer 1
+                        :type ("QMatrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12314 12326])
+                    ("Q2" variable
+                       (:pointer 1
+                        :type ("QMatrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [12327 12339]))                  
+                :type ("QMatrix" type (:type "class") nil nil))
+                nil [12298 14800])
+            ("Mul_SV" function
+               (:pointer 1
+                :arguments 
+                  ( ("S" variable (:type "double") (reparse-symbol arg-sub-list) [14817 14826])
+                    ("V" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [14827 14837]))                  
+                :type ("Vector" type (:type "class") nil nil))
+                nil [14802 15816])
+            ("Mul_SM" function
+               (:pointer 1
+                :arguments 
+                  ( ("S" variable (:type "double") (reparse-symbol arg-sub-list) [15833 15842])
+                    ("M" variable
+                       (:pointer 1
+                        :type ("Matrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [15843 15853]))                  
+                :type ("Matrix" type (:type "class") nil nil))
+                nil [15818 16769])
+            ("Mul_SQ" function
+               (:pointer 1
+                :arguments 
+                  ( ("S" variable (:type "double") (reparse-symbol arg-sub-list) [16787 16796])
+                    ("Q" variable
+                       (:pointer 1
+                        :type ("QMatrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [16797 16808]))                  
+                :type ("QMatrix" type (:type "class") nil nil))
+                nil [16771 18478])
+            ("Mul_VV" function
+               (:arguments 
+                  ( ("V1" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18494 18505])
+                    ("V2" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [18506 18517]))                  
+                :type "double")
+                nil [18480 19147])
+            ("Mul_MV" function
+               (:pointer 1
+                :arguments 
+                  ( ("M" variable
+                       (:pointer 1
+                        :type ("Matrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19164 19174])
+                    ("V" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [19175 19185]))                  
+                :type ("Vector" type (:type "class") nil nil))
+                nil [19149 22220])
+            ("Mul_QV" function
+               (:pointer 1
+                :arguments 
+                  ( ("Q" variable
+                       (:pointer 1
+                        :type ("QMatrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [22237 22248])
+                    ("V" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [22249 22259]))                  
+                :type ("Vector" type (:type "class") nil nil))
+                nil [22222 33538])
+            ("MulInv_QV" function
+               (:pointer 1
+                :arguments 
+                  ( ("Q" variable
+                       (:pointer 1
+                        :type ("QMatrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [33558 33569])
+                    ("V" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [33570 33580]))                  
+                :type ("Vector" type (:type "class") nil nil))
+                nil [33540 43272])
+            ("Transp_M" function
+               (:pointer 1
+                :arguments 
+                  ( ("M" variable
+                       (:pointer 1
+                        :type ("Matrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [43291 43301]))                  
+                :type ("Matrix" type (:type "class") nil nil))
+                nil [43274 44563])
+            ("Transp_Q" function
+               (:pointer 1
+                :arguments 
+                  ( ("Q" variable
+                       (:pointer 1
+                        :type ("QMatrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [44583 44594]))                  
+                :type ("QMatrix" type (:type "class") nil nil))
+                nil [44565 46810])
+            ("Diag_Q" function
+               (:pointer 1
+                :arguments 
+                  ( ("Q" variable
+                       (:pointer 1
+                        :type ("QMatrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [46828 46839]))                  
+                :type ("QMatrix" type (:type "class") nil nil))
+                nil [46812 48524])
+            ("Upper_Q" function
+               (:pointer 1
+                :arguments 
+                  ( ("Q" variable
+                       (:pointer 1
+                        :type ("QMatrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [48543 48554]))                  
+                :type ("QMatrix" type (:type "class") nil nil))
+                nil [48526 50253])
+            ("Lower_Q" function
+               (:pointer 1
+                :arguments 
+                  ( ("Q" variable
+                       (:pointer 1
+                        :type ("QMatrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [50272 50283]))                  
+                :type ("QMatrix" type (:type "class") nil nil))
+                nil [50255 51982])
+            ("l1Norm_V" function
+               (:arguments 
+                  ( ("V" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [52000 52010]))                  
+                :type "double")
+                nil [51984 52374])
+            ("l2Norm_V" function
+               (:arguments 
+                  ( ("V" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [52392 52402]))                  
+                :type "double")
+                nil [52376 52812])
+            ("MaxNorm_V" function
+               (:arguments 
+                  ( ("V" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [52831 52841]))                  
+                :type "double")
+                nil [52814 53272])
+            ("OrthoRightKer_VQ" function
+               (:pointer 1
+                :arguments 
+                  ( ("V" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [53299 53309])
+                    ("Q" variable
+                       (:pointer 1
+                        :type ("QMatrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [53310 53321]))                  
+                :type ("Vector" type (:type "class") nil nil))
+                nil [53274 54684])
+            ("OrthoLeftKer_VQ" function
+               (:pointer 1
+                :arguments 
+                  ( ("V" variable
+                       (:pointer 1
+                        :type ("Vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [54710 54720])
+                    ("Q" variable
+                       (:pointer 1
+                        :type ("QMatrix" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [54721 54732]))                  
+                :type ("Vector" type (:type "class") nil nil))
+                nil [54686 56201]))          
+      :file "operats.c"
+      :pointmax 56202
+      :fsize 56201
+      :lastmodtime '(12253 31398 0 0)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("for_AllCmp" . ((FOR "for" 1422 . 1425) (semantic-list "(Ind = 1; Ind <= Dim; Ind++)" 1425 . 1453)))
+          )
 ))
   :file "!home!liu!Downloads!laspack!laspack!semantic.cache"
   :semantic-tag-version "2.0"

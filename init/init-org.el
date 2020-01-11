@@ -18,8 +18,10 @@
 ;;display images in org mode, from https://stackoverflow.com/questions/15407485/inline-pdf-images-in-org-mode
 
 (add-to-list 'org-emphasis-alist
-             '("*" (:foreground "red")
+             '("*" (:foreground "red")               
                ))
-
+(add-to-list 'org-emphasis-alist
+             '("/" (:foreground "yellow")               
+               ))
 (provide 'init-org)
 
