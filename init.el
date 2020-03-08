@@ -182,7 +182,8 @@
 ;;for theme
 (load-theme 'monokai t)
 
-
+;;global undo tree
+(global-undo-tree-mode t)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;; init.el ends here

@@ -1,0 +1,118 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [1 20])
+            ("vector" include (:system-flag t) nil [21 38])
+            ("Eigen/Sparse" include nil nil [39 62])
+            ("Eigen/IterativeLinearSolvers" include nil nil [63 102])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [104 124])
+            ("Eigen" using (:type ("Eigen" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [125 147])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [158 167])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [168 181]))                  
+                :type "int")
+                nil [149 1124]))          
+      :file "parallel_solve.cpp"
+      :pointmax 1125
+      :fsize 1124
+      :lastmodtime '(24155 58885 419330 693000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("Eigen/Sparse" include (:system-flag t) nil [1 24])
+            ("iostream" include (:system-flag t) nil [25 44])
+            ("vector" include (:system-flag t) nil [45 62])
+            ("chrono" include (:system-flag t) nil [63 80])
+            ("Eigen" using (:type ("Eigen" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [82 104])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [105 125])
+            ("SpMat" type
+               (:typedef ("SparseMatrix" type
+                     (:template-specifier 
+                        ( ("double" type nil nil nil)
+                          ("RowMajor" type nil nil nil))                        
+                      :type "class")
+                      nil nil)
+                :type "typedef")
+                nil [174 219])
+            ("T" type
+               (:typedef ("Triplet" type
+                     (:template-specifier 
+                        ( ("double" type nil nil nil))                        
+                      :type "class")
+                      nil nil)
+                :type "typedef")
+                nil [220 246])
+            ("insertCoefficient" function
+               (:arguments 
+                  ( ("id" variable (:type "int") (reparse-symbol arg-sub-list) [373 380])
+                    ("i" variable (:type "int") (reparse-symbol arg-sub-list) [381 387])
+                    ("j" variable (:type "int") (reparse-symbol arg-sub-list) [388 394])
+                    ("w" variable (:type "double") (reparse-symbol arg-sub-list) [395 404])
+                    ("coeffs" variable
+                       (:reference 1
+                        :type ("vector" type
+                             (:template-specifier 
+                                ( ("T" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [405 423])
+                    ("b" variable
+                       (:reference 1
+                        :type ("VectorXd" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [447 459])
+                    ("boundary" variable
+                       (:reference 1
+                        :constant-flag t
+                        :type ("VectorXd" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [460 485]))                  
+                :type "void")
+                nil [350 767])
+            ("buildProblem" function
+               (:arguments 
+                  ( ("coefficients" variable
+                       (:reference 1
+                        :type ("vector" type
+                             (:template-specifier 
+                                ( ("T" type nil nil nil))                                
+                              :type "class")
+                              nil nil))
+                        (reparse-symbol arg-sub-list) [787 811])
+                    ("b" variable
+                       (:reference 1
+                        :type ("VectorXd" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [812 824])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [825 831]))                  
+                :type "void")
+                nil [769 1382])
+            ("main" function (:type "int") nil [1384 2308]))          
+      :file "test-cg-parallel.cpp"
+      :pointmax 2309
+      :fsize 2308
+      :lastmodtime '(24157 48681 147378 283000)
+      :unmatched-syntax nil))
+  :file "!home!liu!test!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

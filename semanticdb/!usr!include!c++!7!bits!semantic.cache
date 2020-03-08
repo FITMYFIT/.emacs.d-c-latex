@@ -24697,6 +24697,19 @@
       :lexical-table 
         '(("_GLIBCXX_BITS_STD_ABS_H")
           )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_PARSE_NUMBERS_H" variable (:constant-flag t) nil [1312 1336]))          
+      :file "parse_numbers.h"
+      :pointmax 8028
+      :fsize 8027
+      :lastmodtime '(23762 64351 0 0)
+      :unmatched-syntax '((symbol 1352 . 1365) (symbol 1348 . 1351) (symbol 1341 . 1347) (punctuation 1340 . 1341))
+      :lexical-table 
+        '(("_GLIBCXX_PARSE_NUMBERS_H" . ((number "1" 1337 . 1338)))
+          )
 ))
   :file "!usr!include!c++!7!bits!semantic.cache"
   :semantic-tag-version "2.0"

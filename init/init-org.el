@@ -8,8 +8,10 @@
 (add-to-list 'auto-mode-alist '("\\.dat\\'" . org-mode))
 
 ;;for Chinese Characters
-(setq org-latex-pdf-process '("xelatex -interaction nonstopmode %f"
-                              "xelatex -interaction nonstopmode %f"))
+(setq org-latex-pdf-process
+      '("latexmk -pdflatex='xelatex -interaction nonstopmode' -pdf -bibtex -f %f"))
+;; (setq org-latex-pdf-process '("xelatex -interaction  nonstopmode %f"
+;;                               "xelatex -interaction  nonstopmode %f"))
 ;;(setq org-latex-pdf-process '("xelatex -interaction nonstopmode --synctex=1 %f"                            
 ;;"xelatex -interaction nonstopmode --synctex=1 %f"))
 
@@ -23,5 +25,17 @@
 (add-to-list 'org-emphasis-alist
              '("/" (:foreground "yellow")               
                ))
+
+;;org-ref
+(setq reftex-default-bibliography '("~/Documents/References/bibliography/liuhuref.bib"))
+
+;; see org-ref for use of these variables
+(setq org-ref-bibliography-notes "~/Documents/References/bibliography/notes.org"
+      org-ref-default-bibliography '("~/Documents/References/bibliography/liuhuref.bib")
+      org-ref-pdf-directory "~/Documents/References/bibliography/bibtex-pdfs/")
+;;helm-bibtex for org-ref
+(setq bibtex-completion-bibliography "~/Documents/References/bibliography/liuhuref.bib"
+      bibtex-completion-library-path "~/Documents/References/bibliography/bibtex-pdfs"
+      bibtex-completion-notes-path "~/Documents/Reference/bibliography/helm-bibtex-notes")
 (provide 'init-org)
 
