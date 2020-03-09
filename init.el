@@ -184,6 +184,16 @@
 
 ;;global undo tree
 (global-undo-tree-mode t)
+
+;;rename the windows of emacs
+(setq frame-title-format
+      '(:eval (concat
+               (if (and buffer-file-name (buffer-modified-p)) "•")
+               (buffer-name)
+               (if buffer-file-name
+                   (concat " (" (directory-file-name (abbreviate-file-name default-directory)) ")"))
+               " - Emacs"))
+      )
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ;;; init.el ends here

@@ -135,6 +135,8 @@
             ("SMOOTH" variable (:constant-flag t) nil [94 100])
             ("CALDRHOE" variable (:constant-flag t) nil [111 119])
             ("SOLVER" variable (:constant-flag t) nil [219 225])
+            ("SOLVER" variable (:constant-flag t) nil [219 225])
+            ("SOLVER" variable (:constant-flag t) nil [219 225])
             ("SECORDFORM" variable (:constant-flag t) nil [384 394])
             ("SECORDFORM" variable (:constant-flag t) nil [384 394])
             ("SECORDFORM" variable (:constant-flag t) nil [384 394])
@@ -197,60 +199,60 @@
                         (reparse-symbol arg-sub-list) [61516 61533])
                     ("Timesteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [61534 61557]))                  
                 :type "void")
-                nil [61495 88140])
+                nil [61495 88270])
             ("InterpEHDDumPropterty" function
                (:parent "CSPHEHD"
                 :arguments 
                   ( ("Region" variable
                        (:reference 1
                         :type ("CRegion" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [88252 88269])
-                    ("TimeSteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [88270 88293]))                  
+                        (reparse-symbol arg-sub-list) [88382 88399])
+                    ("TimeSteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [88400 88423]))                  
                 :type "void")
-                nil [88216 95212])
+                nil [88346 95342])
             ("InterpEHDBndProperty" function
                (:parent "CSPHEHD"
                 :arguments 
                   ( ("Region" variable
                        (:reference 1
                         :type ("CRegion" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [95312 95329])
-                    ("TimeSteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [95329 95352]))                  
+                        (reparse-symbol arg-sub-list) [95442 95459])
+                    ("TimeSteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [95459 95482]))                  
                 :type "void")
-                nil [95277 96927])
+                nil [95407 97057])
             ("output" function
                (:parent "CSPHEHD"
                 :arguments 
                   ( ("a" variable
                        (:pointer 2
                         :type "double")
-                        (reparse-symbol arg-sub-list) [96950 96962])
+                        (reparse-symbol arg-sub-list) [97080 97092])
                     ("b" variable
                        (:pointer 1
                         :type "double")
-                        (reparse-symbol arg-sub-list) [96963 96974])
-                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [96975 96981]))                  
+                        (reparse-symbol arg-sub-list) [97093 97104])
+                    ("n" variable (:type "int") (reparse-symbol arg-sub-list) [97105 97111]))                  
                 :type "void")
-                nil [96929 97667])
+                nil [97059 97797])
             ("output2" function
                (:parent "CSPHEHD"
                 :arguments 
                   ( ("a" variable
                        (:reference 1
                         :type ("QMatrix" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [97692 97704])
+                        (reparse-symbol arg-sub-list) [97822 97834])
                     ("x" variable
                        (:reference 1
                         :type ("Vector" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [97705 97716])
+                        (reparse-symbol arg-sub-list) [97835 97846])
                     ("b" variable
                        (:reference 1
                         :type ("Vector" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [97717 97729])
-                    ("outputname" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [97729 97747])
-                    ("TimeSteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [97748 97771]))                  
+                        (reparse-symbol arg-sub-list) [97847 97859])
+                    ("outputname" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [97859 97877])
+                    ("TimeSteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [97878 97901]))                  
                 :type "void")
-                nil [97670 98606])
+                nil [97800 98736])
             ("outputEigen" function
                (:parent "CSPHEHD"
                 :arguments 
@@ -262,33 +264,33 @@
                                   ("RowMajor" type nil nil nil))                                
                               :type "class")
                               nil nil))
-                        (reparse-symbol arg-sub-list) [98725 98759])
+                        (reparse-symbol arg-sub-list) [98855 98889])
                     ("x" variable
                        (:reference 1
                         :type ("VectorXd" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [98760 98773])
+                        (reparse-symbol arg-sub-list) [98890 98903])
                     ("b" variable
                        (:reference 1
                         :type ("VectorXd" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [98774 98787])
-                    ("outputname" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [98788 98806])
-                    ("TimeSteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [98807 98830]))                  
+                        (reparse-symbol arg-sub-list) [98904 98917])
+                    ("outputname" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [98918 98936])
+                    ("TimeSteps" variable (:type "unsigned int") (reparse-symbol arg-sub-list) [98937 98960]))                  
                 :type "void")
-                nil [98698 99725])
+                nil [98828 99855])
             ("outputV" function
                (:parent "CSPHEHD"
                 :arguments 
                   ( ("x" variable
                        (:reference 1
                         :type ("Vector" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [99749 99761])
-                    ("outputname" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [99761 99779]))                  
+                        (reparse-symbol arg-sub-list) [99879 99891])
+                    ("outputname" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [99891 99909]))                  
                 :type "void")
-                nil [99727 100320]))          
+                nil [99857 100450]))          
       :file "SPHEHD.cpp"
-      :pointmax 100321
-      :fsize 100388
-      :lastmodtime '(24164 44478 171267 289000)
+      :pointmax 100451
+      :fsize 100518
+      :lastmodtime '(24165 44537 693967 130000)
       :unmatched-syntax nil
       :lexical-table 
         '(("SECORDFORM" . ((number "3" 395 . 396)))
@@ -1561,13 +1563,20 @@
                     ("_PerdBndMaxX" variable (:type "double") (reparse-symbol classsubparts) [2016 2036])
                     ("_IFlagRemesh" variable (:type "unsigned int") (reparse-symbol classsubparts) [2039 2065])
                     ("_TDamp" variable (:type "double") (reparse-symbol classsubparts) [2080 2094])
-                    ("_PtShftBeta" variable (:type "double") (reparse-symbol classsubparts) [2122 2141]))                  
+                    ("_PtShftBeta" variable (:type "double") (reparse-symbol classsubparts) [2122 2141])
+                    ("_EHDPhiForm" variable (:type "unsigned int") (reparse-symbol classsubparts) [2253 2278])
+                    ("_EHDPhiSecDirevForm" variable (:type "unsigned int") (reparse-symbol classsubparts) [2385 2418])
+                    ("_EHDDrhoe" variable (:type "unsigned int") (reparse-symbol classsubparts) [2470 2493])
+                    ("_EHDDrhoeForm" variable (:type "unsigned int") (reparse-symbol classsubparts) [2536 2563])
+                    ("_EHDDrhoeSecDirevForm" variable (:type "unsigned int") (reparse-symbol classsubparts) [2600 2635])
+                    ("_EHDRhoeForm" variable (:type "unsigned int") (reparse-symbol classsubparts) [2670 2696])
+                    ("_EHDRhoeSecDirevForm" variable (:type "unsigned int") (reparse-symbol classsubparts) [2733 2767]))                  
                 :type "class")
-                nil [629 2179]))          
+                nil [629 2773]))          
       :file "ControlSPH.h"
-      :pointmax 2354
-      :fsize 2536
-      :lastmodtime '(24160 19775 451888 58000)
+      :pointmax 2948
+      :fsize 3130
+      :lastmodtime '(24165 40561 598837 119000)
       :unmatched-syntax nil
       :lexical-table 
         '(("_CONTROLSPH_H_")
@@ -5140,20 +5149,20 @@
                         :type ("CRegion" type (:type "class") nil nil))
                         (reparse-symbol arg-sub-list) [9125 9142]))                  
                 :type "void")
-                nil [9103 12189])
+                nil [9103 12190])
             ("EHDDrop2" function
                (:parent "CModel"
                 :arguments 
                   ( ("Region" variable
                        (:reference 1
                         :type ("CRegion" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [12214 12231]))                  
+                        (reparse-symbol arg-sub-list) [12215 12232]))                  
                 :type "void")
-                nil [12191 13244]))          
+                nil [12192 13245]))          
       :file "Model.cpp"
-      :pointmax 13245
-      :fsize 13244
-      :lastmodtime '(24164 39342 843600 676000)
+      :pointmax 13246
+      :fsize 13245
+      :lastmodtime '(24165 43899 82606 44000)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode makefile-mode
@@ -5175,8 +5184,83 @@
       :file "Makefile"
       :pointmax 4609
       :fsize 4608
-      :lastmodtime '(24160 19775 235884 113000)
-      :unmatched-syntax '((shell-command 4550 . 4608) (bol 4549 . 4549))))
+      :lastmodtime '(24165 41134 50465 814000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("SPHSTForce.h" include nil nil [1 24])
+            ("CSPHSTForce" function
+               (:constructor-flag t
+                :parent "CSPHSTForce"
+                :type ("CSPHSTForce" type (:type "class") nil nil))
+                nil [26 56])
+            ("CSPHSTForce" function
+               (:destructor-flag t
+                :parent "CSPHSTForce"
+                :type "void")
+                nil [58 89])
+            ("Solve" function
+               (:parent "CSPHSTForce"
+                :arguments 
+                  ( ("Region" variable
+                       (:reference 1
+                        :type ("CRegion" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [115 131]))                  
+                :type "void")
+                nil [91 5942]))          
+      :file "SPHSTForce.cpp"
+      :pointmax 5943
+      :fsize 6135
+      :lastmodtime '(24160 19775 243884 260000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("SPHSolver.h" include nil nil [1 23])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [35 44])
+                    ("args" variable
+                       (:pointer 2
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [45 58]))                  
+                :type "int")
+                nil [26 532]))          
+      :file "main.cpp"
+      :pointmax 533
+      :fsize 532
+      :lastmodtime '(24160 19775 247884 336000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("SPHAStress.h" include nil nil [1 24])
+            ("cmath" include (:system-flag t) nil [25 41])
+            ("CSPHAStress" function
+               (:constructor-flag t
+                :parent "CSPHAStress"
+                :type ("CSPHAStress" type (:type "class") nil nil))
+                nil [43 73])
+            ("CSPHAStress" function
+               (:destructor-flag t
+                :parent "CSPHAStress"
+                :type "void")
+                nil [75 106])
+            ("Solve" function
+               (:parent "CSPHAStress"
+                :arguments 
+                  ( ("Region" variable
+                       (:reference 1
+                        :type ("CRegion" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [132 148]))                  
+                :type "void")
+                nil [108 2403]))          
+      :file "SPHAStress.cpp"
+      :pointmax 2404
+      :fsize 2449
+      :lastmodtime '(24160 19775 247884 336000)
+      :unmatched-syntax nil))
   :file "!home!liu!SPHProject2019!sph2-ehd-0.9!semantic.cache"
   :semantic-tag-version "2.0"
   :semanticdb-version "2.2")
