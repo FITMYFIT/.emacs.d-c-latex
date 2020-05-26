@@ -5501,6 +5501,165 @@ Input parameters include:\\n\\
       :pointmax 5298
       :fsize 5513
       :lastmodtime '(24088 17 328481 46000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("GetKnlList.h" include nil nil [1 23])
+            ("CGetKnlList" function
+               (:constructor-flag t
+                :parent "CGetKnlList"
+                :arguments 
+                  ( ("Type" variable (:type ("enKNLTYPE" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [50 65]))                  
+                :type ("CGetKnlList" type (:type "class") nil nil))
+                nil [25 149])
+            ("CGetKnlList" function
+               (:destructor-flag t
+                :parent "CGetKnlList"
+                :type "void")
+                nil [151 182])
+            ("GetKnlList" function
+               (:parent "CGetKnlList"
+                :arguments 
+                  ( ("Region" variable
+                       (:reference 1
+                        :type ("CRegion" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [213 229]))                  
+                :type "void")
+                nil [184 2786])
+            ("GetW" function
+               (:parent "CGetKnlList"
+                :arguments 
+                  ( ("x" variable (:type "double") (reparse-symbol arg-sub-list) [2811 2820])
+                    ("y" variable (:type "double") (reparse-symbol arg-sub-list) [2820 2829])
+                    ("h" variable (:type "double") (reparse-symbol arg-sub-list) [2829 2838])
+                    ("distance2" variable (:type "double") (reparse-symbol arg-sub-list) [2838 2855])
+                    ("W" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [2855 2866])
+                    ("Wx" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [2866 2878])
+                    ("Wy" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [2878 2890])
+                    ("Ww" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [2890 2902]))                  
+                :type "void")
+                nil [2788 3386])
+            ("GetW2" function
+               (:parent "CGetKnlList"
+                :arguments 
+                  ( ("x" variable (:type "double") (reparse-symbol arg-sub-list) [3412 3421])
+                    ("y" variable (:type "double") (reparse-symbol arg-sub-list) [3421 3430])
+                    ("h" variable (:type "double") (reparse-symbol arg-sub-list) [3430 3439])
+                    ("distance2" variable (:type "double") (reparse-symbol arg-sub-list) [3439 3456])
+                    ("W" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [3456 3467])
+                    ("Wx" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [3467 3479])
+                    ("Wy" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [3479 3491])
+                    ("W2" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [3491 3503]))                  
+                :type "void")
+                nil [3388 3976])
+            ("GetW5S" function
+               (:parent "CGetKnlList"
+                :arguments 
+                  ( ("x" variable (:type "double") (reparse-symbol arg-sub-list) [4003 4012])
+                    ("y" variable (:type "double") (reparse-symbol arg-sub-list) [4012 4021])
+                    ("h" variable (:type "double") (reparse-symbol arg-sub-list) [4021 4030])
+                    ("distance2" variable (:type "double") (reparse-symbol arg-sub-list) [4030 4047])
+                    ("W" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [4047 4058])
+                    ("Wx" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [4058 4070])
+                    ("Wy" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [4070 4082])
+                    ("Ww" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [4082 4095]))                  
+                :type "void")
+                nil [3977 5065])
+            ("GetW0" function
+               (:parent "CGetKnlList"
+                :arguments 
+                  ( ("distance0" variable (:type "double") (reparse-symbol arg-sub-list) [5091 5108])
+                    ("h" variable (:type "double") (reparse-symbol arg-sub-list) [5108 5117])
+                    ("W" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [5117 5128]))                  
+                :type "void")
+                nil [5067 5400])
+            ("ClearKnlList" function
+               (:parent "CGetKnlList"
+                :arguments 
+                  ( ("Region" variable
+                       (:reference 1
+                        :type ("CRegion" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5434 5450]))                  
+                :type "void")
+                nil [5403 5905])
+            ("GetCrctKnlGrad" function
+               (:parent "CGetKnlList"
+                :arguments 
+                  ( ("Region" variable
+                       (:reference 1
+                        :type ("CRegion" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5940 5957])
+                    ("PtPtr" variable
+                       (:pointer 1
+                        :type ("CBasePt" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5957 5973])
+                    ("KnlPtr" variable
+                       (:pointer 1
+                        :type ("CKnl" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [5973 5987])
+                    ("wcx" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [5987 6000])
+                    ("wcy" variable
+                       (:reference 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [6000 6013]))                  
+                :type "void")
+                nil [5907 6404])
+            ("GetMshKnlList" function
+               (:parent "CGetKnlList"
+                :arguments 
+                  ( ("Region" variable
+                       (:reference 1
+                        :type ("CRegion" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [6439 6456]))                  
+                :type "void")
+                nil [6406 7425]))          
+      :file "GetKnlList.cpp"
+      :pointmax 7426
+      :fsize 7577
+      :lastmodtime '(24087 57521 401906 885000)
       :unmatched-syntax nil))
   :file "!home!liu!SPHProject2019!sph2-ehd-0.8!semantic.cache"
   :semantic-tag-version "2.0"

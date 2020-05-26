@@ -139,6 +139,8 @@
 
 (require 'init-org)
 
+;;for langtool 20200526
+(require 'init-langtool)
 
 ;;setq-default ispell-program-name "aspell")
 ;;默认emacs启动时开启fly-spell模式：
