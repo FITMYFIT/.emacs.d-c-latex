@@ -1,0 +1,22 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("WORKAROUND_DWA2002126_HPP" variable (:constant-flag t) nil [233 258])
+            ("boost/config/workaround.hpp" include (:system-flag t) nil [260 298]))          
+      :file "workaround.hpp"
+      :pointmax 336
+      :fsize 335
+      :lastmodtime '(23858 58805 447449 125000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("WORKAROUND_DWA2002126_HPP")
+          )
+))
+  :file "!usr!local!include!boost!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,530 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :file "all_kernels.h"
+      :fsize 212
+      :lastmodtime '(24268 55322 612889 936000))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("base_data_package.h" include nil nil [385 415])
+            ("string" include (:system-flag t) nil [417 434])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [436 456])
+            ("SPH" type
+               (:members 
+                  ( ("Kernel" type
+                       (:members 
+                          ( ("protected" label nil (reparse-symbol classsubparts) [1062 1072])
+                            ("kernel_name_" variable
+                               (:constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1104 1130])
+                            ("h_" variable
+                               (:constant-flag t
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1170 1192])
+                            ("inv_h_" variable
+                               (:constant-flag t
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1170 1192])
+                            ("kernel_size_" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1240 1258])
+                            ("factor_W_1D_" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1317 1363])
+                            ("factor_W_2D_" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1317 1363])
+                            ("factor_W_3D_" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1317 1363])
+                            ("factor_dW_1D_" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1433 1482])
+                            ("factor_dW_2D_" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1433 1482])
+                            ("factor_dW_3D_" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1433 1482])
+                            ("factor_d2W_1D_" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1565 1617])
+                            ("factor_d2W_2D_" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1565 1617])
+                            ("factor_d2W_3D_" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1565 1617])
+                            ("SetDerivativeFactors" function
+                               (:prototype-flag t
+                                :typemodifiers ("virtual")
+                                :type "void")
+                                (reparse-symbol classsubparts) [1654 1690])
+                            ("getSmoothingLengthFactor1D" function
+                               (:methodconst-flag t
+                                :arguments 
+                                  ( ("inv_h_in" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1725 1739]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1693 1778])
+                            ("getSmoothingLengthFactor2D" function
+                               (:methodconst-flag t
+                                :arguments 
+                                  ( ("inv_h_in" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1814 1828]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1782 1882])
+                            ("getSmoothingLengthFactor3D" function
+                               (:methodconst-flag t
+                                :arguments 
+                                  ( ("inv_h_in" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1918 1932]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1886 2002])
+                            ("public" label nil (reparse-symbol classsubparts) [2005 2012])
+                            ("Kernel" function
+                               (:prototype-flag t
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("h" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2044 2051])
+                                    ("kernel_name" variable
+                                       (:default-value "\"kernel\""
+                                        :type ("string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2052 2081]))                                  
+                                :type ("Kernel" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2037 2083])
+                            ("Kernel" function
+                               (:destructor-flag t
+                                :typemodifiers ("virtual")
+                                :type "void")
+                                (reparse-symbol classsubparts) [2172 2192])
+                            ("GetKerenlName" function
+                               (:methodconst-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2253 2306])
+                            ("GetSmoothingLength" function
+                               (:methodconst-flag t
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2310 2356])
+                            ("GetKernelSize" function
+                               (:methodconst-flag t
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2360 2411])
+                            ("GetCutOffRadius" function
+                               (:methodconst-flag t
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2415 2473])
+                            ("GetFactorW1D" function
+                               (:methodconst-flag t
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2477 2527])
+                            ("GetFactorW2D" function
+                               (:methodconst-flag t
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2531 2581])
+                            ("GetFactorW3D" function
+                               (:methodconst-flag t
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2585 2635])
+                            ("W" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2787 2804]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2772 2811])
+                            ("W" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec2d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2829 2847]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2814 2854])
+                            ("W" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec3d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2872 2890]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2857 2897])
+                            ("W_1D" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("q" variable
+                                       (:constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2981 2994]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2963 3005])
+                            ("W_2D" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("q" variable
+                                       (:constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3026 3039]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3008 3050])
+                            ("W_3D" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("q" variable
+                                       (:constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3071 3084]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3053 3095])
+                            ("W0" function
+                               (:methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("r_i" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3167 3183]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3151 3215])
+                            ("W0" function
+                               (:methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("r_i" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec2d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3235 3252]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3219 3283])
+                            ("W0" function
+                               (:methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("r_i" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec3d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3303 3320]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3287 3351])
+                            ("dW" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3461 3478]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3445 3485])
+                            ("dW" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec2d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3504 3522]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3488 3529])
+                            ("dW" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec3d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3548 3566]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3532 3573])
+                            ("dW_1D" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("q" variable
+                                       (:constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3659 3672]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3640 3683])
+                            ("dW_2D" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("q" variable
+                                       (:constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3705 3718]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3686 3729])
+                            ("dW_3D" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("q" variable
+                                       (:constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3751 3764]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3732 3775])
+                            ("d2W" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3898 3915]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3881 3922])
+                            ("d2W" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec2d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3942 3960]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3925 3967])
+                            ("d2W" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec3d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3987 4005]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3970 4012])
+                            ("d2W_1D" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("q" variable
+                                       (:constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4100 4113]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4080 4124])
+                            ("d2W_2D" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("q" variable
+                                       (:constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4147 4160]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4127 4171])
+                            ("d2W_3D" function
+                               (:pure-virtual-flag t
+                                :prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("q" variable
+                                       (:constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4194 4207]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4174 4218])
+                            ("GetCutOffRadius" function
+                               (:methodconst-flag t
+                                :arguments 
+                                  ( ("smoothing_length" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4364 4386]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4343 4443])
+                            ("W" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :arguments 
+                                  ( ("inv_h_in" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4455 4469])
+                                    ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4470 4487]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4448 4494])
+                            ("W" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :arguments 
+                                  ( ("inv_h_in" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4504 4518])
+                                    ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec2d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4519 4537]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4497 4544])
+                            ("W" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :arguments 
+                                  ( ("inv_h_in" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4554 4568])
+                                    ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec3d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4569 4587]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4547 4594])
+                            ("W0" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :arguments 
+                                  ( ("inv_h_in" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4658 4672])
+                                    ("r_i" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4673 4689]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4650 4697])
+                            ("W0" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :arguments 
+                                  ( ("inv_h_in" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4708 4722])
+                                    ("r_i" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec2d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4723 4740]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4700 4747])
+                            ("W0" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :arguments 
+                                  ( ("inv_h_in" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4758 4772])
+                                    ("r_i" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec3d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4773 4790]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4750 4797])
+                            ("dW" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("inv_h_in" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4906 4920])
+                                    ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4921 4938]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4890 4945])
+                            ("dW" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("inv_h_in" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4964 4978])
+                                    ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec2d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [4979 4997]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4948 5004])
+                            ("dW" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("inv_h_in" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5023 5037])
+                                    ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec3d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5038 5056]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5007 5063])
+                            ("d2W" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("inv_h_in" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5186 5200])
+                                    ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Real" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5201 5218]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5169 5225])
+                            ("d2W" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("inv_h_in" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5245 5259])
+                                    ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec2d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5260 5278]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5228 5285])
+                            ("d2W" function
+                               (:prototype-flag t
+                                :methodconst-flag t
+                                :typemodifiers ("virtual")
+                                :arguments 
+                                  ( ("inv_h_in" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5305 5319])
+                                    ("r_ij" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Vec3d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5320 5338]))                                  
+                                :type ("Real" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5288 5345]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [1045 5349]))                  
+                :type "namespace")
+                nil [458 5351]))          
+      :file "base_kernel.h"
+      :pointmax 5352
+      :fsize 5351
+      :lastmodtime '(24268 55322 612889 936000)
+      :unmatched-syntax '((punctuation 4443 . 4444) (punctuation 3351 . 3352) (punctuation 3283 . 3284) (punctuation 3215 . 3216) (punctuation 2635 . 2636) (punctuation 2581 . 2582) (punctuation 2527 . 2528) (punctuation 2473 . 2474) (punctuation 2411 . 2412) (punctuation 2356 . 2357) (punctuation 2306 . 2307) (punctuation 2192 . 2193) (punctuation 2002 . 2003) (punctuation 1882 . 1883) (punctuation 1778 . 1779) (symbol 379 . 383) (symbol 372 . 378) (punctuation 371 . 372))))
+  :file "!home!liu!disk3!SPHinXsys!SPHINXsys!src!shared!kernels!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

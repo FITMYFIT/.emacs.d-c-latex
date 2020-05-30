@@ -5,6 +5,8 @@
 
 (require 'org-download)
 
+(require 'org-ref)
+
 (add-to-list 'auto-mode-alist '("\\.dat\\'" . org-mode))
 
 ;;for Chinese Characters

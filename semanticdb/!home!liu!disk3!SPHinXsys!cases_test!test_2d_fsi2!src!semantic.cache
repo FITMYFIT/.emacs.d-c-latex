@@ -1,0 +1,371 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("sphinxsys.h" include nil nil [279 301])
+            ("SPH" using (:type ("SPH" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [303 323])
+            ("DL" variable
+               (:default-value "11.0"
+                :type ("Real" type (:type "class") nil nil))
+                nil [370 385])
+            ("DH" variable
+               (:default-value "4.1"
+                :type ("Real" type (:type "class") nil nil))
+                nil [415 429])
+            ("particle_spacing_ref" variable
+               (:default-value "0.1"
+                :type ("Real" type (:type "class") nil nil))
+                nil [460 492])
+            ("DLsponge" variable
+               (:default-value "particle_spacing_ref * 20.0"
+                :type ("Real" type (:type "class") nil nil))
+                nil [538 582])
+            ("BW" variable
+               (:default-value "particle_spacing_ref * 4.0"
+                :type ("Real" type (:type "class") nil nil))
+                nil [633 670])
+            ("insert_circle_center" function
+               (:prototype-flag t
+                :type ("Vec2d" type (:type "class") nil nil))
+                nil [749 786])
+            ("insert_circle_radius" variable
+               (:default-value "0.5"
+                :type ("Real" type (:type "class") nil nil))
+                nil [829 861])
+            ("bh" variable
+               (:default-value "0.4 * insert_circle_radius"
+                :type ("Real" type (:type "class") nil nil))
+                nil [896 933])
+            ("bl" variable
+               (:default-value "7.0 * insert_circle_radius"
+                :type ("Real" type (:type "class") nil nil))
+                nil [964 1001])
+            ("rho0_f" variable
+               (:default-value "1.0"
+                :type ("Real" type (:type "class") nil nil))
+                nil [1084 1102])
+            ("U_f" variable
+               (:default-value "1.0"
+                :type ("Real" type (:type "class") nil nil))
+                nil [1121 1136])
+            ("c_f" variable
+               (:default-value "10.0 * U_f"
+                :type ("Real" type (:type "class") nil nil))
+                nil [1171 1193])
+            ("Re" variable
+               (:default-value "100.0"
+                :type ("Real" type (:type "class") nil nil))
+                nil [1218 1234])
+            ("Re" variable (:type "int") nil [1319 1322])
+            ("rho0_s" variable
+               (:default-value "10.0"
+                :type ("Real" type (:type "class") nil nil))
+                nil [1403 1422])
+            ("poisson" variable
+               (:default-value "0.4"
+                :type ("Real" type (:type "class") nil nil))
+                nil [1451 1470])
+            ("Ae" variable
+               (:default-value "1.4e3"
+                :type ("Real" type (:type "class") nil nil))
+                nil [1495 1511])
+            ("U_f" variable
+               (:pointer 1
+                :type ("U_f" type (:type "class") nil nil))
+                nil [1586 1596])
+            ("CreatWaterBlockShape" function (:type ("std::vector" type
+                 (:template-specifier 
+                    ( ("Point" type nil nil nil))                    
+                  :type "class")
+                  nil nil)) nil [1677 2050])
+            ("CreatInflowBufferShape" function (:type ("std::vector" type
+                 (:template-specifier 
+                    ( ("Point" type nil nil nil))                    
+                  :type "class")
+                  nil nil)) nil [2093 2472])
+            ("hbh" variable
+               (:default-value "bh / 2.0"
+                :type ("Real" type (:type "class") nil nil))
+                nil [2500 2520])
+            ("BLB" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("insert_circle_center" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2531 2554])
+                    ("" variable (:type ("insert_circle_center" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2556 2579])
+                    ("" variable (:type ("hbh" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2582 2586]))                  
+                :type ("Vec2d" type (:type "class") nil nil))
+                nil [2521 2587])
+            ("BLT" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("insert_circle_center" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2598 2621])
+                    ("" variable (:type ("insert_circle_center" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2623 2646])
+                    ("" variable (:type ("hbh" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2649 2653]))                  
+                :type ("Vec2d" type (:type "class") nil nil))
+                nil [2588 2654])
+            ("BRB" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("insert_circle_center" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2665 2688])
+                    ("" variable (:type ("insert_circle_radius" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2691 2713])
+                    ("" variable (:type ("bl" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2714 2717])
+                    ("" variable (:type ("insert_circle_center" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2718 2741])
+                    ("" variable (:type ("hbh" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2744 2748]))                  
+                :type ("Vec2d" type (:type "class") nil nil))
+                nil [2655 2749])
+            ("BRT" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("insert_circle_center" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2760 2783])
+                    ("" variable (:type ("insert_circle_radius" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2786 2808])
+                    ("" variable (:type ("bl" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2809 2812])
+                    ("" variable (:type ("insert_circle_center" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2813 2836])
+                    ("" variable (:type ("hbh" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2839 2843]))                  
+                :type ("Vec2d" type (:type "class") nil nil))
+                nil [2750 2844])
+            ("CreatBeamShape" function (:type ("std::vector" type
+                 (:template-specifier 
+                    ( ("Point" type nil nil nil))                    
+                  :type "class")
+                  nil nil)) nil [2845 3077])
+            ("CreatOuterWallShape" function (:type ("std::vector" type
+                 (:template-specifier 
+                    ( ("Point" type nil nil nil))                    
+                  :type "class")
+                  nil nil)) nil [3109 3497])
+            ("CreatInnerWallShape" function (:type ("std::vector" type
+                 (:template-specifier 
+                    ( ("Point" type nil nil nil))                    
+                  :type "class")
+                  nil nil)) nil [3538 3946])
+            ("WaterBlock" type
+               (:superclasses 
+                  ( ("FluidBody" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [4109 4116])
+                    ("WaterBlock" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("system" variable
+                               (:reference 1
+                                :type ("SPHSystem" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4129 4147])
+                            ("body_name" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4148 4165])
+                            ("refinement_level" variable (:type "int") (reparse-symbol arg-sub-list) [4166 4187])
+                            ("op" variable (:type ("ParticlesGeneratorOps" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4188 4213]))                          
+                        :type ("WaterBlock" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [4118 4830]))                  
+                :type "class")
+                nil [4071 4833])
+            ("WaterMaterial" type
+               (:superclasses 
+                  ( ("WeaklyCompressibleFluid" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [4932 4939])
+                    ("WaterMaterial" function
+                       (:constructor-flag t
+                        :type ("WaterMaterial" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [4941 5148]))                  
+                :type "class")
+                nil [4877 5151])
+            ("WallBoundary" type
+               (:superclasses 
+                  ( ("SolidBody" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [5228 5235])
+                    ("WallBoundary" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("system" variable
+                               (:reference 1
+                                :type ("SPHSystem" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5250 5268])
+                            ("body_name" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5269 5286])
+                            ("refinement_level" variable (:type "int") (reparse-symbol arg-sub-list) [5287 5308])
+                            ("op" variable (:type ("ParticlesGeneratorOps" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5309 5334]))                          
+                        :type ("WallBoundary" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [5237 5822]))                  
+                :type "class")
+                nil [5188 5825])
+            ("InsertedBody" type
+               (:superclasses 
+                  ( ("SolidBody" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [5929 5936])
+                    ("InsertedBody" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("system" variable
+                               (:reference 1
+                                :type ("SPHSystem" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5951 5969])
+                            ("body_name" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5970 5987])
+                            ("refinement_level" variable (:type "int") (reparse-symbol arg-sub-list) [5988 6009])
+                            ("op" variable (:type ("ParticlesGeneratorOps" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6010 6035]))                          
+                        :type ("InsertedBody" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [5938 6564]))                  
+                :type "class")
+                nil [5889 6567])
+            ("InsertBodyMaterial" type
+               (:superclasses 
+                  ( ("LinearElasticSolid" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [6660 6667])
+                    ("InsertBodyMaterial" function
+                       (:constructor-flag t
+                        :type ("InsertBodyMaterial" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [6669 6817]))                  
+                :type "class")
+                nil [6605 6820])
+            ("BeamBase" type
+               (:superclasses 
+                  ( ("BodyPartByParticle" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [6922 6929])
+                    ("BeamBase" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("solid_body" variable
+                               (:pointer 1
+                                :type ("SolidBody" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6940 6962])
+                            ("constrianed_region_name" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6963 6994]))                          
+                        :type ("BeamBase" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [6931 7536]))                  
+                :type "class")
+                nil [6877 7539])
+            ("InflowBuffer" type
+               (:superclasses 
+                  ( ("BodyPartByCell" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [7606 7613])
+                    ("InflowBuffer" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("fluid_body" variable
+                               (:pointer 1
+                                :type ("FluidBody" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7628 7650])
+                            ("constrianed_region_name" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7651 7682]))                          
+                        :type ("InflowBuffer" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [7615 8098]))                  
+                :type "class")
+                nil [7561 8101])
+            ("ParabolicInflow" type
+               (:superclasses 
+                  ( ("fluid_dynamics::InflowBoundaryCondition" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("u_ave_" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8225 8252])
+                    ("u_ref_" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8225 8252])
+                    ("t_ref" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8225 8252])
+                    ("public" label nil (reparse-symbol classsubparts) [8253 8260])
+                    ("ParabolicInflow" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("fluid_body" variable
+                               (:pointer 1
+                                :type ("FluidBody" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [8278 8300])
+                            ("constrained_region" variable
+                               (:pointer 1
+                                :type ("BodyPartByCell" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [8303 8338]))                          
+                        :type ("ParabolicInflow" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [8262 8451])
+                    ("GetInflowVelocity" function
+                       (:arguments 
+                          ( ("position" variable
+                               (:reference 1
+                                :type ("Vecd" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [8476 8491])
+                            ("velocity" variable
+                               (:reference 1
+                                :type ("Vecd" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [8492 8507]))                          
+                        :type ("Vecd" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [8453 8691]))                  
+                :type "class")
+                nil [8151 8882])
+            ("BeamObserver" type
+               (:superclasses 
+                  ( ("FictitiousBody" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [8955 8962])
+                    ("BeamObserver" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("system" variable
+                               (:reference 1
+                                :type ("SPHSystem" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [8977 8995])
+                            ("body_name" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8996 9013])
+                            ("refinement_level" variable (:type "int") (reparse-symbol arg-sub-list) [9014 9035])
+                            ("op" variable (:type ("ParticlesGeneratorOps" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9036 9061]))                          
+                        :type ("BeamObserver" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [8964 9256]))                  
+                :type "class")
+                nil [8910 9259])
+            ("FluidObserver" type
+               (:superclasses 
+                  ( ("FictitiousBody" type
+                       (:protection "public"
+                        :type "class")
+                        nil nil))                  
+                :members 
+                  ( ("public" label nil (reparse-symbol classsubparts) [9358 9365])
+                    ("FluidObserver" function
+                       (:constructor-flag t
+                        :arguments 
+                          ( ("system" variable
+                               (:reference 1
+                                :type ("SPHSystem" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [9381 9399])
+                            ("body_name" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9400 9417])
+                            ("refinement_level" variable (:type "int") (reparse-symbol arg-sub-list) [9418 9439])
+                            ("op" variable (:type ("ParticlesGeneratorOps" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9440 9465]))                          
+                        :type ("FluidObserver" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [9367 10047]))                  
+                :type "class")
+                nil [9312 10050]))          
+      :file "fsi2_case.h"
+      :pointmax 10050
+      :fsize 10049
+      :lastmodtime '(24268 55322 616889 986000)
+      :unmatched-syntax '((semantic-list 8728 . 8879) (symbol 8718 . 8726) (semantic-list 8715 . 8717) (symbol 8698 . 8715) (VOID 8693 . 8697) (punctuation 2837 . 2838) (semantic-list 2833 . 2836) (punctuation 2807 . 2808) (punctuation 2784 . 2785) (semantic-list 2780 . 2783) (punctuation 2742 . 2743) (semantic-list 2738 . 2741) (punctuation 2712 . 2713) (punctuation 2689 . 2690) (semantic-list 2685 . 2688) (punctuation 2647 . 2648) (semantic-list 2643 . 2646) (semantic-list 2618 . 2621) (punctuation 2580 . 2581) (semantic-list 2576 . 2579) (semantic-list 2551 . 2554) (punctuation 1584 . 1585) (symbol 1577 . 1583) (punctuation 1575 . 1576) (symbol 1572 . 1574) (punctuation 1570 . 1571) (symbol 1555 . 1569) (symbol 1550 . 1554) (punctuation 1317 . 1318) (semantic-list 1288 . 1316) (punctuation 1286 . 1287) (symbol 1282 . 1285) (punctuation 1280 . 1281) (symbol 1273 . 1279) (punctuation 1271 . 1272) (symbol 1266 . 1270) (symbol 1261 . 1265) (number 781 . 784) (number 776 . 779) (symbol 273 . 277) (symbol 266 . 272) (punctuation 265 . 266))))
+  :file "!home!liu!disk3!SPHinXsys!cases_test!test_2d_fsi2!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

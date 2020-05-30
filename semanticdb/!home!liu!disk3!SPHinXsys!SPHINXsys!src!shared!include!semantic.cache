@@ -1,0 +1,28 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("base_data_package.h" include nil nil [123 153])
+            ("all_kernels.h" include nil nil [154 178])
+            ("all_particles.h" include nil nil [179 205])
+            ("geometry.h" include nil nil [206 227])
+            ("all_meshes.h" include nil nil [228 251])
+            ("all_types_of_bodies.h" include nil nil [252 284])
+            ("sph_system.h" include nil nil [285 308])
+            ("all_materials.h" include nil nil [309 335])
+            ("all_physical_dynamics.h" include nil nil [336 370])
+            ("all_simbody.h" include nil nil [371 395])
+            ("in_output.h" include nil nil [396 418])
+            ("iostream" include (:system-flag t) nil [451 470]))          
+      :file "sphinxsys.h"
+      :pointmax 471
+      :fsize 470
+      :lastmodtime '(24268 55322 612889 936000)
+      :unmatched-syntax '((symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2))))
+  :file "!home!liu!disk3!SPHinXsys!SPHINXsys!src!shared!include!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

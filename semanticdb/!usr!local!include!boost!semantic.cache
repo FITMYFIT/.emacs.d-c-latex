@@ -1,0 +1,258 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("BOOST_BIND_HPP_INCLUDED" variable (:constant-flag t) nil [41 64])
+            ("boost/bind/bind.hpp" include (:system-flag t) nil [514 544])
+            ("boost::placeholders" using (:type ("boost::placeholders" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [748 784]))          
+      :file "bind.hpp"
+      :pointmax 937
+      :fsize 936
+      :lastmodtime '(23858 58797 719421 998000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_BIND_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("BOOST_CONFIG_HPP" variable (:constant-flag t) nil [631 647])
+            ("BOOST_USER_CONFIG" variable (:constant-flag t) nil [791 808])
+            ("boost/config/detail/select_compiler_config.hpp" include (:system-flag t) nil [1163 1222])
+            ("boost/config/detail/select_stdlib_config.hpp" include (:system-flag t) nil [1536 1593])
+            ("boost/config/detail/select_platform_config.hpp" include (:system-flag t) nil [1883 1942])
+            ("boost/config/detail/suffix.hpp" include (:system-flag t) nil [2096 2137]))          
+      :file "config.hpp"
+      :pointmax 2217
+      :fsize 2216
+      :lastmodtime '(23858 58797 667421 815000)
+      :unmatched-syntax '((punctuation ">" 973 . 990) (symbol "hpp" 973 . 990) (punctuation "." 973 . 990) (symbol "user" 973 . 990) (punctuation "/" 973 . 990) (symbol "config" 973 . 990) (punctuation "/" 973 . 990) (symbol "boost" 973 . 990) (punctuation "<" 973 . 990) (symbol 965 . 972) (punctuation 962 . 963))
+      :lexical-table 
+        '(("BOOST_CONFIG_HPP")
+          ("BOOST_USER_CONFIG" . 
+              ((punctuation "<" 809 . 810) (symbol "boost" 810 . 815) (punctuation "/" 815 . 816) (symbol "config" 816 . 822) (punctuation "/" 822 . 823) (symbol "user" 823 . 827) (punctuation "." 827 . 828) (symbol "hpp" 828 . 831) (punctuation ">" 831 . 832)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("BOOST_REF_HPP" variable (:constant-flag t) nil [235 248])
+            ("boost/core/ref.hpp" include (:system-flag t) nil [333 362]))          
+      :file "ref.hpp"
+      :pointmax 371
+      :fsize 370
+      :lastmodtime '(23858 58797 351420 712000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_REF_HPP")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("BOOST_MEM_FN_HPP_INCLUDED" variable (:constant-flag t) nil [43 68])
+            ("boost/bind/mem_fn.hpp" include (:system-flag t) nil [519 551]))          
+      :file "mem_fn.hpp"
+      :pointmax 597
+      :fsize 596
+      :lastmodtime '(23858 58797 479421 157000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_MEM_FN_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("BOOST_TYPE_DWA20010120_HPP" variable (:constant-flag t) nil [240 266])
+            ("boost" type
+               (:members 
+                  ( ("type" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct")
+                        (reparse-symbol namespacesubparts) [404 440]))                  
+                :type "namespace")
+                nil [268 443]))          
+      :file "type.hpp"
+      :pointmax 482
+      :fsize 481
+      :lastmodtime '(23858 58797 271420 431000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_TYPE_DWA20010120_HPP")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("BOOST_IS_PLACEHOLDER_HPP_INCLUDED" variable (:constant-flag t) nil [51 84])
+            ("boost" type
+               (:members 
+                  ( ("is_placeholder" type
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "struct"
+                        :members 
+                          ( ("_vt" type
+                               (:members 
+                                  ( ("value" variable
+                                       (:constant-flag t
+                                        :default-value (552 553)
+                                        :type "int")
+                                        (reparse-symbol enumsubparts) [544 553]))                                  
+                                :type "enum")
+                                (reparse-symbol classsubparts) [533 556]))                          )
+                        (reparse-symbol namespacesubparts) [485 559]))                  
+                :type "namespace")
+                nil [466 562]))          
+      :file "is_placeholder.hpp"
+      :pointmax 635
+      :fsize 634
+      :lastmodtime '(23858 58797 519421 297000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_IS_PLACEHOLDER_HPP_INCLUDED")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("BOOST_VISIT_EACH_HPP" variable (:constant-flag t) nil [355 375])
+            ("boost" type
+               (:members 
+                  ( ("visit_each" function
+                       (:template 
+                          ( ("Visitor" type (:type "class") nil nil)
+                            ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("visitor" variable
+                               (:reference 1
+                                :type ("Visitor" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [461 478])
+                            ("t" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [479 490])
+                            ("" variable (:type "long") (reparse-symbol arg-sub-list) [491 496]))                          
+                        :typemodifiers ("inline"))
+                        (reparse-symbol namespacesubparts) [397 520])
+                    ("visit_each" function
+                       (:template 
+                          ( ("Visitor" type (:type "class") nil nil)
+                            ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("visitor" variable
+                               (:reference 1
+                                :type ("Visitor" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [588 605])
+                            ("t" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [606 617]))                          
+                        :typemodifiers ("inline"))
+                        (reparse-symbol namespacesubparts) [524 656]))                  
+                :type "namespace")
+                nil [377 658]))          
+      :file "visit_each.hpp"
+      :pointmax 691
+      :fsize 690
+      :lastmodtime '(23858 58797 243420 332000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("BOOST_VISIT_EACH_HPP")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("GET_POINTER_DWA20021219_HPP" variable (:constant-flag t) nil [251 278])
+            ("boost/config.hpp" include (:system-flag t) nil [280 307])
+            ("boost/config/no_tr1/memory.hpp" include (:system-flag t) nil [530 571])
+            ("boost" type
+               (:members 
+                  ( ("get_pointer" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type ("T" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("p" variable
+                               (:pointer 1
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [702 708]))                          
+                        :pointer 1)
+                        (reparse-symbol namespacesubparts) [668 726])
+                    ("get_pointer" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type ("T" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::auto_ptr" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [1737 1763]))                          
+                        :pointer 1)
+                        (reparse-symbol namespacesubparts) [1703 1787])
+                    ("get_pointer" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type ("T" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::unique_ptr" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [2076 2105]))                          
+                        :pointer 1)
+                        (reparse-symbol namespacesubparts) [2041 2129])
+                    ("get_pointer" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type ("T" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("p" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("std::shared_ptr" type
+                                     (:template-specifier 
+                                        ( ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [2166 2195]))                          
+                        :pointer 1)
+                        (reparse-symbol namespacesubparts) [2131 2219]))                  
+                :type "namespace")
+                nil [591 2230]))          
+      :file "get_pointer.hpp"
+      :pointmax 2289
+      :fsize 2288
+      :lastmodtime '(23858 58797 563421 450000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("GET_POINTER_DWA20021219_HPP")
+          )
+))
+  :file "!usr!local!include!boost!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

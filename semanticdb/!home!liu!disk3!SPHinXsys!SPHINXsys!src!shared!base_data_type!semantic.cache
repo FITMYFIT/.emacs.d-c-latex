@@ -1,0 +1,106 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("SPHINXSYS_BASE_PACKAGE_H" variable (:constant-flag t) nil [42 66])
+            ("small_vectors.h" include nil nil [68 94])
+            ("array_allocation.h" include nil nil [95 124])
+            ("large_data_containers.h" include nil nil [125 159])
+            ("scalar_functions.h" include nil nil [160 189])
+            ("data_type.h" include nil nil [190 212])
+            ("SimTK" using (:type ("SimTK" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [214 236])
+            ("TBB_PARALLEL" variable (:constant-flag t) nil [246 258]))          
+      :file "base_data_package.h"
+      :pointmax 298
+      :fsize 297
+      :lastmodtime '(24268 55322 612889 936000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("SPHINXSYS_BASE_PACKAGE_H")
+          ("TBB_PARALLEL" . ((symbol "true" 259 . 263)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "small_vectors.h"
+      :fsize 7216
+      :lastmodtime '(24268 55322 612889 936000))
+    (semanticdb-table "semanticdb-table"
+      :file "array_allocation.h"
+      :fsize 1812
+      :lastmodtime '(24268 55322 612889 936000))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("SPHINXSYS_BASE_CONTAINER_H" variable (:constant-flag t) nil [44 70])
+            ("tbb/tbb.h" include nil nil [72 92])
+            ("tbb/task_scheduler_init.h" include nil nil [93 129])
+            ("tbb/blocked_range.h" include nil nil [130 160])
+            ("tbb/blocked_range2d.h" include nil nil [161 193])
+            ("tbb/blocked_range3d.h" include nil nil [194 226])
+            ("tbb/parallel_for.h" include nil nil [227 256])
+            ("tbb/parallel_reduce.h" include nil nil [257 289])
+            ("tbb/tick_count.h" include nil nil [290 317])
+            ("tbb/scalable_allocator.h" include nil nil [318 353])
+            ("tbb/concurrent_unordered_set.h" include nil nil [354 395])
+            ("tbb/concurrent_vector.h" include nil nil [396 430])
+            ("tbb/cache_aligned_allocator.h" include nil nil [431 471])
+            ("tbb" using (:type ("tbb" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [473 493])
+            ("ap" variable
+               (:typemodifiers ("static")
+                :type ("tbb::affinity_partitioner" type (:type "class") nil nil))
+                nil [494 530])
+            ("array" include (:system-flag t) nil [532 548])
+            ("SPH" type
+               (:members 
+                  ( ("tbb::concurrent_vector" variable (:type "int") (reparse-symbol namespacesubparts) [608 634])
+                    ("std::vector" variable (:type "int") (reparse-symbol namespacesubparts) [680 723])
+                    ("std::vector" variable (:type "int") (reparse-symbol namespacesubparts) [764 779])
+                    ("tbb::concurrent_unordered_set" variable (:type "int") (reparse-symbol namespacesubparts) [822 855])
+                    ("StrPair" type
+                       (:typedef ("std::pair" type
+                             (:template-specifier 
+                                ( ("std::string" type nil nil nil)
+                                  ("std::string" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [858 910])
+                    ("IndexPair" type
+                       (:typedef ("std::pair" type
+                             (:template-specifier 
+                                ( ("int" type nil nil nil)
+                                  ("int" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [913 951])
+                    ("std::array" variable (:type "int") (reparse-symbol namespacesubparts) [1145 1200])
+                    ("std::array" variable (:type "int") (reparse-symbol namespacesubparts) [1265 1343]))                  
+                :type "namespace")
+                nil [550 1345]))          
+      :file "large_data_containers.h"
+      :pointmax 1383
+      :fsize 1382
+      :lastmodtime '(24268 55322 612889 936000)
+      :unmatched-syntax '((punctuation 1263 . 1264) (symbol 1253 . 1262) (USING 1247 . 1252) (punctuation 1244 . 1245) (symbol 1236 . 1244) (CLASS 1230 . 1235) (punctuation 1228 . 1229) (symbol 1219 . 1228) (symbol 1212 . 1218) (punctuation 1211 . 1212) (TEMPLATE 1203 . 1211) (punctuation 1143 . 1144) (symbol 1133 . 1142) (USING 1127 . 1132) (punctuation 1124 . 1125) (symbol 1116 . 1124) (CLASS 1110 . 1115) (punctuation 1108 . 1109) (symbol 1099 . 1108) (symbol 1092 . 1098) (punctuation 1091 . 1092) (TEMPLATE 1083 . 1091) (punctuation 1079 . 1080) (punctuation 1078 . 1079) (punctuation 1077 . 1078) (punctuation 1076 . 1077) (symbol 1068 . 1076) (punctuation 1066 . 1067) (symbol 1050 . 1065) (USING 1044 . 1049) (punctuation 1041 . 1042) (symbol 1033 . 1041) (CLASS 1027 . 1032) (punctuation 1026 . 1027) (TEMPLATE 1018 . 1026) (punctuation 1014 . 1015) (punctuation 1013 . 1014) (punctuation 1012 . 1013) (symbol 1004 . 1012) (punctuation 1002 . 1003) (symbol 986 . 1001) (USING 980 . 985) (punctuation 977 . 978) (symbol 969 . 977) (CLASS 963 . 968) (punctuation 962 . 963) (TEMPLATE 954 . 962) (punctuation 820 . 821) (symbol 811 . 819) (USING 805 . 810) (punctuation 802 . 803) (symbol 801 . 802) (TYPENAME 792 . 800) (punctuation 791 . 792) (TEMPLATE 782 . 790) (punctuation 762 . 763) (symbol 755 . 761) (USING 749 . 754) (punctuation 746 . 747) (symbol 745 . 746) (TYPENAME 736 . 744) (punctuation 735 . 736) (TEMPLATE 726 . 734) (punctuation 678 . 679) (symbol 666 . 677) (USING 660 . 665) (punctuation 657 . 658) (symbol 656 . 657) (TYPENAME 647 . 655) (punctuation 646 . 647) (TEMPLATE 637 . 645) (punctuation 606 . 607) (symbol 597 . 605) (USING 591 . 596) (punctuation 588 . 589) (symbol 587 . 588) (TYPENAME 578 . 586) (punctuation 577 . 578) (TEMPLATE 568 . 576))
+      :lexical-table 
+        '(("SPHINXSYS_BASE_CONTAINER_H")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "scalar_functions.h"
+      :fsize 2753
+      :lastmodtime '(24268 55322 612889 936000)))
+  :file "!home!liu!disk3!SPHinXsys!SPHINXsys!src!shared!base_data_type!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

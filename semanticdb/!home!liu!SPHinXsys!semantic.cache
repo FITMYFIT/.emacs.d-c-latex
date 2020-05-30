@@ -1,0 +1,31 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("iostream" include (:system-flag t) nil [2 20])
+            ("boost/bind.hpp" include (:system-flag t) nil [21 45])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [46 66])
+            ("boost" using (:type ("boost" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [67 89])
+            ("fun" function
+               (:arguments 
+                  ( ("x" variable (:type "int") (reparse-symbol arg-sub-list) [98 104])
+                    ("y" variable (:type "int") (reparse-symbol arg-sub-list) [104 110]))                  
+                :type "int")
+                nil [90 123])
+            ("main" function (:type "int") nil [124 217]))          
+      :file "testboost.cpp"
+      :pointmax 218
+      :unmatched-syntax nil))
+  :file "!home!liu!SPHinXsys!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

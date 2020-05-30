@@ -14368,6 +14368,41 @@
       :lexical-table 
         '(("_GLIBCXX_CSTDLIB" . ((number "1" 1649 . 1650)))
           )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_CSTDDEF" variable (:constant-flag t) nil [1562 1578])
+            ("bits/c++config.h" include (:system-flag t) nil [1716 1743])
+            ("stddef.h" include (:system-flag t) nil [1744 1763]))          
+      :file "cstddef"
+      :pointmax 6441
+      :fsize 6440
+      :lastmodtime '(24039 49637 0 0)
+      :unmatched-syntax '((symbol 1594 . 1607) (symbol 1590 . 1593) (symbol 1583 . 1589) (punctuation 1582 . 1583))
+      :lexical-table 
+        '(("_GLIBCXX_CSTDDEF" . ((number "1" 1579 . 1580)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_GLIBCXX_MEMORY" variable (:constant-flag t) nil [1733 1748])
+            ("bits/stl_algobase.h" include (:system-flag t) nil [2017 2047])
+            ("bits/allocator.h" include (:system-flag t) nil [2048 2075])
+            ("bits/stl_construct.h" include (:system-flag t) nil [2076 2107])
+            ("bits/stl_uninitialized.h" include (:system-flag t) nil [2108 2143])
+            ("bits/stl_tempbuf.h" include (:system-flag t) nil [2144 2173])
+            ("bits/stl_raw_storage_iter.h" include (:system-flag t) nil [2174 2212])
+            ("backward/auto_ptr.h" include (:system-flag t) nil [2819 2851]))          
+      :file "memory"
+      :pointmax 4712
+      :fsize 4711
+      :lastmodtime '(24039 49637 0 0)
+      :unmatched-syntax '((symbol 1764 . 1777) (symbol 1760 . 1763) (symbol 1753 . 1759) (punctuation 1752 . 1753))
+      :lexical-table 
+        '(("_GLIBCXX_MEMORY" . ((number "1" 1749 . 1750)))
+          )
 ))
   :file "!usr!include!c++!7!semantic.cache"
   :semantic-tag-version "2.0"

@@ -10587,6 +10587,33 @@
           ("__INT64_C" (spp-arg-list ("c") 2885 . 2888) . ((spp-symbol-merge ((symbol "c" 2889 . 2890) (symbol "LL" 2894 . 2896)) 2889 . 2896)))
           ("__UINT64_C" (spp-arg-list ("c") 2917 . 2920) . ((spp-symbol-merge ((symbol "c" 2921 . 2922) (symbol "ULL" 2926 . 2929)) 2921 . 2929)))
           )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("_LIBC_LIMITS_H_" variable (:constant-flag t) nil [900 915])
+            ("__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION" variable (:constant-flag t) nil [927 974])
+            ("bits/libc-header-start.h" include (:system-flag t) nil [975 1010])
+            ("MB_LEN_MAX" variable (:constant-flag t) nil [1173 1183])
+            ("LLONG_MIN" variable (:constant-flag t) nil [4172 4181])
+            ("LLONG_MAX" variable (:constant-flag t) nil [4234 4243])
+            ("ULLONG_MAX" variable (:constant-flag t) nil [4300 4310])
+            ("bits/posix1_lim.h" include (:system-flag t) nil [5262 5291])
+            ("bits/posix2_lim.h" include (:system-flag t) nil [5320 5349])
+            ("bits/xopen_lim.h" include (:system-flag t) nil [5377 5405]))          
+      :file "limits.h"
+      :pointmax 5413
+      :fsize 5412
+      :lastmodtime '(23253 1052 0 0)
+      :unmatched-syntax '((punctuation 3921 . 3922) (symbol 3920 . 3921) (punctuation 3919 . 3920) (symbol 3913 . 3919) (punctuation 3912 . 3913) (symbol 3899 . 3911) (punctuation 3897 . 3898))
+      :lexical-table 
+        '(("LLONG_MAX" . ((symbol "__LONG_LONG_MAX__" 4244 . 4261)))
+          ("LLONG_MIN" . ((semantic-list "(-LLONG_MAX-1)" 4182 . 4196)))
+          ("__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION")
+          ("MB_LEN_MAX" . ((number "16" 1184 . 1186)))
+          ("ULLONG_MAX" . ((semantic-list "(LLONG_MAX * 2ULL + 1)" 4311 . 4333)))
+          ("_LIBC_LIMITS_H_" . ((number "1" 916 . 917)))
+          )
 ))
   :file "!usr!include!semantic.cache"
   :semantic-tag-version "2.0"

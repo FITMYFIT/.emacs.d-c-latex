@@ -28443,6 +28443,73 @@
       :lexical-table 
         '(("_STL_TEMPBUF_H" . ((number "1" 2405 . 2406)))
           )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("_STL_RAW_STORAGE_ITERATOR_H" variable (:constant-flag t) nil [2375 2402])
+            ("std" type
+               (:members 
+                  ( ("raw_storage_iterator" type
+                       (:template 
+                          ( ("_OutputIterator" type (:type "class") nil nil)
+                            ("_Tp" type (:type "class") nil nil))                          
+                        :type "class"
+                        :members 
+                          ( ("protected" label nil (reparse-symbol classsubparts) [2745 2755])
+                            ("_M_iter" variable (:type ("_OutputIterator" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2762 2786])
+                            ("public" label nil (reparse-symbol classsubparts) [2792 2799])
+                            ("raw_storage_iterator" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("__x" variable (:type ("_OutputIterator" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2842 2862]))                                  
+                                :type ("raw_storage_iterator" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2821 2886])
+                            ("" function
+                               (:operator-flag t
+                                :function-pointer t
+                                :type ("raw_storage_iterator" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2894 2951])
+                            ("=" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("__element" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("_Tp" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [2997 3018]))                                  
+                                :type ("raw_storage_iterator" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [2959 3106])
+                            ("++" function
+                               (:operator-flag t
+                                :type ("raw_storage_iterator" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3406 3489])
+                            ("++" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [3535 3539]))                                  
+                                :type ("raw_storage_iterator" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3497 3619])
+                            ("base" function
+                               (:methodconst-flag t
+                                :type ("_OutputIterator" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3720 3768]))                          
+                        :superclasses 
+                          ( ("iterator" type
+                               (:protection "public"
+                                :type "class")
+                                nil nil))                          )
+                        (reparse-symbol namespacesubparts) [2593 3775]))                  
+                :type "namespace")
+                nil [2406 3809]))          
+      :file "stl_raw_storage_iter.h"
+      :pointmax 3831
+      :fsize 3830
+      :lastmodtime '(24039 49637 0 0)
+      :unmatched-syntax '((symbol 3799 . 3807) (EXPLICIT 2806 . 2814))
+      :lexical-table 
+        '(("_STL_RAW_STORAGE_ITERATOR_H" . ((number "1" 2403 . 2404)))
+          )
 ))
   :file "!usr!include!c++!7!bits!semantic.cache"
   :semantic-tag-version "2.0"
