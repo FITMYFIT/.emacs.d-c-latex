@@ -1,0 +1,64 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("small_vectors.h" include nil nil [14 40])
+            ("large_data_containers.h" include nil nil [41 75])
+            ("SPH" type
+               (:members 
+                  ( ("CellList" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [95 110])
+                    ("BackgroundData" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [112 133])
+                    ("Veci" variable
+                       (:default-value "Vec2i"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [158 171])
+                    ("Vecu" variable
+                       (:default-value "Vec2u"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [179 192])
+                    ("Vecd" variable
+                       (:default-value "Vec2d"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [200 213])
+                    ("Point" variable
+                       (:default-value "Vec2d"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [221 235])
+                    ("Index" variable
+                       (:default-value "Vec2i"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [243 257])
+                    ("Matd" variable
+                       (:default-value "Mat2d"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [265 278])
+                    ("SymMatd" variable
+                       (:default-value "SymMat2d"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [286 305])
+                    ("SimTK::Real" variable (:type "int") (reparse-symbol namespacesubparts) [352 364])
+                    ("Transformd" variable
+                       (:default-value "Transform2d"
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [372 397])
+                    ("MeshData2" variable (:type "int") (reparse-symbol namespacesubparts) [598 629]))                  
+                :type "namespace")
+                nil [77 631]))          
+      :file "data_type.h"
+      :pointmax 631
+      :fsize 630
+      :lastmodtime '(24274 440 627390 58000)
+      :unmatched-syntax '((punctuation 596 . 597) (symbol 587 . 595) (USING 581 . 586) (punctuation 578 . 579) (symbol 570 . 578) (CLASS 564 . 569) (punctuation 562 . 563) (symbol 553 . 562) (symbol 546 . 552) (punctuation 545 . 546) (TEMPLATE 537 . 545) (punctuation 534 . 535) (punctuation 533 . 534) (punctuation 532 . 533) (symbol 524 . 532) (punctuation 522 . 523) (symbol 507 . 521) (USING 501 . 506) (punctuation 498 . 499) (symbol 490 . 498) (CLASS 484 . 489) (punctuation 483 . 484) (TEMPLATE 475 . 483) (punctuation 471 . 472) (punctuation 470 . 471) (punctuation 469 . 470) (symbol 454 . 468) (punctuation 452 . 453) (symbol 440 . 451) (USING 434 . 439) (punctuation 431 . 432) (punctuation 430 . 431) (punctuation 429 . 430) (symbol 420 . 428) (punctuation 418 . 419) (symbol 406 . 417) (USING 400 . 405) (USING 366 . 371) (punctuation 350 . 351) (symbol 340 . 349) (USING 334 . 339) (punctuation 331 . 332) (punctuation 330 . 331) (punctuation 329 . 330) (INT 325 . 328) (punctuation 323 . 324) (symbol 314 . 322) (USING 308 . 313) (USING 280 . 285) (USING 259 . 264) (USING 237 . 242) (USING 215 . 220) (USING 194 . 199) (USING 173 . 178) (USING 152 . 157) (symbol 9 . 13) (symbol 2 . 8) (punctuation 1 . 2))))
+  :file "!home!liu!SPHinXsys!SPHINXsys!src!for_2D_build!dimension_based_data_type!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

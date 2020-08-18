@@ -1,0 +1,1069 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("SPHINXSYS_BASE_SMALLVEC_H" variable (:constant-flag t) nil [43 68])
+            ("cmath" include (:system-flag t) nil [84 100])
+            ("iostream" include (:system-flag t) nil [101 120])
+            ("cassert" include (:system-flag t) nil [121 139])
+            ("Simbody.h" include nil nil [141 161])
+            ("SimTKcommon.h" include nil nil [162 186])
+            ("SimTKmath.h" include nil nil [187 209])
+            ("scalar_functions.h" include nil nil [210 239])
+            ("SPH" type
+               (:members 
+                  ( ("SVec" type
+                       (:template 
+                          ( ("int" type (:typevar "N") nil nil)
+                            ("T" type (:type "class") nil nil))                          
+                        :type "class"
+                        :members 
+                          ( ("private" label nil (reparse-symbol classsubparts) [300 308])
+                            ("v" variable
+                               (:dereference 1
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [312 319])
+                            ("public" label nil (reparse-symbol classsubparts) [322 329])
+                            ("SVec" function
+                               (:template-specifier 
+                                  ( ("N" type nil nil nil)
+                                    ("T" type nil nil nil))                                  
+                                :constructor-flag t
+                                :type ("SVec" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [333 401])
+                            ("SVec" function
+                               (:template-specifier 
+                                  ( ("N" type nil nil nil)
+                                    ("T" type nil nil nil))                                  
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("value_for_all" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [425 441]))                                  
+                                :type ("SVec" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [414 506])
+                            ("SVec" function
+                               (:template-specifier 
+                                  ( ("N" type nil nil nil)
+                                    ("T" type nil nil nil))                                  
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("source" variable
+                                       (:pointer 1
+                                        :constant-flag t
+                                        :type ("S" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [550 566]))                                  
+                                :type ("SVec" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [539 630])
+                            ("SVec" function
+                               (:template-specifier 
+                                  ( ("N" type nil nil nil)
+                                    ("T" type nil nil nil))                                  
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("source" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SVec" type
+                                             (:template-specifier 
+                                                ( ("N" type nil nil nil)
+                                                  ("S" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [675 700]))                                  
+                                :type ("SVec" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [664 764])
+                            ("SVec" function
+                               (:template-specifier 
+                                  ( ("N" type nil nil nil)
+                                    ("T" type nil nil nil))                                  
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("source" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SimTK::Vec" type
+                                             (:template-specifier 
+                                                ( ("N" type nil nil nil)
+                                                  ("S" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [809 840]))                                  
+                                :type ("SVec" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [798 904])
+                            ("SVec" function
+                               (:template-specifier 
+                                  ( ("N" type nil nil nil)
+                                    ("T" type nil nil nil))                                  
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("v0" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [919 924])
+                                    ("v1" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [925 930]))                                  
+                                :type ("SVec" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [908 963])
+                            ("SVec" function
+                               (:template-specifier 
+                                  ( ("N" type nil nil nil)
+                                    ("T" type nil nil nil))                                  
+                                :constructor-flag t
+                                :arguments 
+                                  ( ("v0" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [978 983])
+                                    ("v1" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [984 989])
+                                    ("v2" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [990 995]))                                  
+                                :type ("SVec" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [967 1039])
+                            ("[]" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1057 1067]))                                  
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1043 1131])
+                            ("[]" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :constant-flag t
+                                :arguments 
+                                  ( ("index" variable (:type "int") (reparse-symbol arg-sub-list) [1155 1165]))                                  
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [1135 1235])
+                            ("nonzero" function
+                               (:methodconst-flag t
+                                :arguments 
+                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1254 1259]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [1241 1348])
+                            ("==" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("b" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SVec" type
+                                             (:template-specifier 
+                                                ( ("N" type nil nil nil)
+                                                  ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [1368 1388]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [1352 1501])
+                            ("!=" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("b" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SVec" type
+                                             (:template-specifier 
+                                                ( ("N" type nil nil nil)
+                                                  ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [1521 1541]))                                  
+                                :type "bool")
+                                (reparse-symbol classsubparts) [1505 1655])
+                            ("=" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("b" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SVec" type
+                                             (:template-specifier 
+                                                ( ("N" type nil nil nil)
+                                                  ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [1706 1726]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [1685 1801])
+                            ("+" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1826 1831]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [1805 1868])
+                            ("+=" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("a" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1894 1898]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [1872 1969])
+                            ("+" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("a" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1994 1998]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [1973 2060])
+                            ("+=" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("w" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SVec" type
+                                             (:template-specifier 
+                                                ( ("N" type nil nil nil)
+                                                  ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [2086 2106]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [2064 2180])
+                            ("+" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("w" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SVec" type
+                                             (:template-specifier 
+                                                ( ("N" type nil nil nil)
+                                                  ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [2205 2225]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [2184 2293])
+                            ("-=" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("a" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2319 2323]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [2297 2394])
+                            ("-" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("a" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2419 2423]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [2398 2485])
+                            ("-=" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("w" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SVec" type
+                                             (:template-specifier 
+                                                ( ("N" type nil nil nil)
+                                                  ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [2511 2531]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [2489 2605])
+                            ("-" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2647 2652]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [2626 2768])
+                            ("-" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("w" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SVec" type
+                                             (:template-specifier 
+                                                ( ("N" type nil nil nil)
+                                                  ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [2804 2824]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [2783 2895])
+                            ("=" function
+                               (:operator-flag t
+                                :function-pointer t
+                                :arguments 
+                                  ( ("a" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2941 2945]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [2919 3016])
+                            ("" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :function-pointer t
+                                :arguments 
+                                  ( ("a" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3041 3045]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [3020 3107])
+                            ("=" function
+                               (:operator-flag t
+                                :function-pointer t
+                                :arguments 
+                                  ( ("w" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SVec" type
+                                             (:template-specifier 
+                                                ( ("N" type nil nil nil)
+                                                  ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [3135 3155]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [3113 3231])
+                            ("" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :function-pointer t
+                                :arguments 
+                                  ( ("w" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SVec" type
+                                             (:template-specifier 
+                                                ( ("N" type nil nil nil)
+                                                  ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [3256 3276]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [3235 3437])
+                            ("/=" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("a" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3463 3467]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [3441 3538])
+                            ("/" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("a" variable (:type ("T" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3563 3567]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [3542 3629])
+                            ("/=" function
+                               (:operator-flag t
+                                :arguments 
+                                  ( ("w" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SVec" type
+                                             (:template-specifier 
+                                                ( ("N" type nil nil nil)
+                                                  ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [3655 3675]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [3633 3751])
+                            ("/" function
+                               (:methodconst-flag t
+                                :operator-flag t
+                                :arguments 
+                                  ( ("w" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("SVec" type
+                                             (:template-specifier 
+                                                ( ("N" type nil nil nil)
+                                                  ("T" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [3776 3796]))                                  
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol classsubparts) [3755 3954]))                          )
+                        (reparse-symbol namespacesubparts) [259 3958])
+                    ("<<" function
+                       (:template 
+                          ( ("int" type (:typevar "N") nil nil)
+                            ("T" type (:type "class") nil nil))                          
+                        :type ("std::ostream" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("out" variable
+                               (:reference 1
+                                :type ("std::ostream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4012 4030])
+                            ("v" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [4031 4051]))                          
+                        :operator-flag t)
+                        (reparse-symbol namespacesubparts) [3961 4160])
+                    (">>" function
+                       (:template 
+                          ( ("int" type (:typevar "N") nil nil)
+                            ("T" type (:type "class") nil nil))                          
+                        :type ("std::istream" type (:type "class") nil nil)
+                        :arguments 
+                          ( ("in" variable
+                               (:reference 1
+                                :type ("std::istream" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4216 4233])
+                            ("v" variable
+                               (:reference 1
+                                :type ("SVec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil)
+                                          ("T" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [4234 4248]))                          
+                        :operator-flag t)
+                        (reparse-symbol namespacesubparts) [4163 4326])
+                    ("SVec" variable (:type "int") (reparse-symbol namespacesubparts) [4366 4379])
+                    ("SVec" variable (:type "int") (reparse-symbol namespacesubparts) [4395 4408])
+                    ("SVec" variable (:type "int") (reparse-symbol namespacesubparts) [4424 4437])
+                    ("SVec" variable (:type "int") (reparse-symbol namespacesubparts) [4482 4498])
+                    ("SVec" variable (:type "int") (reparse-symbol namespacesubparts) [4514 4530])
+                    ("SVec" variable (:type "int") (reparse-symbol namespacesubparts) [4546 4562])
+                    ("SimTK::Vec1" variable (:type "int") (reparse-symbol namespacesubparts) [4614 4626])
+                    ("SimTK::Vec2" variable (:type "int") (reparse-symbol namespacesubparts) [4642 4654])
+                    ("SimTK::Vec3" variable (:type "int") (reparse-symbol namespacesubparts) [4670 4682])
+                    ("SimTK::Mat11" variable (:type "int") (reparse-symbol namespacesubparts) [4740 4753])
+                    ("SimTK::Mat22" variable (:type "int") (reparse-symbol namespacesubparts) [4769 4782])
+                    ("SimTK::Mat33" variable (:type "int") (reparse-symbol namespacesubparts) [4798 4811])
+                    ("SimTK::SymMat11" variable (:type "int") (reparse-symbol namespacesubparts) [4881 4897])
+                    ("SimTK::SymMat22" variable (:type "int") (reparse-symbol namespacesubparts) [4916 4932])
+                    ("SimTK::SymMat33" variable (:type "int") (reparse-symbol namespacesubparts) [4951 4967])
+                    ("SimTK::Pi" variable (:type "int") (reparse-symbol namespacesubparts) [4993 5003])
+                    ("normalize" function
+                       (:template 
+                          ( ("int" type (:typevar "N") nil nil))                          
+                        :type ("SimTK::Vec" type
+                             (:template-specifier 
+                                ( ("N" type nil nil nil))                                
+                              :type "class")
+                              nil nil)
+                        :arguments 
+                          ( ("r" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("SimTK::Vec" type
+                                     (:template-specifier 
+                                        ( ("N" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [5047 5070]))                          )
+                        (reparse-symbol namespacesubparts) [5006 5107])
+                    ("GeneralizedInverse" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5136 5145]))                          
+                        :type ("Mat2d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5111 5146])
+                    ("GeneralizedInverse" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5173 5182]))                          
+                        :type ("Mat3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5148 5183])
+                    ("getInverse" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5202 5211]))                          
+                        :type ("Mat2d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5185 5212])
+                    ("getInverse" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5231 5240]))                          
+                        :type ("Mat3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5214 5241])
+                    ("getAverageValue" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5265 5274])
+                            ("B" variable
+                               (:reference 1
+                                :type ("Mat2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5275 5284]))                          
+                        :type ("Mat2d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5243 5285])
+                    ("getAverageValue" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5309 5318])
+                            ("B" variable
+                               (:reference 1
+                                :type ("Mat3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5319 5328]))                          
+                        :type ("Mat3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5287 5329])
+                    ("inverseCholeskyDecomposition" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5366 5375]))                          
+                        :type ("Mat2d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5331 5376])
+                    ("inverseCholeskyDecomposition" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5413 5422]))                          
+                        :type ("Mat3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5378 5423])
+                    ("FisrtAxisVector" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("zero_vector" variable (:type ("Vec2d" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5448 5466]))                          
+                        :type ("Vec2d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5426 5467])
+                    ("FisrtAxisVector" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("zero_vector" variable (:type ("Vec3d" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5491 5509]))                          
+                        :type ("Vec3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5469 5510])
+                    ("getMinAbslouteElement" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("input" variable (:type ("Vec2d" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5547 5559]))                          
+                        :type ("SimTK::Real" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5513 5560])
+                    ("getMinAbslouteElement" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("input" variable (:type ("Vec3d" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5596 5608]))                          
+                        :type ("SimTK::Real" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5562 5609])
+                    ("TensorDoubleDotProduct" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5647 5656])
+                            ("B" variable
+                               (:reference 1
+                                :type ("Mat2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5657 5666]))                          
+                        :type ("SimTK::Real" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5612 5667])
+                    ("TensorDoubleDotProduct" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5704 5713])
+                            ("B" variable
+                               (:reference 1
+                                :type ("Mat3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5714 5723]))                          
+                        :type ("SimTK::Real" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5669 5724])
+                    ("upgradeToVector3D" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("input" variable (:type ("SimTK::Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5786 5804]))                          
+                        :type ("Vec3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5762 5805])
+                    ("upgradeToVector3D" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("input" variable (:type ("Vec2d" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5872 5884]))                          
+                        :type ("Vec3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5848 5885])
+                    ("upgradeToVector3D" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("input" variable (:type ("Vec3d" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5943 5955]))                          
+                        :type ("Vec3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5919 5956])
+                    ("Transform2d" type
+                       (:members 
+                          ( ("SimTK::Real" variable (:type "int") (reparse-symbol classsubparts) [6066 6078])
+                            ("rotation_angle_" variable (:type ("Real" type (:type "class") nil nil)) (reparse-symbol classsubparts) [6081 6102])
+                            ("translation_" variable (:type ("Vec2d" type (:type "class") nil nil)) (reparse-symbol classsubparts) [6105 6124])
+                            ("public" label nil (reparse-symbol classsubparts) [6126 6133])
+                            ("Transform2d" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("rotation_angle" variable (:type ("SimTK::Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6148 6175]))                                  
+                                :type ("Transform2d" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6136 6232])
+                            ("Transform2d" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("rotation_angle" variable (:type ("SimTK::Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6248 6275])
+                                    ("translation" variable (:type ("Vec2d" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6276 6294]))                                  
+                                :type ("Transform2d" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6236 6361])
+                            ("ImposeTransform" function
+                               (:arguments 
+                                  ( ("origin" variable
+                                       (:reference 1
+                                        :type ("Vec2d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6419 6433]))                                  
+                                :type ("Vec2d" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6397 6632])
+                            ("ImposeInverseTransform" function
+                               (:arguments 
+                                  ( ("result" variable
+                                       (:reference 1
+                                        :type ("Vec2d" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6697 6711]))                                  
+                                :type ("Vec2d" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6668 6913]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [6029 6918])
+                    ("getCrossProduct" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Vec2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6976 6985])
+                            ("B" variable
+                               (:reference 1
+                                :type ("Vec2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6986 6995]))                          
+                        :type ("Vec2d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6954 6996])
+                    ("getCrossProduct" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Vec3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7020 7029])
+                            ("B" variable
+                               (:reference 1
+                                :type ("Vec3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7030 7039]))                          
+                        :type ("Vec3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6998 7040])
+                    ("getCrossProductMatrix" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Vec2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7128 7137]))                          
+                        :type ("Mat2d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [7100 7138])
+                    ("getCrossProductMatrix" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Vec3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7168 7177]))                          
+                        :type ("Mat3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [7140 7178]))                  
+                :type "namespace")
+                nil [241 7180]))          
+      :file "small_vectors.h"
+      :pointmax 7217
+      :fsize 7216
+      :lastmodtime '(24274 440 631389 676000)
+      :unmatched-syntax '((punctuation 6913 . 6914) (punctuation 6632 . 6633) (punctuation 6361 . 6362) (punctuation 6232 . 6233) (punctuation 6064 . 6065) (symbol 6059 . 6063) (USING 6053 . 6058) (punctuation 5107 . 5108) (punctuation 4991 . 4992) (symbol 4988 . 4990) (symbol 4983 . 4987) (punctuation 4982 . 4983) (punctuation 4981 . 4982) (symbol 4976 . 4981) (CONST 4970 . 4975) (punctuation 4949 . 4950) (symbol 4940 . 4948) (USING 4934 . 4939) (punctuation 4914 . 4915) (symbol 4905 . 4913) (USING 4899 . 4904) (punctuation 4879 . 4880) (symbol 4870 . 4878) (USING 4864 . 4869) (punctuation 4796 . 4797) (symbol 4790 . 4795) (USING 4784 . 4789) (punctuation 4767 . 4768) (symbol 4761 . 4766) (USING 4755 . 4760) (punctuation 4738 . 4739) (symbol 4732 . 4737) (USING 4726 . 4731) (punctuation 4668 . 4669) (symbol 4662 . 4667) (USING 4656 . 4661) (punctuation 4640 . 4641) (symbol 4634 . 4639) (USING 4628 . 4633) (punctuation 4612 . 4613) (symbol 4606 . 4611) (USING 4600 . 4605) (punctuation 4544 . 4545) (symbol 4538 . 4543) (USING 4532 . 4537) (punctuation 4512 . 4513) (symbol 4506 . 4511) (USING 4500 . 4505) (punctuation 4480 . 4481) (symbol 4474 . 4479) (USING 4468 . 4473) (punctuation 4422 . 4423) (symbol 4416 . 4421) (USING 4410 . 4415) (punctuation 4393 . 4394) (symbol 4387 . 4392) (USING 4381 . 4386) (punctuation 4364 . 4365) (symbol 4358 . 4363) (USING 4352 . 4357) (EXPLICIT 789 . 797) (punctuation 785 . 786) (symbol 784 . 785) (CLASS 778 . 783) (punctuation 777 . 778) (TEMPLATE 768 . 776) (EXPLICIT 655 . 663) (punctuation 651 . 652) (symbol 650 . 651) (CLASS 644 . 649) (punctuation 643 . 644) (TEMPLATE 634 . 642) (EXPLICIT 530 . 538) (punctuation 526 . 527) (symbol 525 . 526) (CLASS 519 . 524) (punctuation 518 . 519) (TEMPLATE 510 . 518) (EXPLICIT 405 . 413) (symbol 78 . 82) (symbol 71 . 77) (punctuation 70 . 71))
+      :lexical-table 
+        '(("SPHINXSYS_BASE_SMALLVEC_H")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "scalar_functions.h"
+      :fsize 2753
+      :lastmodtime '(24274 440 631389 676000))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("small_vectors.h" include nil nil [101 127])
+            ("SPH" type
+               (:members 
+                  ( ("FisrtAxisVector" function
+                       (:arguments 
+                          ( ("zero_vector" variable (:type ("Vec2d" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [373 391]))                          
+                        :type ("Vec2d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [351 426])
+                    ("FisrtAxisVector" function
+                       (:arguments 
+                          ( ("zero_vector" variable (:type ("Vec3d" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [553 571]))                          
+                        :type ("Vec3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [531 611])
+                    ("getMinAbslouteElement" function
+                       (:arguments 
+                          ( ("input" variable (:type ("Vec2d" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [751 763]))                          
+                        :type ("SimTK::Real" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [717 889])
+                    ("getMinAbslouteElement" function
+                       (:arguments 
+                          ( ("input" variable (:type ("Vec3d" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1028 1040]))                          
+                        :type ("SimTK::Real" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [994 1166])
+                    ("upgradeToVector3D" function
+                       (:arguments 
+                          ( ("input" variable (:type ("SimTK::Real" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1295 1313]))                          
+                        :type ("Vec3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [1271 1351])
+                    ("upgradeToVector3D" function
+                       (:arguments 
+                          ( ("input" variable (:type ("Vec2d" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1480 1492]))                          
+                        :type ("Vec3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [1456 1538])
+                    ("upgradeToVector3D" function
+                       (:arguments 
+                          ( ("input" variable (:type ("Vec3d" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1667 1679]))                          
+                        :type ("Vec3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [1643 1700])
+                    ("GeneralizedInverse" function
+                       (:arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1920 1929]))                          
+                        :type ("Mat2d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [1895 3123])
+                    ("GeneralizedInverse" function
+                       (:arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [3342 3351]))                          
+                        :type ("Mat3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [3317 4241])
+                    ("TensorDoubleDotProduct" function
+                       (:arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4380 4389])
+                            ("B" variable
+                               (:reference 1
+                                :type ("Mat2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4390 4399]))                          
+                        :type ("SimTK::Real" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [4345 4431])
+                    ("TensorDoubleDotProduct" function
+                       (:arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4570 4579])
+                            ("B" variable
+                               (:reference 1
+                                :type ("Mat3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4580 4589]))                          
+                        :type ("SimTK::Real" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [4535 4621])
+                    ("getInverse" function
+                       (:arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [4742 4751]))                          
+                        :type ("Mat2d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [4725 5016])
+                    ("getInverse" function
+                       (:arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5137 5146]))                          
+                        :type ("Mat3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [5120 6039])
+                    ("getAverageValue" function
+                       (:arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6165 6174])
+                            ("B" variable
+                               (:reference 1
+                                :type ("Mat2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6175 6184]))                          
+                        :type ("Mat2d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6143 6361])
+                    ("getAverageValue" function
+                       (:arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6487 6496])
+                            ("B" variable
+                               (:reference 1
+                                :type ("Mat3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6497 6506]))                          
+                        :type ("Mat3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6465 6683])
+                    ("inverseCholeskyDecomposition" function
+                       (:arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6822 6831]))                          
+                        :type ("Mat2d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6787 7456])
+                    ("inverseCholeskyDecomposition" function
+                       (:arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Mat3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [7595 7604]))                          
+                        :type ("Mat3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [7560 8229])
+                    ("getCrossProduct" function
+                       (:arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Vec2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [8355 8364])
+                            ("B" variable
+                               (:reference 1
+                                :type ("Vec2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [8365 8374]))                          
+                        :type ("Vec2d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [8333 8401])
+                    ("getCrossProduct" function
+                       (:arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Vec3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [8527 8536])
+                            ("B" variable
+                               (:reference 1
+                                :type ("Vec3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [8537 8546]))                          
+                        :type ("Vec3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [8505 8724])
+                    ("getCrossProductMatrix" function
+                       (:arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Vec2d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [8856 8865]))                          
+                        :type ("Mat2d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [8828 8892])
+                    ("getCrossProductMatrix" function
+                       (:arguments 
+                          ( ("A" variable
+                               (:reference 1
+                                :type ("Vec3d" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [9024 9033]))                          
+                        :type ("Mat3d" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [8996 9297]))                  
+                :type "namespace")
+                nil [230 9401]))          
+      :file "small_vectors.cpp"
+      :pointmax 9402
+      :fsize 9409
+      :lastmodtime '(24274 440 631389 676000)
+      :unmatched-syntax '((punctuation 611 . 612)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("ARRAYALLOCATE_H" variable (:constant-flag t) nil [33 48])
+            ("small_vectors.h" include nil nil [50 76])
+            ("SPH" type
+               (:members 
+                  ( ("Allocate3dArray" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("" variable
+                               (:pointer 3
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [373 379])
+                            ("" variable (:type ("matrix" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [379 386])
+                            ("res" variable (:type ("Vec3u" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [387 397]))                          )
+                        (reparse-symbol namespacesubparts) [333 586])
+                    ("Delete3dArray" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("matrix" variable
+                               (:pointer 3
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [627 639])
+                            ("res" variable (:type ("Vec3u" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [640 650]))                          )
+                        (reparse-symbol namespacesubparts) [589 815])
+                    ("Allocate2dArray" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("" variable
+                               (:pointer 2
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1087 1092])
+                            ("" variable (:type ("matrix" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1092 1099])
+                            ("res" variable (:type ("Vec2u" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1100 1110]))                          )
+                        (reparse-symbol namespacesubparts) [1047 1217])
+                    ("Delete2dArray" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("matrix" variable
+                               (:pointer 2
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1257 1268])
+                            ("res" variable (:type ("Vec2u" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1269 1279]))                          )
+                        (reparse-symbol namespacesubparts) [1219 1371])
+                    ("Allocate1dArray" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("" variable
+                               (:pointer 1
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1644 1648])
+                            ("" variable (:type ("matrix" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1648 1655])
+                            ("res" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1656 1667]))                          )
+                        (reparse-symbol namespacesubparts) [1604 1696])
+                    ("Delete1dArray" function
+                       (:template 
+                          ( ("T" type (:type "class") nil nil))                          
+                        :type "void"
+                        :arguments 
+                          ( ("matrix" variable
+                               (:pointer 1
+                                :type ("T" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [1736 1746])
+                            ("res" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1747 1758]))                          )
+                        (reparse-symbol namespacesubparts) [1698 1783]))                  
+                :type "namespace")
+                nil [78 1786]))          
+      :file "array_allocation.h"
+      :pointmax 1813
+      :fsize 1812
+      :lastmodtime '(24274 440 631389 676000)
+      :unmatched-syntax '((punctuation 1647 . 1648) (punctuation 1091 . 1092) (punctuation 378 . 379))
+      :lexical-table 
+        '(("ARRAYALLOCATE_H")
+          )
+))
+  :file "!home!liu!SPHinXsys!SPHINXsys!src!shared!base_data_type!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

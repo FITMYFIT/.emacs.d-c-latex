@@ -1,0 +1,155 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("poisson.h" include nil nil [1 21])
+            ("penalization.h" include nil nil [22 47])
+            ("scalar_a_by_b" variable (:constant-flag t) nil [564 577])
+            ("m_scalar_a_by_b" variable (:constant-flag t) nil [847 862])
+            ("Viscosity" type
+               (:members 
+                  ( ("u" variable (:type ("vector" type (:type "class") nil nil)) (reparse-symbol classsubparts) [983 992])
+                    ("mu" variable (:type ("vector" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1002 1012])
+                    ("rho" variable (:type ("scalar" type (:type "class") nil nil)) (reparse-symbol classsubparts) [1017 1028])
+                    ("dt" variable (:type "double") (reparse-symbol classsubparts) [1033 1043])
+                    ("nrelax" variable (:type "int") (reparse-symbol classsubparts) [1048 1059])
+                    ("res" variable
+                       (:pointer 1
+                        :type ("scalar" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [1064 1077]))                  
+                :type "struct")
+                nil [960 1082])
+            ("relax_viscosity" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("a" variable
+                       (:pointer 1
+                        :type ("scalar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1113 1122])
+                    ("b" variable
+                       (:pointer 1
+                        :type ("scalar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [1123 1132])
+                    ("l" variable (:type "int") (reparse-symbol arg-sub-list) [1133 1139])
+                    ("data" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [1140 1150]))                  
+                :type "void")
+                nil [1084 3198])
+            ("residual_viscosity" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("a" variable
+                       (:pointer 1
+                        :type ("scalar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3234 3245])
+                    ("b" variable
+                       (:pointer 1
+                        :type ("scalar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3246 3257])
+                    ("resl" variable
+                       (:pointer 1
+                        :type ("scalar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [3258 3272])
+                    ("data" variable
+                       (:pointer 1
+                        :type "void")
+                        (reparse-symbol arg-sub-list) [3273 3285]))                  
+                :type "double")
+                nil [3200 4703])
+            ("viscosity" function
+               (:arguments 
+                  ( ("p" variable (:type ("Viscosity" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol arg-sub-list) [4745 4764]))                  
+                :type ("mgstats" type (:type "class") nil nil))
+                nil [4726 5281]))          
+      :file "viscosity-weugene.h"
+      :pointmax 5282
+      :fsize 5281
+      :lastmodtime '(24327 63906 812550 256000)
+      :unmatched-syntax '((symbol 4720 . 4725) (symbol 997 . 1001))
+      :lexical-table 
+        '(("m_scalar_a_by_b" (spp-arg-list ("a" "b") 862 . 868) . ((semantic-list "(a.x[]*(b.x[1] - b.x[-1]) + a.y[]*(b.y[1] - b.y[-1]) + a.z[]*(b.z[1] - b.z[-1]))" 869 . 949)))
+          ("scalar_a_by_b" (spp-arg-list ("a" "b") 577 . 583) . ((semantic-list "(a.x[]*b.x[] + a.y[]*b.y[] + a.z[]*b.z[])" 584 . 625)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("zerocf" variable
+               (:dereference 1
+                :constant-flag t
+                :default-value "{0.,0.,0.}"
+                :type ("vector" type (:type "class") nil nil))
+                nil [1 36])
+            ("frhs" variable (:constant-flag t) nil [2521 2525])
+            ("fbp" variable (:constant-flag t) nil [2536 2539])
+            ("gradun" variable (:type "double") nil [2542 2556])
+            ("PLUS_BRINKMAN_RHS" variable (:constant-flag t) nil [2565 2582])
+            ("PLUS_NUMERATOR_BRINKMAN" variable (:constant-flag t) nil [2593 2616])
+            ("PLUS_DENOMINATOR_BRINKMAN" variable (:constant-flag t) nil [2627 2652])
+            ("Brinkman" type
+               (:members 
+                  ( ("u" variable (:type ("vector" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2684 2693])
+                    ("uf" variable (:type ("vector" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2701 2711])
+                    ("rho" variable (:type ("scalar" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2714 2725])
+                    ("dt" variable (:type "double") (reparse-symbol classsubparts) [2728 2738]))                  
+                :type "struct")
+                nil [2664 2741])
+            ("calc_target_U" function
+               (:arguments 
+                  ( ("u" variable
+                       (:constant-flag t
+                        :type ("vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2763 2778])
+                    ("target_U" variable (:type ("vector" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2779 2795])
+                    ("normal" variable
+                       (:constant-flag t
+                        :type ("vector" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [2796 2816]))                  
+                :type "void")
+                nil [2744 4188])
+            ("brinkman_correction_u" function
+               (:arguments 
+                  ( ("u" variable (:type ("vector" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4218 4227])
+                    ("dt" variable (:type "double") (reparse-symbol arg-sub-list) [4228 4238]))                  
+                :type "void")
+                nil [4190 4540])
+            ("brinkman_correction_uf" function
+               (:arguments 
+                  ( ("vector" variable (:type ("face" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4571 4585])
+                    ("" variable (:type ("uf" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4583 4586])
+                    ("dt" variable (:type "double") (reparse-symbol arg-sub-list) [4587 4597]))                  
+                :type "void")
+                nil [4542 4844])
+            ("brinkman_correction" function
+               (:arguments 
+                  ( ("p" variable (:type ("Brinkman" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol arg-sub-list) [4871 4889]))                  
+                :type "void")
+                nil [4845 5039]))          
+      :file "penalization.h"
+      :pointmax 5040
+      :fsize 5039
+      :lastmodtime '(24327 63927 697531 658000)
+      :unmatched-syntax '((symbol 2696 . 2700))
+      :lexical-table 
+        '(("PLUS_BRINKMAN_RHS" . ((number "0" 2583 . 2584)))
+          ("PLUS_DENOMINATOR_BRINKMAN" . ((number "0" 2653 . 2654)))
+          ("PLUS_NUMERATOR_BRINKMAN" . ((number "0" 2617 . 2618)))
+          ("frhs" . ((number "1" 2526 . 2527)))
+          ("fbp" . ((number "0" 2540 . 2541)))
+          )
+))
+  :file "!home!liu!basilisk!src!sandboxfile!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
