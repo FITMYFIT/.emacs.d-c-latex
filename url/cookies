@@ -2,10 +2,28 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- 'nil)
+ '(("linkinghub.elsevier.com"
+  [url-cookie "visitorId" "wlSfDp2YqlsQLknYRxll" "Mon Oct 04 05:37:03 2088 GMT" "/" "linkinghub.elsevier.com" nil])
+ (".sciencedirect.com"
+  [url-cookie "mbox" "session%23f91faa1382e44a6db7d1a67feb4dd761%231600224835%7CPC%23322502331af94d848054c6ce09460546.37_0%231663467775" "Sun Sep 18 02:22:55 2022 GMT" "/" ".sciencedirect.com" nil]
+  [url-cookie "mboxes" "%5B%7B%22index%22%3A0%2C%22name%22%3A%22article-page-view-only-pdf-server-side-mbox%22%7D%5D" "Sun Sep 18 02:22:55 2022 GMT" "/" ".sciencedirect.com" nil])
+ (".scitation.org"
+  [url-cookie "__cfduid" "dbe9ac3799d65404cbba7feb79616538d1600222382" "Fri, 16-Oct-20 02:13:02 GMT" "/" ".scitation.org" nil])
+ (".cambridge.org"
+  [url-cookie "__cfduid" "d67762dcfb44c24acd773db447544af971599782388" "Sat, 10-Oct-20 23:59:48 GMT" "/" ".cambridge.org" nil]))
+)
 (setq url-cookie-secure-storage
- '((".doi.org"
-  [url-cookie "__cfduid" "d164944f34314558f3b0868d540668c791597630396" "Wed, 16-Sep-20 02:13:16 GMT" "/" ".doi.org" t]))
+ '((".sciencedirect.com"
+  [url-cookie "__cfduid" "dc3ef6c6128be545f325f081825c6d9451600076503" "Wed, 14-Oct-20 09:41:43 GMT" "/" ".sciencedirect.com" t]
+  [url-cookie "EUID" "6483ac22-be19-4e1d-9116-abed07df21f0" "Fri, 14 Sep 2040 09:41:44 GMT" "/" ".sciencedirect.com" t]
+  [url-cookie "ANONRA_COOKIE" "39537C765DCF98152262AA72BFF65CE53530F54B93CCEFFC4BDC9FE13487C1FA3253A8F9AEA4FF636D5BDA75C7F58572D481D8738ABA5976" "Thu, 16 Sep 2021 02:22:54 GMT" "/" ".sciencedirect.com" t]
+  [url-cookie "SD_REMOTEACCESS" "eyJhY2NvdW50SWQiOiI1NjgzNyIsImRlcHRJZCI6IjgwMTcyIiwidGltZXN0YW1wIjoxNjAwMjIyOTc0NDQ2fQ==" "Thu, 16 Sep 2021 02:22:54 GMT" "/" ".sciencedirect.com" t]
+  [url-cookie "id_ab" "B:100:8:07e0f98d-0fdc-4ef8-8236-77dff293da07" "Sun, 16 Sep 2040 02:22:54 GMT" "/" ".sciencedirect.com" t])
+ (".scitation.org"
+  [url-cookie "MAID" "T/TL0hg5Nvyx5OdCfaIgfw==" "Tue, 13-Jul-2021 02:13:03 GMT" "/" ".scitation.org" t]
+  [url-cookie "MACHINE_LAST_SEEN" "2020-09-15T19%3A13%3A03.130-07%3A00" "Tue, 13-Jul-2021 02:13:03 GMT" "/" ".scitation.org" t])
+ (".doi.org"
+  [url-cookie "__cfduid" "d57fd701a24e2c733f10d0dddfe9142db1600222860" "Fri, 16-Oct-20 02:21:00 GMT" "/" ".doi.org" t]))
 )
 
 ;; Local Variables:

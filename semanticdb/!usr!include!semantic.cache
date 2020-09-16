@@ -6,94 +6,100 @@
     (semanticdb-table "semanticdb-table"
       :major-mode c-mode
       :tags 
-        '( ("_FEATURES_H" variable (:constant-flag t) nil [818 829])
-            ("__KERNEL_STRICT_NAMES" variable (:constant-flag t) nil [6134 6155])
-            ("__GNUC_PREREQ" variable (:constant-flag t) nil [6458 6471])
-            ("__glibc_clang_prereq" variable (:constant-flag t) nil [7051 7071])
-            ("__GLIBC_USE" variable (:constant-flag t) nil [7137 7148])
-            ("_ISOC95_SOURCE" variable (:constant-flag t) nil [7749 7763])
-            ("_ISOC99_SOURCE" variable (:constant-flag t) nil [7799 7813])
-            ("_ISOC11_SOURCE" variable (:constant-flag t) nil [7849 7863])
-            ("_POSIX_SOURCE" variable (:constant-flag t) nil [7898 7911])
-            ("_POSIX_C_SOURCE" variable (:constant-flag t) nil [7948 7963])
-            ("_XOPEN_SOURCE" variable (:constant-flag t) nil [8004 8017])
-            ("_XOPEN_SOURCE_EXTENDED" variable (:constant-flag t) nil [8063 8085])
-            ("_LARGEFILE64_SOURCE" variable (:constant-flag t) nil [8126 8145])
-            ("_DEFAULT_SOURCE" variable (:constant-flag t) nil [8182 8197])
-            ("_ATFILE_SOURCE" variable (:constant-flag t) nil [8233 8247])
-            ("_DEFAULT_SOURCE" variable (:constant-flag t) nil [8590 8605])
-            ("_POSIX_SOURCE" variable (:constant-flag t) nil [9894 9907])
-            ("_POSIX_C_SOURCE" variable (:constant-flag t) nil [9944 9959])
-            ("__USE_POSIX" variable (:constant-flag t) nil [11289 11300])
-            ("__USE_POSIX2" variable (:constant-flag t) nil [11397 11409])
-            ("__USE_XOPEN" variable (:constant-flag t) nil [11991 12002])
-            ("__USE_XOPEN_EXTENDED" variable (:constant-flag t) nil [12047 12067])
-            ("__USE_UNIX98" variable (:constant-flag t) nil [12080 12092])
-            ("_LARGEFILE_SOURCE" variable (:constant-flag t) nil [12132 12149])
-            ("__USE_XOPEN2K8" variable (:constant-flag t) nil [12231 12245])
-            ("__USE_XOPEN2K8XSI" variable (:constant-flag t) nil [12260 12277])
-            ("__USE_XOPEN2K" variable (:constant-flag t) nil [12301 12314])
-            ("__USE_XOPEN2KXSI" variable (:constant-flag t) nil [12328 12344])
-            ("__USE_ISOC95" variable (:constant-flag t) nil [12381 12393])
-            ("__USE_ISOC99" variable (:constant-flag t) nil [12431 12443])
-            ("__USE_LARGEFILE" variable (:constant-flag t) nil [12588 12603])
-            ("__USE_LARGEFILE64" variable (:constant-flag t) nil [12650 12667])
-            ("__USE_MISC" variable (:constant-flag t) nil [12811 12821])
-            ("__USE_ATFILE" variable (:constant-flag t) nil [12863 12875])
-            ("__USE_GNU" variable (:constant-flag t) nil [12914 12923])
-            ("__USE_FORTIFY_LEVEL" variable (:constant-flag t) nil [13178 13197])
-            ("__GLIBC_USE_DEPRECATED_GETS" variable (:constant-flag t) nil [13609 13636])
-            ("stdc-predef.h" include (:system-flag t) nil [13767 13791])
-            ("__GNU_LIBRARY__" variable (:constant-flag t) nil [14224 14239])
-            ("__GLIBC__" variable (:constant-flag t) nil [14383 14392])
-            ("__GLIBC_MINOR__" variable (:constant-flag t) nil [14403 14418])
-            ("__GLIBC_PREREQ" variable (:constant-flag t) nil [14431 14445])
-            ("sys/cdefs.h" include (:system-flag t) nil [14645 14669])
-            ("gnu/stubs.h" include (:system-flag t) nil [15492 15514]))          
+        '( ("_FEATURES_H" variable (:constant-flag t) nil [819 830])
+            ("__KERNEL_STRICT_NAMES" variable (:constant-flag t) nil [6251 6272])
+            ("__GNUC_PREREQ" variable (:constant-flag t) nil [6575 6588])
+            ("__glibc_clang_prereq" variable (:constant-flag t) nil [7168 7188])
+            ("__GLIBC_USE" variable (:constant-flag t) nil [7254 7265])
+            ("_ISOC95_SOURCE" variable (:constant-flag t) nil [7866 7880])
+            ("_ISOC99_SOURCE" variable (:constant-flag t) nil [7916 7930])
+            ("_ISOC11_SOURCE" variable (:constant-flag t) nil [7966 7980])
+            ("_ISOC2X_SOURCE" variable (:constant-flag t) nil [8016 8030])
+            ("_POSIX_SOURCE" variable (:constant-flag t) nil [8065 8078])
+            ("_POSIX_C_SOURCE" variable (:constant-flag t) nil [8115 8130])
+            ("_XOPEN_SOURCE" variable (:constant-flag t) nil [8171 8184])
+            ("_XOPEN_SOURCE_EXTENDED" variable (:constant-flag t) nil [8230 8252])
+            ("_LARGEFILE64_SOURCE" variable (:constant-flag t) nil [8293 8312])
+            ("_DEFAULT_SOURCE" variable (:constant-flag t) nil [8349 8364])
+            ("_ATFILE_SOURCE" variable (:constant-flag t) nil [8400 8414])
+            ("_DEFAULT_SOURCE" variable (:constant-flag t) nil [8815 8830])
+            ("__GLIBC_USE_ISOC2X" variable (:constant-flag t) nil [9030 9048])
+            ("_POSIX_SOURCE" variable (:constant-flag t) nil [10443 10456])
+            ("_POSIX_C_SOURCE" variable (:constant-flag t) nil [10493 10508])
+            ("__USE_POSIX" variable (:constant-flag t) nil [11838 11849])
+            ("__USE_POSIX2" variable (:constant-flag t) nil [11946 11958])
+            ("__USE_XOPEN" variable (:constant-flag t) nil [12540 12551])
+            ("__USE_XOPEN_EXTENDED" variable (:constant-flag t) nil [12596 12616])
+            ("__USE_UNIX98" variable (:constant-flag t) nil [12629 12641])
+            ("_LARGEFILE_SOURCE" variable (:constant-flag t) nil [12681 12698])
+            ("__USE_XOPEN2K8" variable (:constant-flag t) nil [12780 12794])
+            ("__USE_XOPEN2K8XSI" variable (:constant-flag t) nil [12809 12826])
+            ("__USE_XOPEN2K" variable (:constant-flag t) nil [12850 12863])
+            ("__USE_XOPEN2KXSI" variable (:constant-flag t) nil [12877 12893])
+            ("__USE_ISOC95" variable (:constant-flag t) nil [12930 12942])
+            ("__USE_ISOC99" variable (:constant-flag t) nil [12980 12992])
+            ("__USE_LARGEFILE" variable (:constant-flag t) nil [13137 13152])
+            ("__USE_LARGEFILE64" variable (:constant-flag t) nil [13199 13216])
+            ("__USE_MISC" variable (:constant-flag t) nil [13360 13370])
+            ("__USE_ATFILE" variable (:constant-flag t) nil [13412 13424])
+            ("__USE_GNU" variable (:constant-flag t) nil [13463 13472])
+            ("__USE_FORTIFY_LEVEL" variable (:constant-flag t) nil [13727 13746])
+            ("__GLIBC_USE_DEPRECATED_GETS" variable (:constant-flag t) nil [14158 14185])
+            ("__GLIBC_USE_DEPRECATED_SCANF" variable (:constant-flag t) nil [15146 15174])
+            ("stdc-predef.h" include (:system-flag t) nil [15305 15329])
+            ("__GNU_LIBRARY__" variable (:constant-flag t) nil [15762 15777])
+            ("__GLIBC__" variable (:constant-flag t) nil [15921 15930])
+            ("__GLIBC_MINOR__" variable (:constant-flag t) nil [15941 15956])
+            ("__GLIBC_PREREQ" variable (:constant-flag t) nil [15969 15983])
+            ("sys/cdefs.h" include (:system-flag t) nil [16183 16207])
+            ("gnu/stubs.h" include (:system-flag t) nil [17030 17052]))          
       :file "features.h"
-      :pointmax 15542
-      :fsize 15541
-      :lastmodtime '(23253 1052 0 0)
-      :unmatched-syntax '((close-paren 11278 . 11279) (number "700" 11265 . 11278) (symbol 11257 . 11264) (punctuation 11255 . 11256) (punctuation 11254 . 11255) (close-paren 11245 . 11246) (number 11244 . 11245) (punctuation 11242 . 11243) (punctuation 11241 . 11242) (number "200809L" 11225 . 11240) (punctuation 11223 . 11224) (punctuation 11222 . 11223) (number "200809L" 11206 . 11221) (symbol 11198 . 11205) (open-paren 11197 . 11198) (punctuation 11195 . 11196) (punctuation 11194 . 11195) (close-paren 8554 . 8555) (semantic-list 8403 . 8554) (punctuation 8401 . 8402) (punctuation 8400 . 8401))
+      :pointmax 17080
+      :fsize 17079
+      :lastmodtime '(24214 3660 0 0)
+      :unmatched-syntax '((close-paren 11827 . 11828) (number "700" 11814 . 11827) (symbol 11806 . 11813) (punctuation 11804 . 11805) (punctuation 11803 . 11804) (close-paren 11794 . 11795) (number 11793 . 11794) (punctuation 11791 . 11792) (punctuation 11790 . 11791) (number "200809L" 11774 . 11789) (punctuation 11772 . 11773) (punctuation 11771 . 11772) (number "200809L" 11755 . 11770) (symbol 11747 . 11754) (open-paren 11746 . 11747) (punctuation 11744 . 11745) (punctuation 11743 . 11744) (close-paren 8779 . 8780) (semantic-list 8570 . 8779) (punctuation 8568 . 8569) (punctuation 8567 . 8568))
       :lexical-table 
-        '(("__glibc_clang_prereq" (spp-arg-list ("maj" "min") 7071 . 7081) . ((number "0" 7082 . 7083)))
-          ("__USE_XOPEN" . ((number "1" 12003 . 12004)))
-          ("__USE_XOPEN_EXTENDED" . ((number "1" 12068 . 12069)))
-          ("_ISOC99_SOURCE" . ((number "1" 7814 . 7815)))
-          ("__USE_XOPEN2KXSI" . ((number "1" 12345 . 12346)))
-          ("__USE_ATFILE" . ((number "1" 12876 . 12877)))
-          ("_ISOC95_SOURCE" . ((number "1" 7764 . 7765)))
-          ("_LARGEFILE64_SOURCE" . ((number "1" 8146 . 8147)))
-          ("__USE_LARGEFILE64" . ((number "1" 12668 . 12669)))
+        '(("__glibc_clang_prereq" (spp-arg-list ("maj" "min") 7188 . 7198) . ((number "0" 7199 . 7200)))
+          ("__USE_XOPEN" . ((number "1" 12552 . 12553)))
+          ("__USE_XOPEN_EXTENDED" . ((number "1" 12617 . 12618)))
+          ("_ISOC99_SOURCE" . ((number "1" 7931 . 7932)))
+          ("__USE_XOPEN2KXSI" . ((number "1" 12894 . 12895)))
+          ("__USE_ATFILE" . ((number "1" 13425 . 13426)))
+          ("_ISOC95_SOURCE" . ((number "1" 7881 . 7882)))
+          ("_LARGEFILE64_SOURCE" . ((number "1" 8313 . 8314)))
+          ("__USE_LARGEFILE64" . ((number "1" 13217 . 13218)))
           ("__KERNEL_STRICT_NAMES")
-          ("_POSIX_SOURCE" . ((number "1" 9908 . 9909)))
-          ("__USE_XOPEN2K8" . ((number "1" 12246 . 12247)))
-          ("__GLIBC_USE" (spp-arg-list ("F") 7148 . 7151) . ((spp-symbol-merge ((symbol "__GLIBC_USE_" 7152 . 7164) (symbol "F" 7168 . 7169)) 7152 . 7169)))
-          ("__USE_XOPEN2K" . ((number "1" 12315 . 12316)))
-          ("__USE_ISOC95" . ((number "1" 12395 . 12396)))
-          ("__GLIBC__" . ((number "2" 14393 . 14394)))
-          ("_XOPEN_SOURCE_EXTENDED" . ((number "1" 8086 . 8087)))
-          ("__USE_XOPEN2K8XSI" . ((number "1" 12278 . 12279)))
-          ("__GLIBC_USE_DEPRECATED_GETS" . ((number "1" 13637 . 13638)))
-          ("_XOPEN_SOURCE" . ((number "700" 8018 . 8021)))
-          ("_ATFILE_SOURCE" . ((number "1" 8248 . 8249)))
-          ("__USE_FORTIFY_LEVEL" . ((number "0" 13198 . 13199)))
-          ("_FEATURES_H" . ((number "1" 830 . 831)))
-          ("__USE_MISC" . ((number "1" 12822 . 12823)))
-          ("__GNU_LIBRARY__" . ((number "6" 14240 . 14241)))
-          ("__GLIBC_MINOR__" . ((number "27" 14419 . 14421)))
-          ("__GLIBC_PREREQ" (spp-arg-list ("maj" "min") 14445 . 14455) . ((semantic-list "((__GLIBC__ << 16) + __GLIBC_MINOR__ >= ((maj) << 16) + (min))" 14459 . 14521)))
-          ("__GNUC_PREREQ" (spp-arg-list ("maj" "min") 6471 . 6481) . ((semantic-list "((__GNUC__ << 16) + __GNUC_MINOR__ >= ((maj) << 16) + (min))" 6485 . 6545)))
-          ("__USE_POSIX2" . ((number "1" 11410 . 11411)))
-          ("__USE_ISOC99" . ((number "1" 12445 . 12446)))
-          ("__USE_GNU" . ((number "1" 12924 . 12925)))
-          ("_ISOC11_SOURCE" . ((number "1" 7864 . 7865)))
-          ("_POSIX_C_SOURCE" . ((number "200809L" 9960 . 9967)))
-          ("__USE_LARGEFILE" . ((number "1" 12604 . 12605)))
-          ("__USE_UNIX98" . ((number "1" 12093 . 12094)))
-          ("_DEFAULT_SOURCE" . ((number "1" 8606 . 8607)))
-          ("__USE_POSIX" . ((number "1" 11301 . 11302)))
-          ("_LARGEFILE_SOURCE" . ((number "1" 12150 . 12151)))
+          ("_POSIX_SOURCE" . ((number "1" 10457 . 10458)))
+          ("__USE_XOPEN2K8" . ((number "1" 12795 . 12796)))
+          ("__GLIBC_USE" (spp-arg-list ("F") 7265 . 7268) . ((spp-symbol-merge ((symbol "__GLIBC_USE_" 7269 . 7281) (symbol "F" 7285 . 7286)) 7269 . 7286)))
+          ("__USE_XOPEN2K" . ((number "1" 12864 . 12865)))
+          ("__USE_ISOC95" . ((number "1" 12944 . 12945)))
+          ("__GLIBC__" . ((number "2" 15931 . 15932)))
+          ("_ISOC2X_SOURCE" . ((number "1" 8031 . 8032)))
+          ("_XOPEN_SOURCE_EXTENDED" . ((number "1" 8253 . 8254)))
+          ("__USE_XOPEN2K8XSI" . ((number "1" 12827 . 12828)))
+          ("__GLIBC_USE_DEPRECATED_GETS" . ((number "1" 14186 . 14187)))
+          ("__GLIBC_USE_DEPRECATED_SCANF" . ((number "0" 15175 . 15176)))
+          ("_XOPEN_SOURCE" . ((number "700" 8185 . 8188)))
+          ("_ATFILE_SOURCE" . ((number "1" 8415 . 8416)))
+          ("__USE_FORTIFY_LEVEL" . ((number "0" 13747 . 13748)))
+          ("_FEATURES_H" . ((number "1" 831 . 832)))
+          ("__USE_MISC" . ((number "1" 13371 . 13372)))
+          ("__GNU_LIBRARY__" . ((number "6" 15778 . 15779)))
+          ("__GLIBC_MINOR__" . ((number "31" 15957 . 15959)))
+          ("__GLIBC_PREREQ" (spp-arg-list ("maj" "min") 15983 . 15993) . ((semantic-list "((__GLIBC__ << 16) + __GLIBC_MINOR__ >= ((maj) << 16) + (min))" 15997 . 16059)))
+          ("__GNUC_PREREQ" (spp-arg-list ("maj" "min") 6588 . 6598) . ((semantic-list "((__GNUC__ << 16) + __GNUC_MINOR__ >= ((maj) << 16) + (min))" 6602 . 6662)))
+          ("__GLIBC_USE_ISOC2X" . ((number "0" 9049 . 9050)))
+          ("__USE_POSIX2" . ((number "1" 11959 . 11960)))
+          ("__USE_ISOC99" . ((number "1" 12994 . 12995)))
+          ("__USE_GNU" . ((number "1" 13473 . 13474)))
+          ("_ISOC11_SOURCE" . ((number "1" 7981 . 7982)))
+          ("_POSIX_C_SOURCE" . ((number "200809L" 10509 . 10516)))
+          ("__USE_LARGEFILE" . ((number "1" 13153 . 13154)))
+          ("__USE_UNIX98" . ((number "1" 12642 . 12643)))
+          ("_DEFAULT_SOURCE" . ((number "1" 8831 . 8832)))
+          ("__USE_POSIX" . ((number "1" 11850 . 11851)))
+          ("_LARGEFILE_SOURCE" . ((number "1" 12699 . 12700)))
           )
 )
     (semanticdb-table "semanticdb-table"
@@ -101,8 +107,8 @@
       :tags nil
       :file "stdc-predef.h"
       :pointmax 2364
-      :fsize 2363
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 2290
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax nil)
     (semanticdb-table "semanticdb-table"
       :major-mode c-mode
@@ -1562,7 +1568,7 @@
       :file "wchar.h"
       :pointmax 31112
       :fsize 31111
-      :lastmodtime '(23253 1052 0 0)
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax '((LONG 17677 . 17681) (UNSIGNED 17668 . 17676) (EXTERN 17661 . 17667) (LONG 17511 . 17515) (EXTERN 17504 . 17510) (LONG 16837 . 16841) (UNSIGNED 16828 . 16836) (EXTERN 16821 . 16827) (LONG 16587 . 16591) (EXTERN 16580 . 16586) (LONG 16316 . 16320) (UNSIGNED 16307 . 16315) (EXTERN 16300 . 16306) (LONG 16064 . 16068) (EXTERN 16057 . 16063))
       :lexical-table 
         '(("WEOF" . ((semantic-list "(0xffffffffu)" 1833 . 1846)))
@@ -2102,8 +2108,8 @@
                 (reparse-symbol extern-c-contents) [1316 1336]))          
       :file "ctype.h"
       :pointmax 10964
-      :fsize 10963
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 10969
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("_ISbit" (spp-arg-list ("bit") 1387 . 1392) . ((semantic-list "(1 << (bit))" 1393 . 1405)))
@@ -2403,8 +2409,8 @@
                 (reparse-symbol extern-c-contents) [1139 1147]))          
       :file "locale.h"
       :pointmax 7675
-      :fsize 7674
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 7675
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("LC_COLLATE" . ((symbol "__LC_COLLATE" 1269 . 1281)))
@@ -2480,8 +2486,8 @@
             ("le64toh" variable (:constant-flag t) nil [3126 3133]))          
       :file "endian.h"
       :pointmax 3190
-      :fsize 3189
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 2299
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("BYTE_ORDER" . ((symbol "__BYTE_ORDER" 1830 . 1842)))
@@ -2701,8 +2707,8 @@
                 (reparse-symbol extern-c-contents) [1474 1509]))          
       :file "wctype.h"
       :pointmax 5549
-      :fsize 5548
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 5549
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("_WCTYPE_H" . ((number "1" 927 . 928)))
@@ -4519,8 +4525,8 @@
                 (reparse-symbol extern-c-contents) [6575 6784]))          
       :file "pthread.h"
       :pointmax 41270
-      :fsize 41269
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 41701
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax '((semantic-list 6715 . 6723) (semantic-list 6696 . 6714) (spp-macro-def 5965 . 5992) (spp-macro-def 5879 . 5902) (spp-macro-def 5787 . 5809) (spp-macro-def 5708 . 5729) (spp-macro-def 5134 . 5156) (spp-macro-def 5053 . 5076) (spp-macro-def 4921 . 4942) (spp-macro-def 4844 . 4864) (spp-macro-def 4730 . 4752) (spp-macro-def 4651 . 4672) (spp-macro-def 1181 . 1204) (spp-macro-def 1099 . 1122))
       :lexical-table 
         '(("PTHREAD_ADAPTIVE_MUTEX_INITIALIZER_NP" . ((semantic-list "{ { 0, 0, 0, PTHREAD_MUTEX_ADAPTIVE_NP, 0, { __PTHREAD_SPINS } } }" 3073 . 3139)))
@@ -4597,8 +4603,8 @@
                 (reparse-symbol extern-c-contents) [1182 1246]))          
       :file "errno.h"
       :pointmax 1833
-      :fsize 1832
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 1679
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("_ERRNO_H" . ((number "1" 874 . 875)))
@@ -4828,8 +4834,8 @@
                 (reparse-symbol extern-c-contents) [1538 1628]))          
       :file "sched.h"
       :pointmax 4733
-      :fsize 4732
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 4733
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("__pid_t_defined")
@@ -5276,8 +5282,8 @@
                 (reparse-symbol extern-c-contents) [2022 2058]))          
       :file "time.h"
       :pointmax 10361
-      :fsize 10360
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 10276
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("__pid_t_defined")
@@ -6658,8 +6664,8 @@
                 (reparse-symbol extern-c-contents) [1047 1060]))          
       :file "stdio.h"
       :pointmax 29666
-      :fsize 29665
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 29950
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax '((semantic-list 18548 . 18595) (punctuation 18546 . 18547) (punctuation 18545 . 18546))
       :lexical-table 
         '(("putc" (spp-arg-list ("_ch" "_fp") 17819 . 17829) . ((symbol "_IO_putc" 17830 . 17838) (semantic-list "(_ch, _fp)" 17839 . 17849)))
@@ -8373,8 +8379,8 @@
                 (reparse-symbol extern-c-contents) [1127 1136]))          
       :file "stdlib.h"
       :pointmax 35785
-      :fsize 35784
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 35835
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax '((number "1" 29530 . 29540) (symbol 29522 . 29529) (punctuation 29520 . 29521) (punctuation 29519 . 29520) (LONG 28841 . 28845) (EXTERN 28834 . 28840) (TYPEDEF 27794 . 27801) (TYPEDEF 27645 . 27652) (semantic-list 22892 . 22949) (punctuation 22890 . 22891) (punctuation 22889 . 22890) (number "1" 19357 . 19367) (symbol 19349 . 19356) (punctuation 19347 . 19348) (punctuation 19346 . 19347) (LONG 16331 . 16335) (UNSIGNED 16322 . 16330) (LONG 9343 . 9347) (UNSIGNED 9334 . 9342) (EXTERN 9327 . 9333) (LONG 9159 . 9163) (EXTERN 9152 . 9158) (LONG 6606 . 6610) (UNSIGNED 6597 . 6605) (EXTERN 6590 . 6596) (LONG 6386 . 6390) (EXTERN 6379 . 6385) (LONG 6138 . 6142) (UNSIGNED 6129 . 6137) (EXTERN 6122 . 6128) (LONG 5920 . 5924) (EXTERN 5913 . 5919) (LONG 3488 . 3492) (EXTERN 3481 . 3487) (LONG 2395 . 2399) (LONG 2353 . 2357))
       :lexical-table 
         '(("RAND_MAX" . ((number "2147483647" 2563 . 2573)))
@@ -8418,8 +8424,8 @@
                 (reparse-symbol extern-c-contents) [1041 1085]))          
       :file "alloca.h"
       :pointmax 1204
-      :fsize 1203
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 1204
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("_ALLOCA_H" . ((number "1" 826 . 827)))
@@ -8810,8 +8816,8 @@
                 (reparse-symbol extern-c-contents) [1247 1270]))          
       :file "math.h"
       :pointmax 45385
-      :fsize 45384
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 46404
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax '((number "4" 18718 . 18727) (spp-macro-def 18700 . 18709) (punctuation 18689 . 18690) (number "3" 18661 . 18673) (spp-macro-def 18640 . 18652) (punctuation 18629 . 18630) (number "2" 18603 . 18610) (spp-macro-def 18587 . 18594) (punctuation 18576 . 18577) (number "1" 18551 . 18562) (spp-macro-def 18531 . 18542) (punctuation 18520 . 18521) (number "0" 18496 . 18502) (spp-macro-def 18481 . 18487) (punctuation 18470 . 18471) (symbol 9915 . 9925) (symbol 9907 . 9914) (punctuation 9905 . 9906) (punctuation 9904 . 9905) (symbol 9883 . 9896) (symbol 9875 . 9882) (punctuation 9873 . 9874) (punctuation 9872 . 9873) (string 5672 . 5705) (symbol 5666 . 5671) (punctuation 5663 . 5664))
       :lexical-table 
         '(("NAN" . ((semantic-list "(0.0f / 0.0f)" 3446 . 3459)))
@@ -8892,955 +8898,7 @@
           ("FP_NORMAL" . ((number "4" 18710 . 18711)))
           )
 )
-    (semanticdb-table "semanticdb-table"
-      :major-mode c-mode
-      :tags 
-        '( ("__OMP_H" variable (:constant-flag t) nil [419 426])
-            ("KMP_VERSION_MAJOR" variable (:constant-flag t) nil [439 456])
-            ("KMP_VERSION_MINOR" variable (:constant-flag t) nil [473 490])
-            ("KMP_VERSION_BUILD" variable (:constant-flag t) nil [507 524])
-            ("KMP_BUILD_DATE" variable (:constant-flag t) nil [548 562])
-            ("omp_wtime_t" type
-               (:typemodifiers ("extern" "\"C\"")
-                :type "typedef"
-                :typedef ("double"))
-                (reparse-symbol extern-c-contents) [9101 9129])
-            ("omp_int_t" type
-               (:typemodifiers ("extern" "\"C\"")
-                :type "typedef"
-                :typedef ("int"))
-                (reparse-symbol extern-c-contents) [9070 9096])
-            ("kmp_set_warnings_off" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [8902 8907]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [8844 8908])
-            ("kmp_set_warnings_on" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [8833 8838]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [8776 8839])
-            ("kmp_free" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type "void")
-                        (reparse-symbol arg-sub-list) [8762 8769]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [8712 8770])
-            ("kmp_realloc" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type "void")
-                        (reparse-symbol arg-sub-list) [8691 8698])
-                    ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8699 8706]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :pointer 1
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [8641 8707])
-            ("kmp_calloc" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8620 8627])
-                    ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8628 8635]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :pointer 1
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [8570 8636])
-            ("kmp_aligned_malloc" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8549 8556])
-                    ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8557 8564]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :pointer 1
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [8491 8565])
-            ("kmp_malloc" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [8478 8485]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :pointer 1
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [8428 8486])
-            ("omp_get_partition_place_nums" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type "int")
-                        (reparse-symbol arg-sub-list) [8415 8421]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [8351 8422])
-            ("omp_get_partition_num_places" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [8340 8345]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [8276 8346])
-            ("omp_get_place_num" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [8265 8270]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [8212 8271])
-            ("omp_get_place_proc_ids" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [8195 8199])
-                    ("" variable
-                       (:pointer 1
-                        :type "int")
-                        (reparse-symbol arg-sub-list) [8200 8206]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [8137 8207])
-            ("omp_get_place_num_procs" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [8127 8131]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [8068 8132])
-            ("omp_get_num_places" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [8057 8062]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [8003 8063])
-            ("omp_get_proc_bind" function
-               (:type ("omp_proc_bind_t" type (:type "class") nil nil)
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7957 7962]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [7893 7963])
-            ("omp_proc_bind_t" type
-               (:typemodifiers ("extern" "\"C\"")
-                :type "typedef"
-                :typedef ("omp_proc_bind_t" type (:type "enum") nil nil))
-                (reparse-symbol extern-c-contents) [7669 7887])
-            ("omp_proc_bind_t" type
-               (:typemodifiers ("extern" "\"C\"")
-                :type "enum"
-                :members 
-                  ( ("omp_proc_bind_false" variable
-                       (:constant-flag t
-                        :default-value (7730 7731)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [7708 7731])
-                    ("omp_proc_bind_true" variable
-                       (:constant-flag t
-                        :default-value (7762 7763)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [7741 7763])
-                    ("omp_proc_bind_master" variable
-                       (:constant-flag t
-                        :default-value (7796 7797)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [7773 7797])
-                    ("omp_proc_bind_close" variable
-                       (:constant-flag t
-                        :default-value (7829 7830)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [7807 7830])
-                    ("omp_proc_bind_spread" variable
-                       (:constant-flag t
-                        :default-value (7863 7864)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [7840 7864]))                  )
-                (reparse-symbol extern-c-contents) [7669 7887])
-            ("kmp_get_affinity_mask_proc" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [7601 7605])
-                    ("" variable
-                       (:pointer 1
-                        :type ("kmp_affinity_mask_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [7606 7628]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [7534 7629])
-            ("kmp_unset_affinity_mask_proc" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [7501 7505])
-                    ("" variable
-                       (:pointer 1
-                        :type ("kmp_affinity_mask_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [7506 7528]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [7434 7529])
-            ("kmp_set_affinity_mask_proc" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [7401 7405])
-                    ("" variable
-                       (:pointer 1
-                        :type ("kmp_affinity_mask_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [7406 7428]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [7334 7429])
-            ("kmp_destroy_affinity_mask" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("kmp_affinity_mask_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [7306 7328]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [7239 7329])
-            ("kmp_create_affinity_mask" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("kmp_affinity_mask_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [7211 7233]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [7144 7234])
-            ("kmp_get_affinity_max_proc" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [7133 7138]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [7066 7139])
-            ("kmp_get_affinity" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("kmp_affinity_mask_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [7038 7060]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [6971 7061])
-            ("kmp_set_affinity" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("kmp_affinity_mask_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [6943 6965]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [6876 6966])
-            ("kmp_affinity_mask_t" type
-               (:typemodifiers ("extern" "\"C\"")
-                :type "typedef"
-                :pointer 1
-                :typedef ("void"))
-                (reparse-symbol extern-c-contents) [6835 6870])
-            ("kmp_set_disp_num_buffers" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [6795 6799]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [6730 6800])
-            ("kmp_set_defaults" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :constant-flag t
-                        :type "char")
-                        (reparse-symbol arg-sub-list) [6711 6724]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [6646 6725])
-            ("kmp_set_library_throughput" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6635 6640]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [6570 6641])
-            ("kmp_set_library_turnaround" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6559 6564]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [6494 6565])
-            ("kmp_set_library_serial" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6483 6488]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [6418 6489])
-            ("kmp_set_library" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [6408 6412]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [6343 6413])
-            ("kmp_set_blocktime" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [6333 6337]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [6268 6338])
-            ("kmp_get_library" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6257 6262]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [6192 6263])
-            ("kmp_get_blocktime" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6181 6186]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [6116 6187])
-            ("kmp_set_stacksize_s" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6103 6110]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [6038 6111])
-            ("kmp_get_stacksize_s" function
-               (:type ("size_t" type (:type "class") nil nil)
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [6027 6032]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [5962 6033])
-            ("kmp_set_stacksize" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [5952 5956]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [5887 5957])
-            ("kmp_get_stacksize" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5876 5881]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [5811 5882])
-            ("omp_target_disassociate_ptr" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type "void")
-                        (reparse-symbol arg-sub-list) [5764 5771])
-                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [5772 5776]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [5700 5777])
-            ("omp_target_associate_ptr" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type "void")
-                        (reparse-symbol arg-sub-list) [5658 5665])
-                    ("" variable
-                       (:pointer 1
-                        :type "void")
-                        (reparse-symbol arg-sub-list) [5666 5673])
-                    ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5674 5681])
-                    ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5682 5689])
-                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [5690 5694]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [5597 5695])
-            ("omp_target_memcpy_rect" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type "void")
-                        (reparse-symbol arg-sub-list) [5429 5436])
-                    ("" variable
-                       (:pointer 1
-                        :type "void")
-                        (reparse-symbol arg-sub-list) [5437 5444])
-                    ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5445 5452])
-                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [5453 5457])
-                    ("" variable
-                       (:pointer 1
-                        :constant-flag t
-                        :type ("size_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [5458 5473])
-                    ("" variable
-                       (:pointer 1
-                        :constant-flag t
-                        :type ("size_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [5518 5533])
-                    ("" variable
-                       (:pointer 1
-                        :constant-flag t
-                        :type ("size_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [5534 5549])
-                    ("" variable
-                       (:pointer 1
-                        :constant-flag t
-                        :type ("size_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [5550 5565])
-                    ("" variable
-                       (:pointer 1
-                        :constant-flag t
-                        :type ("size_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [5566 5581])
-                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [5582 5586])
-                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [5587 5591]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [5370 5592])
-            ("omp_target_memcpy" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type "void")
-                        (reparse-symbol arg-sub-list) [5315 5322])
-                    ("" variable
-                       (:pointer 1
-                        :type "void")
-                        (reparse-symbol arg-sub-list) [5323 5330])
-                    ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5331 5338])
-                    ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5339 5346])
-                    ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5347 5354])
-                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [5355 5359])
-                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [5360 5364]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [5261 5365])
-            ("omp_target_is_present" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type "void")
-                        (reparse-symbol arg-sub-list) [5243 5250])
-                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [5251 5255]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [5185 5256])
-            ("omp_target_free" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type "void")
-                        (reparse-symbol arg-sub-list) [5167 5174])
-                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [5175 5179]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [5115 5180])
-            ("omp_target_alloc" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type ("size_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5097 5104])
-                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [5105 5109]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :pointer 1
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [5044 5110])
-            ("omp_get_initial_device" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [5033 5038]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [4973 5039])
-            ("stdlib.h" include
-               (:typemodifiers ("extern" "\"C\"")
-                :system-flag t)
-                (reparse-symbol extern-c-contents) [4925 4947])
-            ("omp_get_cancellation" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4917 4922]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [4860 4923])
-            ("omp_get_team_num" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4849 4854]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [4796 4855])
-            ("omp_get_num_teams" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4785 4790]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [4731 4791])
-            ("omp_get_num_devices" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4720 4725]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [4664 4726])
-            ("omp_is_initial_device" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4653 4658]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [4595 4659])
-            ("omp_set_default_device" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [4585 4589]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [4526 4590])
-            ("omp_get_default_device" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4515 4520]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [4456 4521])
-            ("omp_get_wtick" function
-               (:type "double"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4423 4428]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [4371 4429])
-            ("omp_get_wtime" function
-               (:type "double"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [4360 4365]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [4308 4366])
-            ("omp_init_nest_lock_with_hint" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("omp_nest_lock_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [4237 4255])
-                    ("" variable (:type ("omp_lock_hint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4256 4272]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [4174 4273])
-            ("omp_init_lock_with_hint" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("omp_lock_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [4138 4151])
-                    ("" variable (:type ("omp_lock_hint_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4152 4168]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [4080 4169])
-            ("omp_lock_hint_t" type
-               (:typemodifiers ("extern" "\"C\"")
-                :type "typedef"
-                :typedef ("omp_lock_hint_t" type (:type "enum") nil nil))
-                (reparse-symbol extern-c-contents) [3615 4039])
-            ("omp_lock_hint_t" type
-               (:typemodifiers ("extern" "\"C\"")
-                :type "enum"
-                :members 
-                  ( ("omp_lock_hint_none" variable
-                       (:constant-flag t
-                        :default-value (3685 3686)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [3654 3686])
-                    ("omp_lock_hint_uncontended" variable
-                       (:constant-flag t
-                        :default-value (3727 3728)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [3696 3728])
-                    ("omp_lock_hint_contended" variable
-                       (:constant-flag t
-                        :default-value (3769 3776)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [3738 3776])
-                    ("omp_lock_hint_nonspeculative" variable
-                       (:constant-flag t
-                        :default-value (3817 3824)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [3786 3824])
-                    ("omp_lock_hint_speculative" variable
-                       (:constant-flag t
-                        :default-value (3865 3872)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [3834 3872])
-                    ("kmp_lock_hint_hle" variable
-                       (:constant-flag t
-                        :default-value (3913 3920)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [3882 3920])
-                    ("kmp_lock_hint_rtm" variable
-                       (:constant-flag t
-                        :default-value (3961 3968)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [3930 3968])
-                    ("kmp_lock_hint_adaptive" variable
-                       (:constant-flag t
-                        :default-value (4009 4016)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [3978 4016]))                  )
-                (reparse-symbol extern-c-contents) [3615 4039])
-            ("omp_test_nest_lock" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("omp_nest_lock_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [3543 3561]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [3483 3562])
-            ("omp_destroy_nest_lock" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("omp_nest_lock_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [3459 3477]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [3399 3478])
-            ("omp_unset_nest_lock" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("omp_nest_lock_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [3375 3393]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [3315 3394])
-            ("omp_set_nest_lock" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("omp_nest_lock_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [3291 3309]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [3231 3310])
-            ("omp_init_nest_lock" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("omp_nest_lock_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [3207 3225]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [3147 3226])
-            ("omp_nest_lock_t" type
-               (:typemodifiers ("extern" "\"C\"")
-                :type "typedef"
-                :typedef ("omp_nest_lock_t" type (:type "struct") nil nil))
-                (reparse-symbol extern-c-contents) [3066 3141])
-            ("omp_nest_lock_t" type
-               (:typemodifiers ("extern" "\"C\"")
-                :type "struct"
-                :members 
-                  ( ("_lk" variable
-                       (:pointer 1
-                        :type "void")
-                        (reparse-symbol classsubparts) [3107 3118]))                  )
-                (reparse-symbol extern-c-contents) [3066 3141])
-            ("omp_test_lock" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("omp_lock_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [3010 3023]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [2955 3024])
-            ("omp_destroy_lock" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("omp_lock_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [2936 2949]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [2881 2950])
-            ("omp_unset_lock" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("omp_lock_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [2862 2875]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [2807 2876])
-            ("omp_set_lock" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("omp_lock_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [2788 2801]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [2733 2802])
-            ("omp_init_lock" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("omp_lock_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [2714 2727]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [2659 2728])
-            ("omp_lock_t" type
-               (:typemodifiers ("extern" "\"C\"")
-                :type "typedef"
-                :typedef ("omp_lock_t" type (:type "struct") nil nil))
-                (reparse-symbol extern-c-contents) [2588 2653])
-            ("omp_lock_t" type
-               (:typemodifiers ("extern" "\"C\"")
-                :type "struct"
-                :members 
-                  ( ("_lk" variable
-                       (:pointer 1
-                        :type "void")
-                        (reparse-symbol classsubparts) [2624 2635]))                  )
-                (reparse-symbol extern-c-contents) [2588 2653])
-            ("omp_get_max_task_priority" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2547 2552]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [2481 2553])
-            ("omp_get_schedule" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable
-                       (:pointer 1
-                        :type ("omp_sched_t" type (:type "class") nil nil))
-                        (reparse-symbol arg-sub-list) [2454 2468])
-                    ("" variable
-                       (:pointer 1
-                        :type "int")
-                        (reparse-symbol arg-sub-list) [2469 2475]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [2388 2476])
-            ("omp_get_max_active_levels" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2377 2382]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [2311 2383])
-            ("omp_get_thread_limit" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2300 2305]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [2234 2306])
-            ("omp_get_team_size" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [2224 2228]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [2158 2229])
-            ("omp_get_ancestor_thread_num" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [2148 2152]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [2082 2153])
-            ("omp_get_level" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [2071 2076]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [2005 2077])
-            ("omp_get_active_level" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1994 1999]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [1928 2000])
-            ("omp_in_final" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1917 1922]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [1858 1923])
-            ("omp_in_parallel" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1847 1852]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [1788 1853])
-            ("omp_get_num_procs" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1777 1782]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [1718 1783])
-            ("omp_get_thread_num" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1707 1712]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [1648 1713])
-            ("omp_get_max_threads" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1637 1642]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [1578 1643])
-            ("omp_get_nested" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1567 1572]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [1508 1573])
-            ("omp_get_dynamic" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1497 1502]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [1438 1503])
-            ("omp_get_num_threads" function
-               (:type "int"
-                :arguments 
-                  ( ("" variable (:type "void") (reparse-symbol arg-sub-list) [1427 1432]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [1368 1433])
-            ("omp_set_schedule" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type ("omp_sched_t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1314 1326])
-                    ("" variable (:type "int") (reparse-symbol arg-sub-list) [1327 1331]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [1250 1332])
-            ("omp_set_max_active_levels" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1240 1244]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [1176 1245])
-            ("omp_set_nested" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1166 1170]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [1108 1171])
-            ("omp_set_dynamic" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1098 1102]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [1040 1103])
-            ("omp_set_num_threads" function
-               (:type "void"
-                :arguments 
-                  ( ("" variable (:type "int") (reparse-symbol arg-sub-list) [1030 1034]))                  
-                :typemodifiers ("extern" "\"C\"" "extern")
-                :prototype-flag t)
-                (reparse-symbol extern-c-contents) [972 1035])
-            ("omp_sched_t" type
-               (:typemodifiers ("extern" "\"C\"")
-                :type "typedef"
-                :typedef ("omp_sched_t" type (:type "enum") nil nil))
-                (reparse-symbol extern-c-contents) [798 938])
-            ("omp_sched_t" type
-               (:typemodifiers ("extern" "\"C\"")
-                :type "enum"
-                :members 
-                  ( ("omp_sched_static" variable
-                       (:constant-flag t
-                        :default-value (846 847)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [826 847])
-                    ("omp_sched_dynamic" variable
-                       (:constant-flag t
-                        :default-value (870 871)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [850 871])
-                    ("omp_sched_guided" variable
-                       (:constant-flag t
-                        :default-value (894 895)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [874 895])
-                    ("omp_sched_auto" variable
-                       (:constant-flag t
-                        :default-value (918 919)
-                        :type "int")
-                        (reparse-symbol enumsubparts) [898 919]))                  )
-                (reparse-symbol extern-c-contents) [798 938])
-            ("__KAI_KMPC_CONVENTION" variable
-               (:typemodifiers ("extern" "\"C\"")
-                :constant-flag t)
-                (reparse-symbol extern-c-contents) [727 748]))          
-      :file "omp.h"
-      :pointmax 9192
-      :fsize 9191
-      :lastmodtime '(23122 16200 0 0)
-      :unmatched-syntax nil
-      :lexical-table 
-        '(("KMP_VERSION_MAJOR" . ((number "5" 460 . 461)))
-          ("__OMP_H")
-          ("KMP_BUILD_DATE" . ((string "\"No_Timestamp\"" 569 . 583)))
-          ("KMP_VERSION_MINOR" . ((number "0" 494 . 495)))
-          ("KMP_VERSION_BUILD" . ((number "20140926" 528 . 536)))
-          )
-)
+
     (semanticdb-table "semanticdb-table"
       :major-mode c-mode
       :tags 
@@ -10165,8 +9223,8 @@
                 (reparse-symbol extern-c-contents) [1050 1063]))          
       :file "string.h"
       :pointmax 17546
-      :fsize 17545
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 17660
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax '((punctuation 17308 . 17309) (symbol 17273 . 17283) (punctuation 17272 . 17273) (CHAR 17267 . 17271) (CONST 17261 . 17266) (symbol 17251 . 17259) (punctuation 17250 . 17251) (CHAR 17245 . 17249) (EXTERN 17238 . 17244) (punctuation 16748 . 16749) (symbol 16720 . 16723) (symbol 16713 . 16719) (punctuation 16711 . 16712) (symbol 16708 . 16711) (punctuation 16707 . 16708) (VOID 16702 . 16706) (symbol 16693 . 16700) (punctuation 16692 . 16693) (VOID 16687 . 16691) (EXTERN 16680 . 16686) (punctuation 16645 . 16646) (symbol 16612 . 16620) (punctuation 16611 . 16612) (CHAR 16606 . 16610) (symbol 16598 . 16604) (punctuation 16597 . 16598) (CHAR 16592 . 16596) (EXTERN 16585 . 16591) (punctuation 16552 . 16553) (symbol 16496 . 16500) (punctuation 16495 . 16496) (CHAR 16490 . 16494) (CONST 16484 . 16489) (punctuation 16482 . 16483) (symbol 16478 . 16482) (punctuation 16477 . 16478) (CHAR 16472 . 16476) (CONST 16466 . 16471) (symbol 16454 . 16464) (INT 16450 . 16453) (EXTERN 16443 . 16449) (punctuation 16340 . 16341) (symbol 16304 . 16307) (symbol 16297 . 16303) (punctuation 16295 . 16296) (symbol 16290 . 16295) (punctuation 16278 . 16279) (CHAR 16273 . 16277) (CONST 16267 . 16272) (punctuation 16257 . 16258) (symbol 16251 . 16257) (punctuation 16239 . 16240) (CHAR 16234 . 16238) (symbol 16225 . 16232) (punctuation 16224 . 16225) (CHAR 16219 . 16223) (EXTERN 16212 . 16218) (punctuation 16210 . 16211) (symbol 16174 . 16177) (symbol 16167 . 16173) (punctuation 16165 . 16166) (symbol 16160 . 16165) (punctuation 16148 . 16149) (CHAR 16143 . 16147) (CONST 16137 . 16142) (punctuation 16132 . 16133) (symbol 16126 . 16132) (punctuation 16114 . 16115) (CHAR 16109 . 16113) (symbol 16098 . 16107) (punctuation 16097 . 16098) (CHAR 16092 . 16096) (EXTERN 16085 . 16091) (punctuation 15962 . 15963) (symbol 15924 . 15929) (punctuation 15912 . 15913) (CHAR 15907 . 15911) (CONST 15901 . 15906) (punctuation 15899 . 15900) (symbol 15893 . 15899) (punctuation 15881 . 15882) (CHAR 15876 . 15880) (symbol 15868 . 15874) (punctuation 15867 . 15868) (CHAR 15862 . 15866) (EXTERN 15855 . 15861) (punctuation 15853 . 15854) (symbol 15815 . 15820) (punctuation 15803 . 15804) (CHAR 15798 . 15802) (CONST 15792 . 15797) (punctuation 15790 . 15791) (symbol 15784 . 15790) (punctuation 15772 . 15773) (CHAR 15767 . 15771) (symbol 15757 . 15765) (punctuation 15756 . 15757) (CHAR 15751 . 15755) (EXTERN 15744 . 15750) (punctuation 15661 . 15662) (symbol 15647 . 15652) (INT 15643 . 15646) (symbol 15632 . 15641) (punctuation 15631 . 15632) (CHAR 15626 . 15630) (EXTERN 15619 . 15625) (punctuation 15512 . 15513) (symbol 15472 . 15479) (punctuation 15460 . 15461) (CHAR 15455 . 15459) (CONST 15449 . 15454) (punctuation 15440 . 15441) (symbol 15431 . 15440) (punctuation 15419 . 15420) (punctuation 15418 . 15419) (CHAR 15413 . 15417) (symbol 15405 . 15411) (punctuation 15404 . 15405) (CHAR 15399 . 15403) (EXTERN 15392 . 15398) (punctuation 15260 . 15261) (symbol 15232 . 15235) (symbol 15225 . 15231) (punctuation 15223 . 15224) (symbol 15220 . 15223) (punctuation 15219 . 15220) (VOID 15214 . 15218) (symbol 15198 . 15212) (VOID 15193 . 15197) (EXTERN 15186 . 15192) (punctuation 15013 . 15014) (symbol 15001 . 15004) (symbol 14992 . 15000) (punctuation 14990 . 14991) (symbol 14982 . 14990) (INT 14978 . 14981) (symbol 14966 . 14976) (punctuation 14965 . 14966) (CHAR 14960 . 14964) (EXTERN 14953 . 14959) (punctuation 14846 . 14847) (symbol 14802 . 14810) (symbol 14795 . 14801) (punctuation 14793 . 14794) (symbol 14788 . 14793) (punctuation 14787 . 14788) (CHAR 14782 . 14786) (punctuation 14780 . 14781) (symbol 14772 . 14780) (INT 14768 . 14771) (symbol 14756 . 14766) (punctuation 14755 . 14756) (CHAR 14750 . 14754) (EXTERN 14743 . 14749) (punctuation 13796 . 13797) (symbol 13779 . 13787) (INT 13775 . 13778) (symbol 13765 . 13773) (punctuation 13764 . 13765) (CHAR 13759 . 13763) (EXTERN 13752 . 13758) (punctuation 13664 . 13665) (symbol 13607 . 13615) (symbol 13600 . 13606) (punctuation 13598 . 13599) (symbol 13590 . 13598) (punctuation 13589 . 13590) (CHAR 13584 . 13588) (CONST 13578 . 13583) (symbol 13569 . 13576) (symbol 13562 . 13568) (EXTERN 13555 . 13561) (punctuation 13386 . 13387) (symbol 13334 . 13337) (punctuation 13333 . 13334) (CHAR 13328 . 13332) (CONST 13322 . 13327) (symbol 13314 . 13320) (symbol 13307 . 13313) (EXTERN 13300 . 13306) (punctuation 13258 . 13259) (symbol 13222 . 13225) (symbol 13215 . 13221) (punctuation 13213 . 13214) (symbol 13208 . 13213) (punctuation 13196 . 13197) (VOID 13191 . 13195) (CONST 13185 . 13190) (punctuation 13175 . 13176) (symbol 13169 . 13175) (punctuation 13157 . 13158) (VOID 13152 . 13156) (symbol 13143 . 13150) (punctuation 13142 . 13143) (VOID 13137 . 13141) (EXTERN 13130 . 13136) (punctuation 13128 . 13129) (symbol 13092 . 13095) (symbol 13085 . 13091) (punctuation 13083 . 13084) (symbol 13078 . 13083) (punctuation 13066 . 13067) (VOID 13061 . 13065) (CONST 13055 . 13060) (punctuation 13050 . 13051) (symbol 13044 . 13050) (punctuation 13032 . 13033) (VOID 13027 . 13031) (symbol 13016 . 13025) (punctuation 13015 . 13016) (VOID 13010 . 13014) (EXTERN 13003 . 13009) (punctuation 12908 . 12909) (symbol 12845 . 12856) (symbol 12838 . 12844) (punctuation 12836 . 12837) (symbol 12828 . 12836) (punctuation 12827 . 12828) (VOID 12822 . 12826) (CONST 12816 . 12821) (punctuation 12807 . 12808) (symbol 12794 . 12807) (symbol 12787 . 12793) (punctuation 12785 . 12786) (symbol 12775 . 12785) (punctuation 12774 . 12775) (VOID 12769 . 12773) (CONST 12763 . 12768) (symbol 12755 . 12761) (punctuation 12754 . 12755) (VOID 12749 . 12753) (EXTERN 12742 . 12748) (punctuation 12577 . 12578) (symbol 12517 . 12525) (punctuation 12516 . 12517) (CHAR 12511 . 12515) (CONST 12505 . 12510) (punctuation 12503 . 12504) (symbol 12493 . 12503) (punctuation 12492 . 12493) (CHAR 12487 . 12491) (CONST 12481 . 12486) (symbol 12469 . 12479) (punctuation 12468 . 12469) (CHAR 12463 . 12467) (EXTERN 12456 . 12462) (punctuation 11993 . 11994) (symbol 11950 . 11960) (punctuation 11938 . 11939) (punctuation 11937 . 11938) (CHAR 11932 . 11936) (punctuation 11921 . 11922) (symbol 11914 . 11921) (punctuation 11902 . 11903) (CHAR 11897 . 11901) (CONST 11891 . 11896) (punctuation 11889 . 11890) (symbol 11886 . 11889) (punctuation 11874 . 11875) (CHAR 11869 . 11873) (symbol 11859 . 11867) (punctuation 11858 . 11859) (CHAR 11853 . 11857) (EXTERN 11846 . 11852) (punctuation 11825 . 11826) (symbol 11782 . 11792) (punctuation 11770 . 11771) (punctuation 11769 . 11770) (CHAR 11764 . 11768) (punctuation 11758 . 11759) (symbol 11751 . 11758) (punctuation 11739 . 11740) (CHAR 11734 . 11738) (CONST 11728 . 11733) (punctuation 11722 . 11723) (symbol 11719 . 11722) (punctuation 11707 . 11708) (CHAR 11702 . 11706) (symbol 11690 . 11700) (punctuation 11689 . 11690) (CHAR 11684 . 11688) (EXTERN 11677 . 11683) (punctuation 11551 . 11552) (symbol 11514 . 11521) (punctuation 11502 . 11503) (CHAR 11497 . 11501) (CONST 11491 . 11496) (punctuation 11489 . 11490) (symbol 11486 . 11489) (punctuation 11474 . 11475) (CHAR 11469 . 11473) (symbol 11461 . 11467) (punctuation 11460 . 11461) (CHAR 11455 . 11459) (EXTERN 11448 . 11454) (punctuation 11375 . 11376) (symbol 11315 . 11323) (punctuation 11314 . 11315) (CHAR 11309 . 11313) (CONST 11303 . 11308) (punctuation 11301 . 11302) (symbol 11291 . 11301) (punctuation 11290 . 11291) (CHAR 11285 . 11289) (CONST 11279 . 11284) (symbol 11271 . 11277) (punctuation 11270 . 11271) (CHAR 11265 . 11269) (EXTERN 11258 . 11264) (punctuation 10535 . 10536) (symbol 10475 . 10483) (punctuation 10474 . 10475) (CHAR 10469 . 10473) (CONST 10463 . 10468) (punctuation 10461 . 10462) (symbol 10458 . 10461) (punctuation 10457 . 10458) (CHAR 10452 . 10456) (CONST 10446 . 10451) (symbol 10437 . 10444) (punctuation 10436 . 10437) (CHAR 10431 . 10435) (EXTERN 10424 . 10430) (punctuation 9732 . 9733) (symbol 9672 . 9680) (punctuation 9671 . 9672) (CHAR 9666 . 9670) (CONST 9660 . 9665) (punctuation 9658 . 9659) (symbol 9655 . 9658) (punctuation 9654 . 9655) (CHAR 9649 . 9653) (CONST 9643 . 9648) (symbol 9635 . 9641) (symbol 9628 . 9634) (EXTERN 9621 . 9627) (punctuation 9514 . 9515) (symbol 9454 . 9462) (punctuation 9453 . 9454) (CHAR 9448 . 9452) (CONST 9442 . 9447) (punctuation 9440 . 9441) (symbol 9437 . 9440) (punctuation 9436 . 9437) (CHAR 9431 . 9435) (CONST 9425 . 9430) (symbol 9416 . 9423) (symbol 9409 . 9415) (EXTERN 9402 . 9408) (punctuation 9275 . 9276) (symbol 9223 . 9226) (INT 9219 . 9222) (punctuation 9217 . 9218) (symbol 9214 . 9217) (punctuation 9213 . 9214) (CHAR 9208 . 9212) (CONST 9202 . 9207) (symbol 9191 . 9200) (punctuation 9190 . 9191) (CHAR 9185 . 9189) (EXTERN 9178 . 9184) (punctuation 8726 . 8727) (symbol 8674 . 8677) (INT 8670 . 8673) (punctuation 8668 . 8669) (symbol 8665 . 8668) (punctuation 8664 . 8665) (CHAR 8659 . 8663) (CONST 8653 . 8658) (symbol 8644 . 8651) (punctuation 8643 . 8644) (CHAR 8638 . 8642) (EXTERN 8631 . 8637) (punctuation 8023 . 8024) (symbol 7971 . 7974) (INT 7967 . 7970) (punctuation 7965 . 7966) (symbol 7962 . 7965) (punctuation 7961 . 7962) (CHAR 7956 . 7960) (CONST 7950 . 7955) (symbol 7942 . 7948) (punctuation 7941 . 7942) (CHAR 7936 . 7940) (EXTERN 7929 . 7935) (punctuation 6480 . 6481) (symbol 6426 . 6429) (symbol 6419 . 6425) (punctuation 6417 . 6418) (symbol 6409 . 6417) (punctuation 6408 . 6409) (CHAR 6403 . 6407) (CONST 6397 . 6402) (symbol 6388 . 6395) (punctuation 6387 . 6388) (CHAR 6382 . 6386) (EXTERN 6375 . 6381) (punctuation 6157 . 6158) (symbol 6103 . 6106) (punctuation 6102 . 6103) (CHAR 6097 . 6101) (CONST 6091 . 6096) (symbol 6083 . 6089) (punctuation 6082 . 6083) (CHAR 6077 . 6081) (EXTERN 6070 . 6076) (symbol "__GLIBC_USE_LIB_EXT2" 5986 . 6008) (punctuation 5984 . 5985) (punctuation 5983 . 5984))
       :lexical-table 
         '(("__GLIBC_INTERNAL_STARTING_HEADER_IMPLEMENTATION")
@@ -10363,8 +9421,8 @@
                 (reparse-symbol extern-c-contents) [1177 1293]))          
       :file "strings.h"
       :pointmax 4753
-      :fsize 4752
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 4753
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax nil
       :lexical-table 
         '(("_STRINGS_H" . ((number "1" 828 . 829)))
@@ -10516,8 +9574,8 @@
             ("UINTMAX_C" variable (:constant-flag t) nil [7568 7577]))          
       :file "stdint.h"
       :pointmax 8627
-      :fsize 8626
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 8474
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax '((LONG 2318 . 2322) (UNSIGNED 2309 . 2317) (TYPEDEF 2301 . 2308) (LONG 1972 . 1976) (TYPEDEF 1964 . 1971) (LONG 1663 . 1667) (UNSIGNED 1654 . 1662) (TYPEDEF 1646 . 1653) (LONG 1389 . 1393) (TYPEDEF 1381 . 1388))
       :lexical-table 
         '(("INT_LEAST16_MAX" . ((semantic-list "(32767)" 3887 . 3894)))
@@ -10603,8 +9661,8 @@
             ("bits/xopen_lim.h" include (:system-flag t) nil [5377 5405]))          
       :file "limits.h"
       :pointmax 5413
-      :fsize 5412
-      :lastmodtime '(23253 1052 0 0)
+      :fsize 5417
+      :lastmodtime '(24214 3660 0 0)
       :unmatched-syntax '((punctuation 3921 . 3922) (symbol 3920 . 3921) (punctuation 3919 . 3920) (symbol 3913 . 3919) (punctuation 3912 . 3913) (symbol 3899 . 3911) (punctuation 3897 . 3898))
       :lexical-table 
         '(("LLONG_MAX" . ((symbol "__LONG_LONG_MAX__" 4244 . 4261)))

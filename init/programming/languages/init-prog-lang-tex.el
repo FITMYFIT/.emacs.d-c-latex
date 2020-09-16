@@ -9,8 +9,8 @@
 
 ;;; [ AUCTeX ] -- Integrated environment for *TeX*.
 
-;;(add-hook 'Latex-mode-hook 'turn-on-cdlatex)
-;; (add-hook 'laTeX-mode-hook 'turn-on-cdlatex)
+(add-hook 'Latex-mode-hook 'turn-on-cdlatex)
+(add-hook 'laTeX-mode-hook 'turn-on-cdlatex)
 
 ;;(pdf-tools-install)
 (pdf-loader-install)

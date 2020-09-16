@@ -198,4 +198,10 @@
       )
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+;;for the clipboard, since the quit of emacs may junk when quit
+;; (setq x-select-enable-clipboard nil)
+;; (global-set-key (kbd “C-y”) 'x-clipboard-yank)
+;; (global-set-key (kbd “C-w”) 'clipboard-kill-region)
+;; (global-set-key (kbd “M-w”) 'clipboard-kill-ring-save)
+
 ;;; init.el ends here
