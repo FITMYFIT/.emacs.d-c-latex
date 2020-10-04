@@ -73,7 +73,7 @@
       :file "viscosity-weugene.h"
       :pointmax 5282
       :fsize 5281
-      :lastmodtime '(24327 63906 812550 256000)
+      :lastmodtime '(24435 59753 457819 380000)
       :unmatched-syntax '((symbol 4720 . 4725) (symbol 997 . 1001))
       :lexical-table 
         '(("m_scalar_a_by_b" (spp-arg-list ("a" "b") 862 . 868) . ((semantic-list "(a.x[]*(b.x[1] - b.x[-1]) + a.y[]*(b.y[1] - b.y[-1]) + a.z[]*(b.z[1] - b.z[-1]))" 869 . 949)))
@@ -140,7 +140,7 @@
       :file "penalization.h"
       :pointmax 5040
       :fsize 5039
-      :lastmodtime '(24327 63927 697531 658000)
+      :lastmodtime '(24435 59753 457819 380000)
       :unmatched-syntax '((symbol 2696 . 2700))
       :lexical-table 
         '(("PLUS_BRINKMAN_RHS" . ((number "0" 2583 . 2584)))
@@ -148,6 +148,291 @@
           ("PLUS_NUMERATOR_BRINKMAN" . ((number "0" 2617 . 2618)))
           ("frhs" . ((number "1" 2526 . 2527)))
           ("fbp" . ((number "0" 2540 . 2541)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("vof.h" include nil nil [607 623])
+            ("f2" variable
+               (:dereference 1
+                :type ("scalar" type (:type "class") nil nil))
+                nil [627 649])
+            ("f3" variable
+               (:dereference 1
+                :type ("scalar" type (:type "class") nil nil))
+                nil [627 649])
+            ("f1" variable
+               (:dereference 1
+                :type ("scalar" type (:type "class") nil nil))
+                nil [627 649])
+            ("interfaces" variable
+               (:pointer 1
+                :default-value "{f2,f3,f1}"
+                :type ("scalar" type (:type "class") nil nil))
+                nil [650 683])
+            ("rho1" variable
+               (:default-value "1."
+                :type "double")
+                nil [684 753])
+            ("mu1" variable
+               (:default-value "0."
+                :type "double")
+                nil [684 753])
+            ("rho2" variable
+               (:default-value "1."
+                :type "double")
+                nil [684 753])
+            ("mu2" variable
+               (:default-value "0."
+                :type "double")
+                nil [684 753])
+            ("rho3" variable
+               (:default-value "1."
+                :type "double")
+                nil [684 753])
+            ("mu3" variable
+               (:default-value "0."
+                :type "double")
+                nil [684 753])
+            ("alphav" variable
+               (:dereference 1
+                :type ("vector" type (:type "class") nil nil))
+                nil [896 912])
+            ("rhov" variable
+               (:dereference 1
+                :type ("scalar" type (:type "class") nil nil))
+                nil [913 927])
+            ("defaults" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [945 950]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [929 1137])
+            ("rho" variable (:constant-flag t) nil [1389 1392])
+            ("mu" variable (:constant-flag t) nil [1594 1596])
+            ("properties" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1744 1746]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [1726 2800]))          
+      :file "three-phase.h"
+      :pointmax 2801
+      :fsize 2804
+      :lastmodtime '(24435 59753 457819 380000)
+      :unmatched-syntax '((punctuation 1746 . 1747) (punctuation 1745 . 1746) (symbol 891 . 895))
+      :lexical-table 
+        '(("mu" (spp-arg-list ("f2" "f3") 1596 . 1603) . ((semantic-list "(clamp(1.-f2-f3,0,1)*mu1+clamp(f2,0,1)*mu2+clamp(f3,0,1)*mu3)" 1605 . 1666)))
+          ("rho" (spp-arg-list ("f2" "f3") 1392 . 1399) . ((semantic-list "(clamp(1.-f2-f3,0,1)*rho1+clamp(f2,0,1)*rho2+clamp(f3,0,1)*rho3)" 1400 . 1464)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("run.h" include nil nil [1698 1714])
+            ("timestep.h" include nil nil [1715 1736])
+            ("bcg.h" include nil nil [1737 1753])
+            ("viscosity.h" include nil nil [1829 1851])
+            ("p" variable
+               (:dereference 1
+                :type ("scalar" type (:type "class") nil nil))
+                nil [2237 2248])
+            ("u" variable
+               (:dereference 1
+                :type ("vector" type (:type "class") nil nil))
+                nil [2249 2265])
+            ("g" variable
+               (:dereference 1
+                :type ("vector" type (:type "class") nil nil))
+                nil [2249 2265])
+            ("pf" variable
+               (:dereference 1
+                :type ("scalar" type (:type "class") nil nil))
+                nil [2266 2278])
+            ("uf" variable
+               (:dereference 1
+                :type ("vector" type (:type "class") nil nil))
+                nil [2284 2296])
+            ("mu" variable
+               (:default-value "zerof"
+                :type ("vector" type (:type "class") nil nil))
+                nil [3157 3217])
+            ("a" variable
+               (:default-value "zerof"
+                :type ("vector" type (:type "class") nil nil))
+                nil [3157 3217])
+            ("alpha" variable
+               (:default-value "unityf"
+                :type ("vector" type (:type "class") nil nil))
+                nil [3157 3217])
+            ("kappa" variable
+               (:default-value "zerof"
+                :type ("vector" type (:type "class") nil nil))
+                nil [3157 3217])
+            ("rho" variable
+               (:default-value "unity"
+                :type ("scalar" type (:type "class") nil nil))
+                nil [3226 3245])
+            ("mgp" variable (:type ("mgstats" type (:type "class") nil nil)) nil [3246 3269])
+            ("mgpf" variable (:type ("mgstats" type (:type "class") nil nil)) nil [3246 3269])
+            ("mgu" variable (:type ("mgstats" type (:type "class") nil nil)) nil [3246 3269])
+            ("stokes" variable
+               (:default-value "false"
+                :type "bool")
+                nil [3270 3290])
+            ("neumann_pressure" variable (:constant-flag t) nil [3806 3822])
+            ("p" variable
+               (:dereference 1
+                :default-value "neumann (neumann_pressure(ghost))"
+                :type "int")
+                nil [3862 3907])
+            ("p" variable
+               (:dereference 1
+                :default-value "neumann (- neumann_pressure(0))"
+                :type "int")
+                nil [3908 3951])
+            ("defaults" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4774 4779]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [4758 5807])
+            ("dtmax" variable (:type "double") nil [5896 5909])
+            ("init" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5923 5928]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [5911 6257])
+            ("dtmax" variable
+               (:default-value "DT"
+                :type "int")
+                nil [6487 6498])
+            ("stability" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6517 6519])
+                    ("" variable (:type ("last" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6521 6526]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [6500 6585])
+            ("vof" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6850 6852])
+                    ("" variable (:type ("last" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6854 6859]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [6839 6860])
+            ("tracer_advection" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6885 6887])
+                    ("" variable (:type ("last" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6889 6894]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [6861 6895])
+            ("properties" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7127 7129])
+                    ("" variable (:type ("last" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7131 7136]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [7109 7202])
+            ("tracer_diffusion" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7228 7230])
+                    ("" variable (:type ("last" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7232 7237]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [7204 7238])
+            ("prediction" function (:type "void") nil [7643 8825])
+            ("advection_term" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9161 9163])
+                    ("" variable (:type ("last" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [9165 9170]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [9139 9323])
+            ("correction" function
+               (:typemodifiers ("static")
+                :arguments 
+                  ( ("dt" variable (:type "double") (reparse-symbol arg-sub-list) [9458 9468]))                  
+                :type "void")
+                nil [9434 9561])
+            ("viscous_term" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10009 10011])
+                    ("" variable (:type ("last" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [10013 10018]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [9989 10328])
+            ("acceleration" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11033 11035])
+                    ("" variable (:type ("last" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11037 11042]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [11013 11165])
+            ("centered_gradient" function
+               (:arguments 
+                  ( ("p" variable (:type ("scalar" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11392 11401])
+                    ("g" variable (:type ("vector" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [11402 11411]))                  
+                :type "void")
+                nil [11368 11892])
+            ("projection" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12117 12119])
+                    ("" variable (:type ("last" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12121 12126]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [12099 12294])
+            ("end_timestep" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12646 12648])
+                    ("" variable (:type ("last" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12651 12656]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [12626 12657])
+            ("vtk_file" function
+               (:prototype-flag t
+                :arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12698 12700])
+                    ("" variable (:type ("last" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [12703 12708]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [12682 12709])
+            ("MinMaxValues" function
+               (:arguments 
+                  ( ("list" variable
+                       (:pointer 1
+                        :type ("scalar" type (:type "class") nil nil))
+                        (reparse-symbol arg-sub-list) [13214 13228])
+                    ("arr_eps" variable
+                       (:pointer 1
+                        :type "double")
+                        (reparse-symbol arg-sub-list) [13229 13246]))                  
+                :type "void")
+                nil [13196 13943])
+            ("statsf_weugene" function
+               (:arguments 
+                  ( ("f" variable (:type ("scalar" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14094 14103])
+                    ("fs" variable (:type ("scalar" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14104 14114]))                  
+                :type ("stats" type (:type "class") nil nil))
+                nil [14072 14699])
+            ("statsf_weugene2" function
+               (:arguments 
+                  ( ("f" variable (:type ("scalar" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14724 14733])
+                    ("fs" variable (:type ("scalar" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [14734 14744]))                  
+                :type ("stats" type (:type "class") nil nil))
+                nil [14701 15297])
+            ("normf_weugene" function
+               (:arguments 
+                  ( ("f" variable (:type ("scalar" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15319 15328])
+                    ("fs" variable (:type ("scalar" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15329 15339]))                  
+                :type ("norm" type (:type "class") nil nil))
+                nil [15299 15798])
+            ("change_weugene" function
+               (:arguments 
+                  ( ("s" variable (:type ("scalar" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15823 15832])
+                    ("sn" variable (:type ("scalar" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15833 15843])
+                    ("fs" variable (:type ("scalar" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [15844 15854]))                  
+                :type "double")
+                nil [15800 16044]))          
+      :file "centered-weugene.h"
+      :pointmax 16045
+      :fsize 16094
+      :lastmodtime '(24435 59753 457819 380000)
+      :unmatched-syntax '((punctuation 12700 . 12701) (punctuation 12699 . 12700) (punctuation 12648 . 12649) (punctuation 12647 . 12648) (punctuation 12119 . 12120) (punctuation 12118 . 12119) (punctuation 11035 . 11036) (punctuation 11034 . 11035) (punctuation 10011 . 10012) (punctuation 10010 . 10011) (punctuation 9163 . 9164) (punctuation 9162 . 9163) (punctuation 7230 . 7231) (punctuation 7229 . 7230) (punctuation 7129 . 7130) (punctuation 7128 . 7129) (punctuation 6887 . 6888) (punctuation 6886 . 6887) (punctuation 6852 . 6853) (punctuation 6851 . 6852) (punctuation 6519 . 6520) (punctuation 6518 . 6519) (semantic-list 6476 . 6486) (symbol 6466 . 6475) (punctuation 6479 . 6480) (punctuation 6478 . 6479) (symbol 6460 . 6465) (punctuation 6479 . 6480) (punctuation 6478 . 6479) (semantic-list 3218 . 3225) (symbol 3152 . 3156) (semantic-list 3144 . 3151) (symbol 2279 . 2283))
+      :lexical-table 
+        '(("neumann_pressure" (spp-arg-list ("i") 3822 . 3825) . ((semantic-list "(a.n[i]*fm.n[i]/alpha.n[i])" 3826 . 3853)))
           )
 ))
   :file "!home!liu!basilisk!src!sandboxfile!semantic.cache"

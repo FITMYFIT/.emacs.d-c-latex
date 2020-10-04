@@ -1,0 +1,408 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("navier-stokes/centered.h" include nil nil [507 542])
+            ("two-phase.h" include nil nil [543 565])
+            ("tension.h" include nil nil [566 586])
+            ("view.h" include nil nil [587 604])
+            ("embed.h" include nil nil [605 623])
+            ("radius" variable (:constant-flag t) nil [900 906])
+            ("inradius" variable (:constant-flag t) nil [922 930])
+            ("length" variable (:constant-flag t) nil [946 952])
+            ("Re" variable (:constant-flag t) nil [967 969])
+            ("SIGMA" variable (:constant-flag t) nil [983 988])
+            ("L0" variable (:constant-flag t) nil [1045 1047])
+            ("level0" variable (:constant-flag t) nil [1086 1092])
+            ("vin" variable (:constant-flag t) nil [1104 1107])
+            ("maxlevel" variable
+               (:default-value "10"
+                :type "int")
+                nil [1222 1240])
+            ("uemax" variable
+               (:default-value "0.1*vin"
+                :type "double")
+                nil [1241 1264])
+            ("f0" variable
+               (:dereference 1
+                :type ("scalar" type (:type "class") nil nil))
+                nil [1531 1543])
+            ("n" variable
+               (:dereference 1
+                :default-value "dirichlet(0)"
+                :type "int")
+                nil [1583 1606])
+            ("t" variable
+               (:dereference 1
+                :default-value "dirichlet(-f0[]*vin)"
+                :type "int")
+                nil [1609 1640])
+            ("n" variable
+               (:dereference 1
+                :default-value "dirichlet(0.)"
+                :type "int")
+                nil [1696 1719])
+            ("t" variable
+               (:dereference 1
+                :default-value "dirichlet(0.)"
+                :type "int")
+                nil [1722 1745])
+            ("r" variable
+               (:dereference 1
+                :default-value "dirichlet(0.)"
+                :type "int")
+                nil [1748 1771])
+            ("p" variable
+               (:dereference 1
+                :default-value "neumann(0)"
+                :type "int")
+                nil [1773 1796])
+            ("f" variable
+               (:dereference 1
+                :default-value "dirichlet(f0[])"
+                :type "int")
+                nil [1797 1825])
+            ("t" variable
+               (:dereference 1
+                :default-value "neumann(0)"
+                :type "int")
+                nil [1829 1852])
+            ("p" variable
+               (:dereference 1
+                :default-value "dirichlet(0)"
+                :type "int")
+                nil [1853 1880])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [2019 2028])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [2029 2043]))                  
+                :type "int")
+                nil [2009 2582])
+            ("fiber" variable
+               (:dereference 1
+                :type ("scalar" type (:type "class") nil nil))
+                nil [2585 2600])
+            ("ring" function
+               (:arguments 
+                  ( ("x" variable (:type "double") (reparse-symbol arg-sub-list) [2957 2966])
+                    ("z" variable (:type "double") (reparse-symbol arg-sub-list) [2967 2976]))                  
+                :type "double")
+                nil [2944 3124])
+            ("init" function
+               (:arguments 
+                  ( ("" variable (:type ("t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3138 3143]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [3126 3994])
+            ("acceleration" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4063 4065]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [4043 4131])
+            ("properties" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4152 4154]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [4134 4282])
+            ("logfile" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4362 4364]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [4347 4604])
+            ("movie" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4676 4678]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [4663 5697])
+            ("snapshot" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5841 5843]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [5825 6093])
+            ("adapt" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6233 6235]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [6220 6312])
+            ("end" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6326 6334]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [6315 6375]))          
+      :file "fiberdrop.c"
+      :pointmax 6376
+      :fsize 6375
+      :lastmodtime '(24425 23439 622215 651000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("inradius" . ((number "2.3e-4" 931 . 937)))
+          ("L0" . ((number "2.5e-2" 1048 . 1054)))
+          ("vin" . ((number "2.56e-2" 1108 . 1115)))
+          ("radius" . ((number "2.5e-4" 907 . 913)))
+          ("length" . ((number "1.e-4" 953 . 958)))
+          ("Re" . ((number "5800" 970 . 974)))
+          ("SIGMA" . ((number "2.08e-2" 989 . 996)))
+          ("level0" . ((number "6" 1093 . 1094)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("BRINKMAN_PENALIZATION" variable (:constant-flag t) nil [529 550])
+            ("DEBUG_BRINKMAN_PENALIZATION" variable (:constant-flag t) nil [561 588])
+            ("sandboxfile/centered-weugene.h" include nil nil [591 632])
+            ("two-phase.h" include nil nil [633 655])
+            ("tension.h" include nil nil [656 676])
+            ("view.h" include nil nil [677 694])
+            ("radius" variable (:constant-flag t) nil [869 875])
+            ("inradius" variable (:constant-flag t) nil [891 899])
+            ("length" variable (:constant-flag t) nil [915 921])
+            ("Re" variable (:constant-flag t) nil [936 938])
+            ("SIGMA" variable (:constant-flag t) nil [952 957])
+            ("L0" variable (:constant-flag t) nil [1014 1016])
+            ("level0" variable (:constant-flag t) nil [1055 1061])
+            ("vin" variable (:constant-flag t) nil [1073 1076])
+            ("maxlevel" variable
+               (:default-value "10"
+                :type "int")
+                nil [1191 1209])
+            ("uemax" variable
+               (:default-value "0.1*vin"
+                :type "double")
+                nil [1210 1233])
+            ("f0" variable
+               (:dereference 1
+                :type ("scalar" type (:type "class") nil nil))
+                nil [1500 1512])
+            ("n" variable
+               (:dereference 1
+                :default-value "dirichlet(0)"
+                :type "int")
+                nil [1552 1575])
+            ("t" variable
+               (:dereference 1
+                :default-value "dirichlet(-f0[]*vin)"
+                :type "int")
+                nil [1578 1609])
+            ("p" variable
+               (:dereference 1
+                :default-value "neumann(0)"
+                :type "int")
+                nil [1663 1686])
+            ("f" variable
+               (:dereference 1
+                :default-value "dirichlet(f0[])"
+                :type "int")
+                nil [1687 1715])
+            ("t" variable
+               (:dereference 1
+                :default-value "neumann(0)"
+                :type "int")
+                nil [1719 1742])
+            ("p" variable
+               (:dereference 1
+                :default-value "dirichlet(0)"
+                :type "int")
+                nil [1743 1770])
+            ("main" function
+               (:arguments 
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [1909 1918])
+                    ("argv" variable
+                       (:pointer 1
+                        :dereference 1
+                        :type "char")
+                        (reparse-symbol arg-sub-list) [1919 1933]))                  
+                :type "int")
+                nil [1899 2472])
+            ("fiber" variable
+               (:dereference 1
+                :type ("scalar" type (:type "class") nil nil))
+                nil [2475 2490])
+            ("ring" function
+               (:arguments 
+                  ( ("x" variable (:type "double") (reparse-symbol arg-sub-list) [2847 2856])
+                    ("z" variable (:type "double") (reparse-symbol arg-sub-list) [2857 2866]))                  
+                :type "double")
+                nil [2834 3014])
+            ("init" function
+               (:arguments 
+                  ( ("" variable (:type ("t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3028 3033]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [3016 3870])
+            ("acceleration" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [3939 3941]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [3919 4007])
+            ("logfile" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4268 4270]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [4253 4510])
+            ("movie" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [4582 4584]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [4569 5483])
+            ("snapshot" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5627 5629]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [5611 5837])
+            ("adapt" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5977 5979]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [5964 6066])
+            ("end" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6080 6088]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [6069 6129]))          
+      :file "fiberdrop-bpm.c"
+      :pointmax 6130
+      :fsize 6129
+      :lastmodtime '(24434 36106 254276 719000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("inradius" . ((number "2.3e-4" 901 . 907)))
+          ("L0" . ((number "2.5e-2" 1018 . 1024)))
+          ("BRINKMAN_PENALIZATION" . ((number "1" 551 . 552)))
+          ("vin" . ((number "2.56e-2" 1078 . 1085)))
+          ("radius" . ((number "2.5e-4" 877 . 883)))
+          ("length" . ((number "1.e-4" 923 . 928)))
+          ("Re" . ((number "5800" 940 . 944)))
+          ("SIGMA" . ((number "2.08e-2" 959 . 966)))
+          ("level0" . ((number "6" 1063 . 1064)))
+          ("DEBUG_BRINKMAN_PENALIZATION" . ((number "1" 589 . 590)))
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :major-mode c-mode
+      :tags 
+        '( ("REDUCED" variable (:constant-flag t) nil [9 16])
+            ("EMBEDLOPEZ" variable (:constant-flag t) nil [27 37])
+            ("embed.h" include nil nil [92 111])
+            ("navier-stokes/centered.h" include nil nil [112 147])
+            ("two-phase.h" include nil nil [148 170])
+            ("reduced.h" include nil nil [306 326])
+            ("Bo" variable (:constant-flag t) nil [343 345])
+            ("U" variable (:constant-flag t) nil [357 358])
+            ("A" variable (:constant-flag t) nil [373 374])
+            ("B" variable (:constant-flag t) nil [387 388])
+            ("n" variable
+               (:dereference 1
+                :default-value "dirichlet(0)"
+                :type "int")
+                nil [396 419])
+            ("t" variable
+               (:dereference 1
+                :default-value "dirichlet(0)"
+                :type "int")
+                nil [422 445])
+            ("n" variable
+               (:dereference 1
+                :default-value "dirichlet(0)"
+                :type "int")
+                nil [448 472])
+            ("t" variable
+               (:dereference 1
+                :default-value "dirichlet(0)"
+                :type "int")
+                nil [475 499])
+            ("n" variable
+               (:dereference 1
+                :default-value "neumann(0.)"
+                :type "int")
+                nil [503 524])
+            ("p" variable
+               (:dereference 1
+                :default-value "dirichlet(0.)"
+                :type "int")
+                nil [525 550])
+            ("f" variable
+               (:dereference 1
+                :default-value "1."
+                :type "int")
+                nil [552 567])
+            ("n" variable
+               (:dereference 1
+                :default-value "dirichlet(U)"
+                :type "int")
+                nil [570 595])
+            ("t" variable
+               (:dereference 1
+                :default-value "dirichlet(0.)"
+                :type "int")
+                nil [598 624])
+            ("n" variable
+               (:dereference 1
+                :default-value "dirichlet(0.)"
+                :type "int")
+                nil [628 653])
+            ("t" variable
+               (:dereference 1
+                :default-value "dirichlet(0.)"
+                :type "int")
+                nil [656 681])
+            ("LEVEL" variable
+               (:default-value "6"
+                :type "int")
+                nil [683 697])
+            ("main" function (:type "int") nil [699 941])
+            ("init" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1138 1143]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [1126 1488])
+            ("update_profund" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1631 1634])
+                    ("" variable (:type ("t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1640 1643]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [1609 2127])
+            ("save_dump" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2145 2148]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [2128 2173])
+            ("save_depth" function
+               (:arguments 
+                  ( ("" variable (:type ("t" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2193 2212]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [2175 2340])
+            ("adapt" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2372 2374]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [2359 2469])
+            ("view.h" include nil nil [2490 2507])
+            ("snapshot" function
+               (:arguments 
+                  ( ("" variable (:type ("i" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2525 2528]))                  
+                :type ("event" type (:type "class") nil nil))
+                nil [2508 2949]))          
+      :file "test-lopez.c"
+      :pointmax 2963
+      :fsize 2962
+      :lastmodtime '(24434 55336 531905 481000)
+      :unmatched-syntax nil
+      :lexical-table 
+        '(("A" . ((number "0.4" 374 . 377)))
+          ("EMBEDLOPEZ" . ((number "1" 38 . 39)))
+          ("B" . ((number "0.1" 388 . 391)))
+          ("U" . ((number "0.02" 358 . 362)))
+          ("Bo" . ((number "50" 345 . 347)))
+          ("REDUCED" . ((number "1" 17 . 18)))
+          )
+))
+  :file "!home!liu!basilisktst!fangzixuan!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -98,6 +98,32 @@
     (3FR ARW AVS BMP BMP2 BMP3 CAL CALS CMYK CMYKA CR2 CRW CUR CUT DCM DCR DCX DDS DJVU DNG DPX EXR FAX FITS GBR GIF GIF87 GRB HRZ ICB ICO ICON J2C JNG JP2 JPC JPEG JPG JPX K25 KDC MIFF MNG MRW MSL MSVG MTV NEF ORF OTB PBM PCD PCDS PCL PCT PCX PDB PEF PGM PICT PIX PJPEG PNG PNG24 PNG32 PNG8 PNM PPM PSD PTIF PWP RAF RAS RBG RGB RGBA RGBO RLA RLE SCR SCT SFW SGI SR2 SRF SUN SVG SVGZ TGA TIFF TIFF64 TILE TIM TTF UYVY VDA VICAR VID VIFF VST WBMP WPG X3F XBM XC XCF XPM XV XWD YCbCr YCbCrA YUV eps)))
  '(indent-guide-global-mode t)
  '(org-image-actual-width 300)
+ '(org-latex-classes
+   (quote
+    (("article" "\\documentclass[11pt]{article}"
+      ("\\section{%s}" . "\\section*{%s}")
+      ("\\subsection{%s}" . "\\subsection*{%s}")
+      ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+      ("\\paragraph{%s}" . "\\paragraph*{%s}")
+      ("\\subparagraph{%s}" . "\\subparagraph*{%s}"))
+     ("report" "\\documentclass[11pt]{report}"
+      ("\\part{%s}" . "\\part*{%s}")
+      ("\\chapter{%s}" . "\\chapter*{%s}")
+      ("\\section{%s}" . "\\section*{%s}")
+      ("\\subsection{%s}" . "\\subsection*{%s}")
+      ("\\subsubsection{%s}" . "\\subsubsection*{%s}"))
+     ("book" "\\documentclass[11pt]{book}"
+      ("\\part{%s}" . "\\part*{%s}")
+      ("\\chapter{%s}" . "\\chapter*{%s}")
+      ("\\section{%s}" . "\\section*{%s}")
+      ("\\subsection{%s}" . "\\subsection*{%s}")
+      ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+      ("\\paragraph{%s}" . "\\paragraph*{%s}")
+      ("\\subparagraph{%s}" . "\\subparagraph*{%s}"))
+     ("elegantpaper" "\\documentclass[lang=cn,11pt,a4paper]"
+      ("\\section{%s}" . "\\section*{%s}")
+      ("\\subsection{%s}" . "\\subsection*{%s}")
+      ("\\subsubsection{%s}" . "\\subsubsection*{%s}")))))
  '(org-ref-bibliography-notes "~/Document/References/bibliography/notes.org")
  '(org-ref-pdf-directory "~/Document/References/bibliography/bibtex-pdfs/")
  '(package-archives
@@ -107,7 +133,7 @@
      ("gnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/"))))
  '(package-selected-packages
    (quote
-    (gnuplot-mode gnuplot org-ref languagetool langtool writegood-mode magit-diff-flycheck magit-gitflow magit-popup org-download rainbow-delimiters pdfgrep pdf-tools-org org-noter pdf-view-restore latex-preview-pane magic-latex-buffer company-math company-reftex cdlatex helm-mt company-auctex auto-complete-auctex multi-term evil-magit org-pdfview auctex ws-butler sr-speedbar helm-cscope xcscope yasnippet-snippets smartparens flycheck-cstyle c-eldoc flycheck-irony irony-eldoc company-irony-c-headers company-irony irony modern-cpp-font-lock diffview git-gutter+ forge git-messenger git-commit gitignore-templates gitignore-mode gitattributes-mode gitconfig-mode projectile-variable realgud-lldb realgud flycheck-inline build-helper cmake-ide eldoc-cmake cmake-font-lock cmake-mode makefile-executor quickrun helm-dash dash-docs dired-sidebar code-archive org-sync-snippets auto-yasnippet ivy-yasnippet yasnippet company-quickhelp shut-up company auto-complete origami aggressive-indent banner-comment org-commentary poporg hl-todo visual-regexp-steroids use-package treepy symbol-overlay regex-tool pcre2el one-themes leaf-keywords kv key-quiz ivy-hydra ht hierarchy helm-swoop frog-jump-buffer flycheck-package emaps elgrep el-get doom-modeline delight deferred counsel anzu ample-regexps aggressive-fill-paragraph ace-window a)))
+    (org-babel-eval-in-repl org color-theme-approximate gnuplot-mode gnuplot org-ref languagetool langtool writegood-mode magit-diff-flycheck magit-gitflow magit-popup org-download rainbow-delimiters pdfgrep pdf-tools-org org-noter pdf-view-restore latex-preview-pane magic-latex-buffer company-math company-reftex cdlatex helm-mt company-auctex auto-complete-auctex multi-term evil-magit org-pdfview auctex ws-butler sr-speedbar helm-cscope xcscope yasnippet-snippets smartparens flycheck-cstyle c-eldoc flycheck-irony irony-eldoc company-irony-c-headers company-irony irony modern-cpp-font-lock diffview git-gutter+ forge git-messenger git-commit gitignore-templates gitignore-mode gitattributes-mode gitconfig-mode projectile-variable realgud-lldb realgud flycheck-inline build-helper cmake-ide eldoc-cmake cmake-font-lock cmake-mode makefile-executor quickrun helm-dash dash-docs dired-sidebar code-archive org-sync-snippets auto-yasnippet ivy-yasnippet yasnippet company-quickhelp shut-up company auto-complete origami aggressive-indent banner-comment org-commentary poporg hl-todo visual-regexp-steroids use-package treepy symbol-overlay regex-tool pcre2el one-themes leaf-keywords kv key-quiz ivy-hydra ht hierarchy helm-swoop frog-jump-buffer flycheck-package emaps elgrep el-get doom-modeline delight deferred counsel anzu ample-regexps aggressive-fill-paragraph ace-window a)))
  '(reftex-default-bibliography (quote ("~/Document/References/bibliography/liuhuref.bib")))
  '(safe-local-variable-values
    (quote

@@ -17,7 +17,8 @@
 ;;(setq org-latex-pdf-process '("xelatex -interaction nonstopmode --synctex=1 %f"                            
 ;;"xelatex -interaction nonstopmode --synctex=1 %f"))
 
-(setq org-image-actual-width '(300))
+(setq org-image-actual-width nil)
+;; (setq org-image-actual-width '(300))
 
 ;;display images in org mode, from https://stackoverflow.com/questions/15407485/inline-pdf-images-in-org-mode
 
@@ -39,5 +40,14 @@
 (setq bibtex-completion-bibliography "~/Documents/References/bibliography/liuhuref.bib"
       bibtex-completion-library-path "~/Documents/References/bibliography/bibtex-pdfs"
       bibtex-completion-notes-path "~/Documents/Reference/bibliography/helm-bibtex-notes")
+
+;;the following is from https://orgmode.org/worg/org-contrib/babel/languages/ob-doc-gnuplot.html
+;;for insert gnuplot in org
+;; active Babel languages
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((gnuplot . t)))
+;; add additional languages with '((language . t)))
+
 (provide 'init-org)
 
