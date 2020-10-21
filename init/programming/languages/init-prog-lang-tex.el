@@ -1,4 +1,4 @@
-;;; init-prog-lang-tex.el --- init TeX/LaTeX for Emacs.
+;;; yinit-prog-lang-tex.el --- init TeX/LaTeX for Emacs.
 ;;; -*- coding: utf-8 -*-
 
 ;;; Commentary:
@@ -11,6 +11,9 @@
 
 (add-hook 'Latex-mode-hook 'turn-on-cdlatex)
 (add-hook 'laTeX-mode-hook 'turn-on-cdlatex)
+
+(add-hook 'LaTeX-mode-hook 'turn-on-auto-fill)
+
 
 ;;(pdf-tools-install)
 (pdf-loader-install)
@@ -213,6 +216,7 @@ character(s), in which case it deletes the space(s) first."
 
 ;; (use-package px
 ;;   :ensure t)
+
 
 
 (provide 'init-prog-lang-tex)

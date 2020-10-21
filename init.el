@@ -204,4 +204,9 @@
 ;; (global-set-key (kbd “C-w”) 'clipboard-kill-region)
 ;; (global-set-key (kbd “M-w”) 'clipboard-kill-ring-save)
 
+(use-package evil-lion
+  :ensure t
+  :config
+  (evil-lion-mode))
+
 ;;; init.el ends here
