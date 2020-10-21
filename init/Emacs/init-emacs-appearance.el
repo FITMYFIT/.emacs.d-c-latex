@@ -167,7 +167,7 @@
 (use-package aggressive-fill-paragraph
   :ensure t
   :defer t
-  :init (add-hook 'text-mode-hook #'aggressive-fill-paragraph-mode)
+  ;; :init (add-hook 'text-mode-hook #'aggressive-fill-paragraph-mode)
   :config (add-to-list 'afp-fill-keys ?。) ; support for Chinese sentence end.
   (add-to-list 'afp-fill-comments-only-mode-list 'emacs-lisp-mode)
   (add-to-list 'afp-fill-comments-only-mode-list 'lisp-mode)
